@@ -1,0 +1,11 @@
+2026-05-31 20:17:22.256 [info] Started local extension host with pid 12600.
+2026-05-31 20:17:22.488 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-05-31 20:17:24.934 [info] [perf] Render performance baseline is 19ms
+2026-05-31 20:17:27.488 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-05-31 20:17:31.577 [info] Started local extension host with pid 20328.
+2026-05-31 20:17:32.416 [error] [Extension Host] (node:20328) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-05-31 20:17:32.703 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-05-31 20:17:33.609 [error] An unknown error occurred. Please consult the log for more details.
+2026-05-31 20:17:34.229 [info] [perf] Render performance baseline is 19ms
+2026-05-31 20:17:37.704 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false

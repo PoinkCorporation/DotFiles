@@ -1,0 +1,1735 @@
+2026-05-31T10:10:19.926568Z  INFO TooltitudePb language server started
+2026-05-31T10:10:19.926579Z  INFO executable path = /home/maksim/.vscode-oss/extensions/tooltitudeteam.tooltitude-pb-1.25.3-linux-x64/tooltitude-pb
+2026-05-31T10:10:19.928565Z  INFO server started
+2026-05-31T10:10:19.931154Z  INFO handle_request{method="initialize" id=0}: new
+2026-05-31T10:10:19.933215Z  INFO handle_request{method="initialize" id=0}: close time.busy=2.05ms time.idle=9.34µs
+2026-05-31T10:10:19.934367Z  INFO handle_notification{method="initialized"}: new
+2026-05-31T10:10:19.934399Z  INFO handle_notification{method="initialized"}: close time.busy=28.5µs time.idle=4.17µs
+2026-05-31T10:10:19.934455Z  INFO call{method="client/registerCapability"}: new
+2026-05-31T10:10:19.937443Z  INFO handle_notification{method="textDocument/didOpen"}: new
+2026-05-31T10:10:19.937545Z  INFO handle_notification{method="textDocument/didOpen"}: close time.busy=94.2µs time.idle=8.62µs
+2026-05-31T10:10:19.938521Z  INFO handle_request{method="textDocument/documentSymbol" id=1}: new
+2026-05-31T10:10:19.938533Z  INFO handle_request{method="textDocument/documentSymbol" id=1}: close time.busy=7.55µs time.idle=4.94µs
+2026-05-31T10:10:19.938646Z  INFO handle_response{id=0}: new
+2026-05-31T10:10:19.938653Z  INFO handle_response{id=0}: close time.busy=3.47µs time.idle=3.62µs
+2026-05-31T10:10:19.938660Z  INFO call{method="client/registerCapability"}: close time.busy=4.20ms time.idle=7.34µs
+2026-05-31T10:10:19.938780Z  INFO call{method="workspace/configuration"}: new
+2026-05-31T10:10:19.939245Z  INFO handle_response{id=1}: new
+2026-05-31T10:10:19.939255Z  INFO handle_response{id=1}: close time.busy=2.97µs time.idle=6.82µs
+2026-05-31T10:10:19.939259Z  INFO call{method="workspace/configuration"}: close time.busy=473µs time.idle=6.86µs
+2026-05-31T10:10:19.939274Z  INFO parse_includes: new
+2026-05-31T10:10:19.939276Z  INFO parse_includes: Includes wasn't set
+2026-05-31T10:10:19.939279Z  INFO parse_includes: Including guessed protobuf std lib location: file:///usr/include/google/protobuf
+2026-05-31T10:10:19.939285Z  INFO parse_includes: close time.busy=9.01µs time.idle=2.57µs
+2026-05-31T10:10:19.939295Z  INFO pb_proj::upd: new
+2026-05-31T10:10:19.946459Z  INFO pb_proj::upd: close time.busy=7.16ms time.idle=2.55µs
+2026-05-31T10:10:19.947497Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:19.947503Z  INFO send_notification{method="telemetry/event"}: close time.busy=1.89µs time.idle=4.65µs
+2026-05-31T10:10:19.947510Z  INFO GC: vers to remove: [Version(0)]
+2026-05-31T10:10:19.947530Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:10:19.947534Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=1.57µs time.idle=3.41µs
+2026-05-31T10:10:19.947583Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:10:19.947588Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=1.22µs time.idle=3.84µs
+2026-05-31T10:10:20.138767Z  INFO handle_request{method="textDocument/foldingRange" id=2}: new
+2026-05-31T10:10:20.138792Z  INFO handle_request{method="textDocument/foldingRange" id=2}: close time.busy=13.4µs time.idle=13.1µs
+2026-05-31T10:10:20.238209Z  INFO handle_request{method="textDocument/documentSymbol" id=3}: new
+2026-05-31T10:10:20.238245Z  INFO handle_request{method="textDocument/documentSymbol" id=3}: close time.busy=19.4µs time.idle=17.5µs
+2026-05-31T10:10:20.641273Z  INFO handle_request{method="textDocument/hover" id=4}: new
+2026-05-31T10:10:20.641308Z  INFO handle_request{method="textDocument/hover" id=4}: close time.busy=21.7µs time.idle=14.3µs
+2026-05-31T10:10:29.023371Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:29.023403Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=19.8µs time.idle=13.9µs
+2026-05-31T10:10:29.142155Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:29.142185Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=18.5µs time.idle=12.0µs
+2026-05-31T10:10:29.342303Z  INFO pb_proj::upd: new
+2026-05-31T10:10:29.342460Z  INFO pb_proj::upd: close time.busy=131µs time.idle=26.9µs
+2026-05-31T10:10:29.342479Z  INFO GC: vers to remove: [Version(1)]
+2026-05-31T10:10:29.342604Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:10:29.342610Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=2.76µs time.idle=4.01µs
+2026-05-31T10:10:29.343073Z  INFO handle_request{method="textDocument/foldingRange" id=5}: new
+2026-05-31T10:10:29.343091Z  INFO handle_request{method="textDocument/foldingRange" id=5}: close time.busy=10.5µs time.idle=8.36µs
+2026-05-31T10:10:29.493396Z  INFO handle_request{method="textDocument/documentSymbol" id=6}: new
+2026-05-31T10:10:29.493422Z  INFO handle_request{method="textDocument/documentSymbol" id=6}: close time.busy=13.4µs time.idle=13.3µs
+2026-05-31T10:10:29.493434Z  INFO handle_request{method="textDocument/documentSymbol" id=7}: new
+2026-05-31T10:10:29.493443Z  INFO handle_request{method="textDocument/documentSymbol" id=7}: close time.busy=6.10µs time.idle=3.05µs
+2026-05-31T10:10:29.864033Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:29.864068Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=21.2µs time.idle=14.6µs
+2026-05-31T10:10:29.915284Z  INFO handle_request{method="textDocument/completion" id=8}: new
+2026-05-31T10:10:29.915313Z  INFO handle_request{method="textDocument/completion" id=8}: close time.busy=16.1µs time.idle=12.7µs
+2026-05-31T10:10:29.915325Z  INFO pb_proj::upd: new
+2026-05-31T10:10:29.915423Z  INFO pb_proj::upd: close time.busy=90.1µs time.idle=8.26µs
+2026-05-31T10:10:29.915502Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:29.915511Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.75µs time.idle=6.95µs
+2026-05-31T10:10:30.064408Z  INFO handle_request{method="textDocument/foldingRange" id=9}: new
+2026-05-31T10:10:30.064431Z  INFO handle_request{method="textDocument/foldingRange" id=9}: close time.busy=12.7µs time.idle=11.5µs
+2026-05-31T10:10:30.083041Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:30.083067Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=15.8µs time.idle=11.6µs
+2026-05-31T10:10:30.182837Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:30.182862Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=15.4µs time.idle=10.5µs
+2026-05-31T10:10:30.262872Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:30.262896Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=13.8µs time.idle=11.4µs
+2026-05-31T10:10:30.463025Z  INFO pb_proj::upd: new
+2026-05-31T10:10:30.463155Z  INFO pb_proj::upd: close time.busy=104µs time.idle=26.3µs
+2026-05-31T10:10:30.463176Z  INFO GC: vers to remove: [Version(2), Version(3)]
+2026-05-31T10:10:30.463315Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:10:30.463328Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=4.07µs time.idle=8.80µs
+2026-05-31T10:10:30.463470Z  INFO handle_request{method="textDocument/foldingRange" id=10}: new
+2026-05-31T10:10:30.463494Z  INFO handle_request{method="textDocument/foldingRange" id=10}: close time.busy=13.0µs time.idle=10.8µs
+2026-05-31T10:10:30.613600Z  INFO handle_request{method="textDocument/documentSymbol" id=11}: new
+2026-05-31T10:10:30.613628Z  INFO handle_request{method="textDocument/documentSymbol" id=11}: close time.busy=15.6µs time.idle=13.1µs
+2026-05-31T10:10:30.613636Z  INFO handle_request{method="textDocument/documentSymbol" id=12}: new
+2026-05-31T10:10:30.613641Z  INFO handle_request{method="textDocument/documentSymbol" id=12}: close time.busy=2.31µs time.idle=2.61µs
+2026-05-31T10:10:30.722372Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:30.722404Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=19.9µs time.idle=13.2µs
+2026-05-31T10:10:30.922531Z  INFO pb_proj::upd: new
+2026-05-31T10:10:30.922651Z  INFO pb_proj::upd: close time.busy=104µs time.idle=17.6µs
+2026-05-31T10:10:30.922675Z  INFO GC: vers to remove: [Version(4)]
+2026-05-31T10:10:30.922819Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:10:30.922832Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=4.63µs time.idle=9.47µs
+2026-05-31T10:10:30.923006Z  INFO handle_request{method="textDocument/foldingRange" id=13}: new
+2026-05-31T10:10:30.923028Z  INFO handle_request{method="textDocument/foldingRange" id=13}: close time.busy=12.5µs time.idle=9.88µs
+2026-05-31T10:10:31.073596Z  INFO handle_request{method="textDocument/documentSymbol" id=14}: new
+2026-05-31T10:10:31.073624Z  INFO handle_request{method="textDocument/documentSymbol" id=14}: close time.busy=14.0µs time.idle=14.6µs
+2026-05-31T10:10:31.073634Z  INFO handle_request{method="textDocument/documentSymbol" id=15}: new
+2026-05-31T10:10:31.073640Z  INFO handle_request{method="textDocument/documentSymbol" id=15}: close time.busy=3.01µs time.idle=2.91µs
+2026-05-31T10:10:31.456917Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:31.456954Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=21.1µs time.idle=17.5µs
+2026-05-31T10:10:31.657024Z  INFO pb_proj::upd: new
+2026-05-31T10:10:31.657270Z  INFO pb_proj::upd: close time.busy=229µs time.idle=18.8µs
+2026-05-31T10:10:31.657286Z  INFO GC: vers to remove: [Version(5)]
+2026-05-31T10:10:31.657403Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:10:31.657410Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=3.19µs time.idle=3.70µs
+2026-05-31T10:10:31.657524Z  INFO handle_request{method="textDocument/foldingRange" id=16}: new
+2026-05-31T10:10:31.657551Z  INFO handle_request{method="textDocument/foldingRange" id=16}: close time.busy=18.1µs time.idle=8.59µs
+2026-05-31T10:10:31.807475Z  INFO handle_request{method="textDocument/documentSymbol" id=17}: new
+2026-05-31T10:10:31.807499Z  INFO handle_request{method="textDocument/documentSymbol" id=17}: close time.busy=13.4µs time.idle=11.6µs
+2026-05-31T10:10:31.807510Z  INFO handle_request{method="textDocument/documentSymbol" id=18}: new
+2026-05-31T10:10:31.807516Z  INFO handle_request{method="textDocument/documentSymbol" id=18}: close time.busy=3.43µs time.idle=2.88µs
+2026-05-31T10:10:32.437667Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:32.437698Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=18.2µs time.idle=14.1µs
+2026-05-31T10:10:32.488906Z  INFO handle_request{method="textDocument/completion" id=19}: new
+2026-05-31T10:10:32.488931Z  INFO handle_request{method="textDocument/completion" id=19}: close time.busy=15.0µs time.idle=10.2µs
+2026-05-31T10:10:32.488943Z  INFO pb_proj::upd: new
+2026-05-31T10:10:32.489148Z  INFO pb_proj::upd: close time.busy=196µs time.idle=9.42µs
+2026-05-31T10:10:32.489216Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:32.489232Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.48µs time.idle=13.6µs
+2026-05-31T10:10:32.490743Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:32.490760Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=10.1µs time.idle=6.85µs
+2026-05-31T10:10:32.671003Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:32.671028Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=14.4µs time.idle=11.2µs
+2026-05-31T10:10:32.721852Z  INFO handle_request{method="textDocument/completion" id=20}: new
+2026-05-31T10:10:32.721879Z  INFO handle_request{method="textDocument/completion" id=20}: close time.busy=15.4µs time.idle=12.9µs
+2026-05-31T10:10:32.721891Z  INFO pb_proj::upd: new
+2026-05-31T10:10:32.722138Z  INFO pb_proj::upd: close time.busy=239µs time.idle=8.47µs
+2026-05-31T10:10:32.722199Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:32.722213Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.63µs time.idle=11.7µs
+2026-05-31T10:10:32.817062Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:32.817089Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=17.1µs time.idle=11.0µs
+2026-05-31T10:10:32.868048Z  INFO handle_request{method="textDocument/completion" id=21}: new
+2026-05-31T10:10:32.868078Z  INFO handle_request{method="textDocument/completion" id=21}: close time.busy=16.7µs time.idle=14.3µs
+2026-05-31T10:10:32.868089Z  INFO pb_proj::upd: new
+2026-05-31T10:10:32.868198Z  INFO pb_proj::upd: close time.busy=102µs time.idle=7.58µs
+2026-05-31T10:10:32.868257Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:32.868268Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.25µs time.idle=9.06µs
+2026-05-31T10:10:33.017629Z  INFO handle_request{method="textDocument/foldingRange" id=22}: new
+2026-05-31T10:10:33.017650Z  INFO handle_request{method="textDocument/foldingRange" id=22}: close time.busy=10.1µs time.idle=11.2µs
+2026-05-31T10:10:33.168258Z  INFO handle_request{method="textDocument/documentSymbol" id=23}: new
+2026-05-31T10:10:33.168286Z  INFO handle_request{method="textDocument/documentSymbol" id=23}: close time.busy=13.8µs time.idle=15.1µs
+2026-05-31T10:10:33.168298Z  INFO handle_request{method="textDocument/documentSymbol" id=24}: new
+2026-05-31T10:10:33.168304Z  INFO handle_request{method="textDocument/documentSymbol" id=24}: close time.busy=3.72µs time.idle=2.91µs
+2026-05-31T10:10:33.368656Z  INFO GC: vers to remove: [Version(6), Version(7), Version(8)]
+2026-05-31T10:10:33.368805Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:10:33.368818Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=3.33µs time.idle=10.5µs
+2026-05-31T10:10:33.551906Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:33.551942Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=21.4µs time.idle=15.4µs
+2026-05-31T10:10:33.602896Z  INFO handle_request{method="textDocument/completion" id=25}: new
+2026-05-31T10:10:33.602918Z  INFO handle_request{method="textDocument/completion" id=25}: close time.busy=12.0µs time.idle=11.1µs
+2026-05-31T10:10:33.603008Z  INFO pb_proj::upd: new
+2026-05-31T10:10:33.603114Z  INFO pb_proj::upd: close time.busy=97.8µs time.idle=8.41µs
+2026-05-31T10:10:33.603194Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:33.603208Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.34µs time.idle=11.6µs
+2026-05-31T10:10:33.691865Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:33.691902Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=23.8µs time.idle=14.5µs
+2026-05-31T10:10:33.743146Z  INFO handle_request{method="textDocument/completion" id=26}: new
+2026-05-31T10:10:33.743172Z  INFO handle_request{method="textDocument/completion" id=26}: close time.busy=14.9µs time.idle=11.8µs
+2026-05-31T10:10:33.743182Z  INFO pb_proj::upd: new
+2026-05-31T10:10:33.743275Z  INFO pb_proj::upd: close time.busy=83.0µs time.idle=9.93µs
+2026-05-31T10:10:33.743371Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:33.743385Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.72µs time.idle=11.4µs
+2026-05-31T10:10:33.832758Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:33.832797Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=24.3µs time.idle=16.4µs
+2026-05-31T10:10:33.883759Z  INFO handle_request{method="textDocument/completion" id=27}: new
+2026-05-31T10:10:33.883782Z  INFO handle_request{method="textDocument/completion" id=27}: close time.busy=12.6µs time.idle=10.1µs
+2026-05-31T10:10:33.883857Z  INFO pb_proj::upd: new
+2026-05-31T10:10:33.883960Z  INFO pb_proj::upd: close time.busy=94.7µs time.idle=8.84µs
+2026-05-31T10:10:33.884070Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:33.884086Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.32µs time.idle=14.0µs
+2026-05-31T10:10:33.923856Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:33.923881Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=16.1µs time.idle=8.84µs
+2026-05-31T10:10:33.975264Z  INFO handle_request{method="textDocument/completion" id=28}: new
+2026-05-31T10:10:33.975288Z  INFO handle_request{method="textDocument/completion" id=28}: close time.busy=13.7µs time.idle=10.6µs
+2026-05-31T10:10:33.975304Z  INFO pb_proj::upd: new
+2026-05-31T10:10:33.975408Z  INFO pb_proj::upd: close time.busy=95.7µs time.idle=9.16µs
+2026-05-31T10:10:33.975489Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:33.975507Z  INFO send_notification{method="telemetry/event"}: close time.busy=3.78µs time.idle=14.7µs
+2026-05-31T10:10:34.112527Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:34.112569Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=24.1µs time.idle=19.5µs
+2026-05-31T10:10:34.163579Z  INFO handle_request{method="textDocument/completion" id=29}: new
+2026-05-31T10:10:34.163605Z  INFO handle_request{method="textDocument/completion" id=29}: close time.busy=14.3µs time.idle=12.4µs
+2026-05-31T10:10:34.163682Z  INFO pb_proj::upd: new
+2026-05-31T10:10:34.163807Z  INFO pb_proj::upd: close time.busy=116µs time.idle=8.79µs
+2026-05-31T10:10:34.163885Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:34.163905Z  INFO send_notification{method="telemetry/event"}: close time.busy=3.43µs time.idle=16.9µs
+2026-05-31T10:10:34.313301Z  INFO handle_request{method="textDocument/foldingRange" id=30}: new
+2026-05-31T10:10:34.313336Z  INFO handle_request{method="textDocument/foldingRange" id=30}: close time.busy=12.9µs time.idle=23.5µs
+2026-05-31T10:10:34.463555Z  INFO handle_request{method="textDocument/documentSymbol" id=31}: new
+2026-05-31T10:10:34.463583Z  INFO handle_request{method="textDocument/documentSymbol" id=31}: close time.busy=13.6µs time.idle=15.0µs
+2026-05-31T10:10:34.463592Z  INFO handle_request{method="textDocument/documentSymbol" id=32}: new
+2026-05-31T10:10:34.463598Z  INFO handle_request{method="textDocument/documentSymbol" id=32}: close time.busy=3.46µs time.idle=3.27µs
+2026-05-31T10:10:34.663937Z  INFO GC: vers to remove: [Version(9), Version(10), Version(11), Version(12), Version(13)]
+2026-05-31T10:10:34.664152Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:10:34.664169Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=4.55µs time.idle=12.9µs
+2026-05-31T10:10:34.925989Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:34.926032Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=21.0µs time.idle=22.2µs
+2026-05-31T10:10:35.126142Z  INFO pb_proj::upd: new
+2026-05-31T10:10:35.126371Z  INFO pb_proj::upd: close time.busy=205µs time.idle=23.8µs
+2026-05-31T10:10:35.126391Z  INFO GC: vers to remove: [Version(14)]
+2026-05-31T10:10:35.126691Z  INFO handle_request{method="textDocument/foldingRange" id=33}: new
+2026-05-31T10:10:35.126711Z  INFO handle_request{method="textDocument/foldingRange" id=33}: close time.busy=12.4µs time.idle=7.26µs
+2026-05-31T10:10:35.126827Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:10:35.126837Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=2.44µs time.idle=7.39µs
+2026-05-31T10:10:35.276558Z  INFO handle_request{method="textDocument/documentSymbol" id=34}: new
+2026-05-31T10:10:35.276583Z  INFO handle_request{method="textDocument/documentSymbol" id=34}: close time.busy=13.5µs time.idle=12.7µs
+2026-05-31T10:10:35.276592Z  INFO handle_request{method="textDocument/documentSymbol" id=35}: new
+2026-05-31T10:10:35.276597Z  INFO handle_request{method="textDocument/documentSymbol" id=35}: close time.busy=2.94µs time.idle=2.56µs
+2026-05-31T10:10:35.685909Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:35.685948Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=25.5µs time.idle=14.2µs
+2026-05-31T10:10:35.736959Z  INFO handle_request{method="textDocument/completion" id=36}: new
+2026-05-31T10:10:35.737006Z  INFO handle_request{method="textDocument/completion" id=36}: close time.busy=27.2µs time.idle=20.5µs
+2026-05-31T10:10:35.737009Z  INFO pb_proj::upd: new
+2026-05-31T10:10:35.737119Z  INFO pb_proj::upd: close time.busy=100µs time.idle=9.99µs
+2026-05-31T10:10:35.737178Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:35.737192Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.20µs time.idle=12.2µs
+2026-05-31T10:10:35.785013Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:35.785040Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=17.6µs time.idle=10.8µs
+2026-05-31T10:10:35.837108Z  INFO handle_request{method="textDocument/completion" id=37}: new
+2026-05-31T10:10:35.837135Z  INFO handle_request{method="textDocument/completion" id=37}: close time.busy=15.7µs time.idle=12.2µs
+2026-05-31T10:10:35.837144Z  INFO pb_proj::upd: new
+2026-05-31T10:10:35.837240Z  INFO pb_proj::upd: close time.busy=88.7µs time.idle=6.92µs
+2026-05-31T10:10:35.837303Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:35.837319Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.23µs time.idle=13.6µs
+2026-05-31T10:10:35.958524Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:35.958558Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=20.1µs time.idle=14.5µs
+2026-05-31T10:10:36.010054Z  INFO handle_request{method="textDocument/completion" id=38}: new
+2026-05-31T10:10:36.010081Z  INFO handle_request{method="textDocument/completion" id=38}: close time.busy=16.3µs time.idle=11.0µs
+2026-05-31T10:10:36.010092Z  INFO pb_proj::upd: new
+2026-05-31T10:10:36.010255Z  INFO pb_proj::upd: close time.busy=155µs time.idle=8.09µs
+2026-05-31T10:10:36.010324Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:36.010340Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.48µs time.idle=14.8µs
+2026-05-31T10:10:36.125939Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:36.125970Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=18.5µs time.idle=12.8µs
+2026-05-31T10:10:36.177479Z  INFO handle_request{method="textDocument/completion" id=39}: new
+2026-05-31T10:10:36.177511Z  INFO handle_request{method="textDocument/completion" id=39}: close time.busy=18.0µs time.idle=15.6µs
+2026-05-31T10:10:36.177567Z  INFO pb_proj::upd: new
+2026-05-31T10:10:36.177683Z  INFO pb_proj::upd: close time.busy=104µs time.idle=12.0µs
+2026-05-31T10:10:36.177787Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:36.177798Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.83µs time.idle=8.11µs
+2026-05-31T10:10:36.326697Z  INFO handle_request{method="textDocument/foldingRange" id=40}: new
+2026-05-31T10:10:36.326724Z  INFO handle_request{method="textDocument/foldingRange" id=40}: close time.busy=13.6µs time.idle=14.9µs
+2026-05-31T10:10:36.476725Z  INFO handle_request{method="textDocument/documentSymbol" id=41}: new
+2026-05-31T10:10:36.476751Z  INFO handle_request{method="textDocument/documentSymbol" id=41}: close time.busy=13.7µs time.idle=13.2µs
+2026-05-31T10:10:36.476761Z  INFO handle_request{method="textDocument/documentSymbol" id=42}: new
+2026-05-31T10:10:36.476768Z  INFO handle_request{method="textDocument/documentSymbol" id=42}: close time.busy=3.98µs time.idle=3.15µs
+2026-05-31T10:10:36.677102Z  INFO GC: vers to remove: [Version(15), Version(16), Version(17), Version(18)]
+2026-05-31T10:10:36.677232Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:10:36.677243Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=4.03µs time.idle=6.69µs
+2026-05-31T10:10:36.893967Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:36.894004Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=25.0µs time.idle=12.8µs
+2026-05-31T10:10:36.945327Z  INFO handle_request{method="textDocument/completion" id=43}: new
+2026-05-31T10:10:36.945351Z  INFO handle_request{method="textDocument/completion" id=43}: close time.busy=14.3µs time.idle=9.45µs
+2026-05-31T10:10:36.945362Z  INFO pb_proj::upd: new
+2026-05-31T10:10:36.945455Z  INFO pb_proj::upd: close time.busy=84.0µs time.idle=9.35µs
+2026-05-31T10:10:36.945543Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:36.945554Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.15µs time.idle=9.18µs
+2026-05-31T10:10:37.094756Z  INFO handle_request{method="textDocument/foldingRange" id=44}: new
+2026-05-31T10:10:37.094784Z  INFO handle_request{method="textDocument/foldingRange" id=44}: close time.busy=13.0µs time.idle=15.7µs
+2026-05-31T10:10:37.233960Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:37.233990Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=16.4µs time.idle=14.2µs
+2026-05-31T10:10:37.244342Z  INFO handle_request{method="textDocument/documentSymbol" id=45}: new
+2026-05-31T10:10:37.244361Z  INFO handle_request{method="textDocument/documentSymbol" id=45}: close time.busy=9.98µs time.idle=9.99µs
+2026-05-31T10:10:37.244374Z  INFO pb_proj::upd: new
+2026-05-31T10:10:37.244553Z  INFO pb_proj::upd: close time.busy=169µs time.idle=9.66µs
+2026-05-31T10:10:37.285197Z  INFO handle_request{method="textDocument/completion" id=46}: new
+2026-05-31T10:10:37.285216Z  INFO handle_request{method="textDocument/completion" id=46}: close time.busy=11.3µs time.idle=8.64µs
+2026-05-31T10:10:37.285308Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:37.285328Z  INFO send_notification{method="telemetry/event"}: close time.busy=3.41µs time.idle=16.6µs
+2026-05-31T10:10:37.360092Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:37.360121Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=18.0µs time.idle=12.6µs
+2026-05-31T10:10:37.411310Z  INFO handle_request{method="textDocument/completion" id=47}: new
+2026-05-31T10:10:37.411335Z  INFO handle_request{method="textDocument/completion" id=47}: close time.busy=14.4µs time.idle=11.9µs
+2026-05-31T10:10:37.411352Z  INFO pb_proj::upd: new
+2026-05-31T10:10:37.411521Z  INFO pb_proj::upd: close time.busy=159µs time.idle=11.1µs
+2026-05-31T10:10:37.411582Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:37.411590Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.39µs time.idle=6.03µs
+2026-05-31T10:10:37.452954Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:37.452971Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=10.7µs time.idle=6.20µs
+2026-05-31T10:10:37.504376Z  INFO handle_request{method="textDocument/completion" id=48}: new
+2026-05-31T10:10:37.504398Z  INFO handle_request{method="textDocument/completion" id=48}: close time.busy=13.1µs time.idle=9.79µs
+2026-05-31T10:10:37.504412Z  INFO pb_proj::upd: new
+2026-05-31T10:10:37.504559Z  INFO pb_proj::upd: close time.busy=138µs time.idle=9.53µs
+2026-05-31T10:10:37.504627Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:37.504640Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.73µs time.idle=10.5µs
+2026-05-31T10:10:37.653986Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:37.654021Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=19.4µs time.idle=16.0µs
+2026-05-31T10:10:37.705252Z  INFO handle_request{method="textDocument/completion" id=49}: new
+2026-05-31T10:10:37.705282Z  INFO handle_request{method="textDocument/completion" id=49}: close time.busy=20.3µs time.idle=9.41µs
+2026-05-31T10:10:37.705297Z  INFO pb_proj::upd: new
+2026-05-31T10:10:37.705455Z  INFO pb_proj::upd: close time.busy=151µs time.idle=8.05µs
+2026-05-31T10:10:37.705542Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:37.705553Z  INFO send_notification{method="telemetry/event"}: close time.busy=4.03µs time.idle=7.83µs
+2026-05-31T10:10:37.854549Z  INFO handle_request{method="textDocument/foldingRange" id=50}: new
+2026-05-31T10:10:37.854575Z  INFO handle_request{method="textDocument/foldingRange" id=50}: close time.busy=12.7µs time.idle=14.8µs
+2026-05-31T10:10:38.004981Z  INFO handle_request{method="textDocument/documentSymbol" id=51}: new
+2026-05-31T10:10:38.005020Z  INFO handle_request{method="textDocument/documentSymbol" id=51}: close time.busy=26.4µs time.idle=13.5µs
+2026-05-31T10:10:38.005029Z  INFO handle_request{method="textDocument/documentSymbol" id=52}: new
+2026-05-31T10:10:38.005035Z  INFO handle_request{method="textDocument/documentSymbol" id=52}: close time.busy=3.39µs time.idle=2.78µs
+2026-05-31T10:10:38.205381Z  INFO GC: vers to remove: [Version(19), Version(20), Version(21), Version(22), Version(23)]
+2026-05-31T10:10:38.205509Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:10:38.205520Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=3.62µs time.idle=7.59µs
+2026-05-31T10:10:38.559857Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:38.559892Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=22.6µs time.idle=13.0µs
+2026-05-31T10:10:38.611250Z  INFO handle_request{method="textDocument/completion" id=53}: new
+2026-05-31T10:10:38.611277Z  INFO handle_request{method="textDocument/completion" id=53}: close time.busy=15.0µs time.idle=12.7µs
+2026-05-31T10:10:38.611301Z  INFO pb_proj::upd: new
+2026-05-31T10:10:38.611439Z  INFO pb_proj::upd: close time.busy=128µs time.idle=10.2µs
+2026-05-31T10:10:38.611505Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:38.611516Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.32µs time.idle=9.78µs
+2026-05-31T10:10:38.674053Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:38.674085Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=19.4µs time.idle=13.1µs
+2026-05-31T10:10:38.725769Z  INFO handle_request{method="textDocument/completion" id=54}: new
+2026-05-31T10:10:38.725800Z  INFO handle_request{method="textDocument/completion" id=54}: close time.busy=16.2µs time.idle=14.4µs
+2026-05-31T10:10:38.725825Z  INFO pb_proj::upd: new
+2026-05-31T10:10:38.725993Z  INFO pb_proj::upd: close time.busy=156µs time.idle=13.0µs
+2026-05-31T10:10:38.726067Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:38.726086Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.18µs time.idle=17.1µs
+2026-05-31T10:10:38.874017Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:38.874069Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=21.5µs time.idle=30.3µs
+2026-05-31T10:10:38.925172Z  INFO handle_request{method="textDocument/completion" id=55}: new
+2026-05-31T10:10:38.925199Z  INFO handle_request{method="textDocument/completion" id=55}: close time.busy=16.3µs time.idle=12.0µs
+2026-05-31T10:10:38.925209Z  INFO pb_proj::upd: new
+2026-05-31T10:10:38.925394Z  INFO pb_proj::upd: close time.busy=176µs time.idle=8.41µs
+2026-05-31T10:10:38.925450Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:38.925458Z  INFO send_notification{method="telemetry/event"}: close time.busy=1.88µs time.idle=6.03µs
+2026-05-31T10:10:39.074770Z  INFO handle_request{method="textDocument/foldingRange" id=56}: new
+2026-05-31T10:10:39.074795Z  INFO handle_request{method="textDocument/foldingRange" id=56}: close time.busy=13.5µs time.idle=12.6µs
+2026-05-31T10:10:39.107181Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:39.107212Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=19.4µs time.idle=13.0µs
+2026-05-31T10:10:39.158371Z  INFO handle_request{method="textDocument/completion" id=57}: new
+2026-05-31T10:10:39.158402Z  INFO handle_request{method="textDocument/completion" id=57}: close time.busy=20.1µs time.idle=12.3µs
+2026-05-31T10:10:39.158412Z  INFO pb_proj::upd: new
+2026-05-31T10:10:39.158532Z  INFO pb_proj::upd: close time.busy=112µs time.idle=9.28µs
+2026-05-31T10:10:39.158595Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:39.158602Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.28µs time.idle=5.98µs
+2026-05-31T10:10:39.307890Z  INFO handle_request{method="textDocument/foldingRange" id=58}: new
+2026-05-31T10:10:39.307917Z  INFO handle_request{method="textDocument/foldingRange" id=58}: close time.busy=13.6µs time.idle=14.5µs
+2026-05-31T10:10:39.314194Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:39.314214Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=11.8µs time.idle=9.00µs
+2026-05-31T10:10:39.365891Z  INFO handle_request{method="textDocument/completion" id=59}: new
+2026-05-31T10:10:39.365916Z  INFO handle_request{method="textDocument/completion" id=59}: close time.busy=15.1µs time.idle=11.3µs
+2026-05-31T10:10:39.365926Z  INFO pb_proj::upd: new
+2026-05-31T10:10:39.366139Z  INFO pb_proj::upd: close time.busy=203µs time.idle=9.39µs
+2026-05-31T10:10:39.366208Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:39.366226Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.12µs time.idle=15.9µs
+2026-05-31T10:10:39.487005Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:39.487039Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=19.3µs time.idle=14.5µs
+2026-05-31T10:10:39.538126Z  INFO handle_request{method="textDocument/completion" id=60}: new
+2026-05-31T10:10:39.538153Z  INFO handle_request{method="textDocument/completion" id=60}: close time.busy=15.3µs time.idle=13.0µs
+2026-05-31T10:10:39.538167Z  INFO pb_proj::upd: new
+2026-05-31T10:10:39.538338Z  INFO pb_proj::upd: close time.busy=160µs time.idle=11.0µs
+2026-05-31T10:10:39.538424Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:39.538442Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.99µs time.idle=15.2µs
+2026-05-31T10:10:39.567019Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:39.567049Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=12.1µs time.idle=17.7µs
+2026-05-31T10:10:39.618591Z  INFO handle_request{method="textDocument/completion" id=61}: new
+2026-05-31T10:10:39.618621Z  INFO handle_request{method="textDocument/completion" id=61}: close time.busy=17.5µs time.idle=13.4µs
+2026-05-31T10:10:39.618645Z  INFO pb_proj::upd: new
+2026-05-31T10:10:39.618744Z  INFO pb_proj::upd: close time.busy=90.6µs time.idle=9.19µs
+2026-05-31T10:10:39.618804Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:39.618811Z  INFO send_notification{method="telemetry/event"}: close time.busy=1.76µs time.idle=6.08µs
+2026-05-31T10:10:39.767928Z  INFO handle_request{method="textDocument/foldingRange" id=62}: new
+2026-05-31T10:10:39.767963Z  INFO handle_request{method="textDocument/foldingRange" id=62}: close time.busy=14.9µs time.idle=20.4µs
+2026-05-31T10:10:39.918069Z  INFO handle_request{method="textDocument/documentSymbol" id=63}: new
+2026-05-31T10:10:39.918097Z  INFO handle_request{method="textDocument/documentSymbol" id=63}: close time.busy=14.9µs time.idle=13.7µs
+2026-05-31T10:10:39.918107Z  INFO handle_request{method="textDocument/documentSymbol" id=64}: new
+2026-05-31T10:10:39.918112Z  INFO handle_request{method="textDocument/documentSymbol" id=64}: close time.busy=2.68µs time.idle=2.70µs
+2026-05-31T10:10:40.118442Z  INFO GC: vers to remove: [Version(24), Version(25), Version(26), Version(27), Version(28), Version(29), Version(30)]
+2026-05-31T10:10:40.118605Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:10:40.118616Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=3.20µs time.idle=7.56µs
+2026-05-31T10:10:40.228023Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:40.228059Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=21.8µs time.idle=15.3µs
+2026-05-31T10:10:40.428190Z  INFO pb_proj::upd: new
+2026-05-31T10:10:40.428386Z  INFO pb_proj::upd: close time.busy=170µs time.idle=26.5µs
+2026-05-31T10:10:40.428402Z  INFO GC: vers to remove: [Version(31)]
+2026-05-31T10:10:40.428533Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:10:40.428540Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=2.72µs time.idle=4.19µs
+2026-05-31T10:10:40.428832Z  INFO handle_request{method="textDocument/foldingRange" id=65}: new
+2026-05-31T10:10:40.428851Z  INFO handle_request{method="textDocument/foldingRange" id=65}: close time.busy=10.7µs time.idle=8.58µs
+2026-05-31T10:10:40.579036Z  INFO handle_request{method="textDocument/documentSymbol" id=66}: new
+2026-05-31T10:10:40.579064Z  INFO handle_request{method="textDocument/documentSymbol" id=66}: close time.busy=14.1µs time.idle=14.2µs
+2026-05-31T10:10:40.579106Z  INFO handle_request{method="textDocument/documentSymbol" id=67}: new
+2026-05-31T10:10:40.579115Z  INFO handle_request{method="textDocument/documentSymbol" id=67}: close time.busy=4.63µs time.idle=4.18µs
+2026-05-31T10:10:40.607298Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:40.607322Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=13.9µs time.idle=10.2µs
+2026-05-31T10:10:40.658977Z  INFO handle_request{method="textDocument/completion" id=68}: new
+2026-05-31T10:10:40.659010Z  INFO handle_request{method="textDocument/completion" id=68}: close time.busy=21.7µs time.idle=11.6µs
+2026-05-31T10:10:40.659075Z  INFO pb_proj::upd: new
+2026-05-31T10:10:40.659247Z  INFO pb_proj::upd: close time.busy=163µs time.idle=8.26µs
+2026-05-31T10:10:40.659317Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:40.659327Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.44µs time.idle=8.28µs
+2026-05-31T10:10:40.687148Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:40.687179Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=18.0µs time.idle=13.5µs
+2026-05-31T10:10:40.815052Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:40.815085Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=18.7µs time.idle=14.8µs
+2026-05-31T10:10:41.015204Z  INFO pb_proj::upd: new
+2026-05-31T10:10:41.015331Z  INFO pb_proj::upd: close time.busy=111µs time.idle=17.4µs
+2026-05-31T10:10:41.015351Z  INFO GC: vers to remove: [Version(32), Version(33)]
+2026-05-31T10:10:41.015475Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:10:41.015482Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=3.56µs time.idle=4.24µs
+2026-05-31T10:10:41.016238Z  INFO handle_request{method="textDocument/foldingRange" id=69}: new
+2026-05-31T10:10:41.016257Z  INFO handle_request{method="textDocument/foldingRange" id=69}: close time.busy=10.7µs time.idle=8.27µs
+2026-05-31T10:10:41.166690Z  INFO handle_request{method="textDocument/documentSymbol" id=70}: new
+2026-05-31T10:10:41.166717Z  INFO handle_request{method="textDocument/documentSymbol" id=70}: close time.busy=13.2µs time.idle=14.5µs
+2026-05-31T10:10:41.166727Z  INFO handle_request{method="textDocument/documentSymbol" id=71}: new
+2026-05-31T10:10:41.166734Z  INFO handle_request{method="textDocument/documentSymbol" id=71}: close time.busy=3.31µs time.idle=3.47µs
+2026-05-31T10:10:41.655381Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:41.655413Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=18.9µs time.idle=14.2µs
+2026-05-31T10:10:41.734246Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:41.734276Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=17.5µs time.idle=13.2µs
+2026-05-31T10:10:41.786377Z  INFO handle_request{method="textDocument/completion" id=72}: new
+2026-05-31T10:10:41.786404Z  INFO handle_request{method="textDocument/completion" id=72}: close time.busy=14.9µs time.idle=12.3µs
+2026-05-31T10:10:41.786428Z  INFO pb_proj::upd: new
+2026-05-31T10:10:41.786566Z  INFO pb_proj::upd: close time.busy=129µs time.idle=8.75µs
+2026-05-31T10:10:41.786634Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:41.786645Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.34µs time.idle=8.71µs
+2026-05-31T10:10:41.868200Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:41.868242Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=29.4µs time.idle=14.0µs
+2026-05-31T10:10:41.919380Z  INFO handle_request{method="textDocument/completion" id=73}: new
+2026-05-31T10:10:41.919407Z  INFO handle_request{method="textDocument/completion" id=73}: close time.busy=15.2µs time.idle=11.5µs
+2026-05-31T10:10:41.919421Z  INFO pb_proj::upd: new
+2026-05-31T10:10:41.919568Z  INFO pb_proj::upd: close time.busy=138µs time.idle=9.72µs
+2026-05-31T10:10:41.919631Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:41.919640Z  INFO send_notification{method="telemetry/event"}: close time.busy=1.99µs time.idle=6.49µs
+2026-05-31T10:10:42.068661Z  INFO handle_request{method="textDocument/foldingRange" id=74}: new
+2026-05-31T10:10:42.068687Z  INFO handle_request{method="textDocument/foldingRange" id=74}: close time.busy=12.6µs time.idle=14.0µs
+2026-05-31T10:10:42.219381Z  INFO handle_request{method="textDocument/documentSymbol" id=75}: new
+2026-05-31T10:10:42.219408Z  INFO handle_request{method="textDocument/documentSymbol" id=75}: close time.busy=13.4µs time.idle=14.1µs
+2026-05-31T10:10:42.219418Z  INFO handle_request{method="textDocument/documentSymbol" id=76}: new
+2026-05-31T10:10:42.219425Z  INFO handle_request{method="textDocument/documentSymbol" id=76}: close time.busy=3.48µs time.idle=3.14µs
+2026-05-31T10:10:42.240266Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:42.240289Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=14.0µs time.idle=9.88µs
+2026-05-31T10:10:42.291478Z  INFO handle_request{method="textDocument/completion" id=77}: new
+2026-05-31T10:10:42.291508Z  INFO handle_request{method="textDocument/completion" id=77}: close time.busy=15.5µs time.idle=14.6µs
+2026-05-31T10:10:42.291533Z  INFO pb_proj::upd: new
+2026-05-31T10:10:42.291658Z  INFO pb_proj::upd: close time.busy=116µs time.idle=9.41µs
+2026-05-31T10:10:42.291717Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:42.291729Z  INFO send_notification{method="telemetry/event"}: close time.busy=3.23µs time.idle=8.72µs
+2026-05-31T10:10:42.440921Z  INFO handle_request{method="textDocument/foldingRange" id=78}: new
+2026-05-31T10:10:42.440949Z  INFO handle_request{method="textDocument/foldingRange" id=78}: close time.busy=13.6µs time.idle=15.8µs
+2026-05-31T10:10:42.591393Z  INFO handle_request{method="textDocument/documentSymbol" id=79}: new
+2026-05-31T10:10:42.591419Z  INFO handle_request{method="textDocument/documentSymbol" id=79}: close time.busy=13.8µs time.idle=13.9µs
+2026-05-31T10:10:42.591431Z  INFO handle_request{method="textDocument/documentSymbol" id=80}: new
+2026-05-31T10:10:42.591440Z  INFO handle_request{method="textDocument/documentSymbol" id=80}: close time.busy=4.94µs time.idle=4.10µs
+2026-05-31T10:10:42.696144Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:42.696176Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=20.6µs time.idle=12.6µs
+2026-05-31T10:10:42.896299Z  INFO pb_proj::upd: new
+2026-05-31T10:10:42.896580Z  INFO pb_proj::upd: close time.busy=261µs time.idle=21.1µs
+2026-05-31T10:10:42.896599Z  INFO GC: vers to remove: [Version(34), Version(35), Version(36), Version(37)]
+2026-05-31T10:10:42.896689Z  INFO handle_request{method="textDocument/foldingRange" id=81}: new
+2026-05-31T10:10:42.896702Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:10:42.896708Z  INFO handle_request{method="textDocument/foldingRange" id=81}: close time.busy=8.66µs time.idle=10.3µs
+2026-05-31T10:10:42.896709Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=971ns time.idle=5.90µs
+2026-05-31T10:10:43.046695Z  INFO handle_request{method="textDocument/documentSymbol" id=82}: new
+2026-05-31T10:10:43.046721Z  INFO handle_request{method="textDocument/documentSymbol" id=82}: close time.busy=14.0µs time.idle=13.9µs
+2026-05-31T10:10:43.046864Z  INFO handle_request{method="textDocument/documentSymbol" id=83}: new
+2026-05-31T10:10:43.046872Z  INFO handle_request{method="textDocument/documentSymbol" id=83}: close time.busy=4.67µs time.idle=3.54µs
+2026-05-31T10:10:43.108714Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:43.108740Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=14.8µs time.idle=11.5µs
+2026-05-31T10:10:43.308870Z  INFO pb_proj::upd: new
+2026-05-31T10:10:43.309053Z  INFO pb_proj::upd: close time.busy=158µs time.idle=26.1µs
+2026-05-31T10:10:43.309071Z  INFO GC: vers to remove: [Version(38)]
+2026-05-31T10:10:43.309174Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:10:43.309181Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=2.77µs time.idle=4.80µs
+2026-05-31T10:10:43.309503Z  INFO handle_request{method="textDocument/foldingRange" id=84}: new
+2026-05-31T10:10:43.309521Z  INFO handle_request{method="textDocument/foldingRange" id=84}: close time.busy=10.1µs time.idle=7.97µs
+2026-05-31T10:10:43.459411Z  INFO handle_request{method="textDocument/documentSymbol" id=85}: new
+2026-05-31T10:10:43.459453Z  INFO handle_request{method="textDocument/documentSymbol" id=85}: close time.busy=13.9µs time.idle=28.5µs
+2026-05-31T10:10:43.459469Z  INFO handle_request{method="textDocument/documentSymbol" id=86}: new
+2026-05-31T10:10:43.459476Z  INFO handle_request{method="textDocument/documentSymbol" id=86}: close time.busy=3.96µs time.idle=3.48µs
+2026-05-31T10:10:43.715796Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:43.715825Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=17.9µs time.idle=12.2µs
+2026-05-31T10:10:43.766817Z  INFO handle_request{method="textDocument/completion" id=87}: new
+2026-05-31T10:10:43.766843Z  INFO handle_request{method="textDocument/completion" id=87}: close time.busy=15.4µs time.idle=11.9µs
+2026-05-31T10:10:43.766868Z  INFO pb_proj::upd: new
+2026-05-31T10:10:43.766982Z  INFO pb_proj::upd: close time.busy=105µs time.idle=8.52µs
+2026-05-31T10:10:43.767053Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:43.767063Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.33µs time.idle=8.06µs
+2026-05-31T10:10:43.841357Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:43.841379Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=14.0µs time.idle=8.50µs
+2026-05-31T10:10:43.892846Z  INFO handle_request{method="textDocument/completion" id=88}: new
+2026-05-31T10:10:43.892869Z  INFO handle_request{method="textDocument/completion" id=88}: close time.busy=13.4µs time.idle=9.83µs
+2026-05-31T10:10:43.892880Z  INFO pb_proj::upd: new
+2026-05-31T10:10:43.892965Z  INFO pb_proj::upd: close time.busy=77.7µs time.idle=7.94µs
+2026-05-31T10:10:43.893038Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:43.893047Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.48µs time.idle=6.59µs
+2026-05-31T10:10:44.035688Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:44.035716Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=16.6µs time.idle=12.2µs
+2026-05-31T10:10:44.087125Z  INFO handle_request{method="textDocument/completion" id=89}: new
+2026-05-31T10:10:44.087150Z  INFO handle_request{method="textDocument/completion" id=89}: close time.busy=15.1µs time.idle=10.7µs
+2026-05-31T10:10:44.087165Z  INFO pb_proj::upd: new
+2026-05-31T10:10:44.087286Z  INFO pb_proj::upd: close time.busy=112µs time.idle=8.98µs
+2026-05-31T10:10:44.087352Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:44.087363Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.34µs time.idle=8.45µs
+2026-05-31T10:10:44.208829Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:44.208860Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=20.4µs time.idle=12.0µs
+2026-05-31T10:10:44.260150Z  INFO handle_request{method="textDocument/completion" id=90}: new
+2026-05-31T10:10:44.260177Z  INFO handle_request{method="textDocument/completion" id=90}: close time.busy=15.5µs time.idle=11.4µs
+2026-05-31T10:10:44.260188Z  INFO pb_proj::upd: new
+2026-05-31T10:10:44.260315Z  INFO pb_proj::upd: close time.busy=120µs time.idle=7.75µs
+2026-05-31T10:10:44.260368Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:44.260374Z  INFO send_notification{method="telemetry/event"}: close time.busy=1.81µs time.idle=4.62µs
+2026-05-31T10:10:44.409261Z  INFO handle_request{method="textDocument/foldingRange" id=91}: new
+2026-05-31T10:10:44.409279Z  INFO handle_request{method="textDocument/foldingRange" id=91}: close time.busy=8.59µs time.idle=9.42µs
+2026-05-31T10:10:44.559168Z  INFO handle_request{method="textDocument/documentSymbol" id=92}: new
+2026-05-31T10:10:44.559185Z  INFO handle_request{method="textDocument/documentSymbol" id=92}: close time.busy=8.48µs time.idle=8.58µs
+2026-05-31T10:10:44.559194Z  INFO handle_request{method="textDocument/documentSymbol" id=93}: new
+2026-05-31T10:10:44.559205Z  INFO handle_request{method="textDocument/documentSymbol" id=93}: close time.busy=6.74µs time.idle=4.25µs
+2026-05-31T10:10:44.759281Z  INFO GC: vers to remove: [Version(39), Version(40), Version(41), Version(42)]
+2026-05-31T10:10:44.759383Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:10:44.759392Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=3.07µs time.idle=5.47µs
+2026-05-31T10:10:45.377172Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:45.377208Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=21.3µs time.idle=14.9µs
+2026-05-31T10:10:45.428849Z  INFO handle_request{method="textDocument/completion" id=94}: new
+2026-05-31T10:10:45.428876Z  INFO handle_request{method="textDocument/completion" id=94}: close time.busy=16.3µs time.idle=11.4µs
+2026-05-31T10:10:45.428890Z  INFO pb_proj::upd: new
+2026-05-31T10:10:45.429032Z  INFO pb_proj::upd: close time.busy=134µs time.idle=8.94µs
+2026-05-31T10:10:45.429096Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:45.429104Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.03µs time.idle=5.95µs
+2026-05-31T10:10:45.502958Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:45.502993Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=21.0µs time.idle=14.7µs
+2026-05-31T10:10:45.554318Z  INFO handle_request{method="textDocument/completion" id=95}: new
+2026-05-31T10:10:45.554343Z  INFO handle_request{method="textDocument/completion" id=95}: close time.busy=14.7µs time.idle=10.3µs
+2026-05-31T10:10:45.554354Z  INFO pb_proj::upd: new
+2026-05-31T10:10:45.554511Z  INFO pb_proj::upd: close time.busy=148µs time.idle=9.13µs
+2026-05-31T10:10:45.554568Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:45.554575Z  INFO send_notification{method="telemetry/event"}: close time.busy=1.89µs time.idle=5.75µs
+2026-05-31T10:10:45.623270Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:45.623302Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=19.7µs time.idle=13.3µs
+2026-05-31T10:10:45.674700Z  INFO handle_request{method="textDocument/completion" id=96}: new
+2026-05-31T10:10:45.674728Z  INFO handle_request{method="textDocument/completion" id=96}: close time.busy=15.9µs time.idle=12.1µs
+2026-05-31T10:10:45.674753Z  INFO pb_proj::upd: new
+2026-05-31T10:10:45.674878Z  INFO pb_proj::upd: close time.busy=116µs time.idle=9.64µs
+2026-05-31T10:10:45.674939Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:45.674947Z  INFO send_notification{method="telemetry/event"}: close time.busy=1.96µs time.idle=6.46µs
+2026-05-31T10:10:45.722287Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:45.722310Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=15.1µs time.idle=8.50µs
+2026-05-31T10:10:45.773692Z  INFO handle_request{method="textDocument/completion" id=97}: new
+2026-05-31T10:10:45.773717Z  INFO handle_request{method="textDocument/completion" id=97}: close time.busy=13.7µs time.idle=11.5µs
+2026-05-31T10:10:45.773741Z  INFO pb_proj::upd: new
+2026-05-31T10:10:45.773871Z  INFO pb_proj::upd: close time.busy=120µs time.idle=9.17µs
+2026-05-31T10:10:45.773933Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:45.773944Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.17µs time.idle=8.50µs
+2026-05-31T10:10:45.923165Z  INFO handle_request{method="textDocument/foldingRange" id=98}: new
+2026-05-31T10:10:45.923192Z  INFO handle_request{method="textDocument/foldingRange" id=98}: close time.busy=13.7µs time.idle=14.2µs
+2026-05-31T10:10:46.073430Z  INFO handle_request{method="textDocument/documentSymbol" id=99}: new
+2026-05-31T10:10:46.073455Z  INFO handle_request{method="textDocument/documentSymbol" id=99}: close time.busy=13.3µs time.idle=13.0µs
+2026-05-31T10:10:46.073465Z  INFO handle_request{method="textDocument/documentSymbol" id=100}: new
+2026-05-31T10:10:46.073471Z  INFO handle_request{method="textDocument/documentSymbol" id=100}: close time.busy=3.20µs time.idle=3.00µs
+2026-05-31T10:10:46.273811Z  INFO GC: vers to remove: [Version(43), Version(44), Version(45), Version(46)]
+2026-05-31T10:10:46.273942Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:10:46.273952Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=3.43µs time.idle=6.40µs
+2026-05-31T10:10:46.603373Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:46.603405Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=19.7µs time.idle=12.9µs
+2026-05-31T10:10:46.654539Z  INFO handle_request{method="textDocument/completion" id=101}: new
+2026-05-31T10:10:46.654564Z  INFO handle_request{method="textDocument/completion" id=101}: close time.busy=14.9µs time.idle=10.6µs
+2026-05-31T10:10:46.654590Z  INFO pb_proj::upd: new
+2026-05-31T10:10:46.654716Z  INFO pb_proj::upd: close time.busy=117µs time.idle=9.04µs
+2026-05-31T10:10:46.654778Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:46.654787Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.20µs time.idle=7.40µs
+2026-05-31T10:10:46.709970Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:46.710009Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=26.9µs time.idle=13.0µs
+2026-05-31T10:10:46.761496Z  INFO handle_request{method="textDocument/completion" id=102}: new
+2026-05-31T10:10:46.761523Z  INFO handle_request{method="textDocument/completion" id=102}: close time.busy=15.6µs time.idle=11.8µs
+2026-05-31T10:10:46.761537Z  INFO pb_proj::upd: new
+2026-05-31T10:10:46.761693Z  INFO pb_proj::upd: close time.busy=148µs time.idle=8.36µs
+2026-05-31T10:10:46.761757Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:46.761773Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.71µs time.idle=12.9µs
+2026-05-31T10:10:46.897338Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:46.897375Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=23.7µs time.idle=13.7µs
+2026-05-31T10:10:46.948572Z  INFO handle_request{method="textDocument/completion" id=103}: new
+2026-05-31T10:10:46.948608Z  INFO handle_request{method="textDocument/completion" id=103}: close time.busy=17.2µs time.idle=19.0µs
+2026-05-31T10:10:46.948620Z  INFO pb_proj::upd: new
+2026-05-31T10:10:46.948744Z  INFO pb_proj::upd: close time.busy=117µs time.idle=8.24µs
+2026-05-31T10:10:46.948808Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:46.948819Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.14µs time.idle=8.33µs
+2026-05-31T10:10:47.030125Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:47.030164Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=24.7µs time.idle=15.8µs
+2026-05-31T10:10:47.081417Z  INFO handle_request{method="textDocument/completion" id=104}: new
+2026-05-31T10:10:47.081451Z  INFO handle_request{method="textDocument/completion" id=104}: close time.busy=19.6µs time.idle=14.6µs
+2026-05-31T10:10:47.081464Z  INFO pb_proj::upd: new
+2026-05-31T10:10:47.081592Z  INFO pb_proj::upd: close time.busy=120µs time.idle=8.83µs
+2026-05-31T10:10:47.081654Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:47.081671Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.25µs time.idle=14.8µs
+2026-05-31T10:10:47.223492Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:47.223530Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=24.5µs time.idle=14.8µs
+2026-05-31T10:10:47.274875Z  INFO handle_request{method="textDocument/completion" id=105}: new
+2026-05-31T10:10:47.274902Z  INFO handle_request{method="textDocument/completion" id=105}: close time.busy=15.8µs time.idle=11.9µs
+2026-05-31T10:10:47.275207Z  INFO pb_proj::upd: new
+2026-05-31T10:10:47.275348Z  INFO pb_proj::upd: close time.busy=131µs time.idle=10.2µs
+2026-05-31T10:10:47.275415Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:47.275427Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.61µs time.idle=9.33µs
+2026-05-31T10:10:47.424312Z  INFO handle_request{method="textDocument/foldingRange" id=106}: new
+2026-05-31T10:10:47.424339Z  INFO handle_request{method="textDocument/foldingRange" id=106}: close time.busy=12.9µs time.idle=14.7µs
+2026-05-31T10:10:47.457541Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:47.457559Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=11.5µs time.idle=6.44µs
+2026-05-31T10:10:47.508856Z  INFO handle_request{method="textDocument/completion" id=107}: new
+2026-05-31T10:10:47.508883Z  INFO handle_request{method="textDocument/completion" id=107}: close time.busy=14.9µs time.idle=12.2µs
+2026-05-31T10:10:47.508896Z  INFO pb_proj::upd: new
+2026-05-31T10:10:47.509048Z  INFO pb_proj::upd: close time.busy=143µs time.idle=9.47µs
+2026-05-31T10:10:47.509119Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:47.509140Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.38µs time.idle=18.8µs
+2026-05-31T10:10:47.563008Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:47.563043Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=21.1µs time.idle=14.1µs
+2026-05-31T10:10:47.614484Z  INFO handle_request{method="textDocument/completion" id=108}: new
+2026-05-31T10:10:47.614511Z  INFO handle_request{method="textDocument/completion" id=108}: close time.busy=15.3µs time.idle=12.1µs
+2026-05-31T10:10:47.614538Z  INFO pb_proj::upd: new
+2026-05-31T10:10:47.614706Z  INFO pb_proj::upd: close time.busy=159µs time.idle=9.34µs
+2026-05-31T10:10:47.614779Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:47.614787Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.22µs time.idle=6.00µs
+2026-05-31T10:10:47.758167Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:47.758202Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=21.6µs time.idle=15.2µs
+2026-05-31T10:10:47.809355Z  INFO handle_request{method="textDocument/completion" id=109}: new
+2026-05-31T10:10:47.809390Z  INFO handle_request{method="textDocument/completion" id=109}: close time.busy=14.3µs time.idle=21.0µs
+2026-05-31T10:10:47.809416Z  INFO pb_proj::upd: new
+2026-05-31T10:10:47.809600Z  INFO pb_proj::upd: close time.busy=173µs time.idle=10.8µs
+2026-05-31T10:10:47.809666Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:47.809677Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.20µs time.idle=8.64µs
+2026-05-31T10:10:47.959031Z  INFO handle_request{method="textDocument/foldingRange" id=110}: new
+2026-05-31T10:10:47.959092Z  INFO handle_request{method="textDocument/foldingRange" id=110}: close time.busy=16.0µs time.idle=45.4µs
+2026-05-31T10:10:48.108697Z  INFO handle_request{method="textDocument/documentSymbol" id=111}: new
+2026-05-31T10:10:48.108723Z  INFO handle_request{method="textDocument/documentSymbol" id=111}: close time.busy=14.1µs time.idle=12.4µs
+2026-05-31T10:10:48.108732Z  INFO handle_request{method="textDocument/documentSymbol" id=112}: new
+2026-05-31T10:10:48.108738Z  INFO handle_request{method="textDocument/documentSymbol" id=112}: close time.busy=3.73µs time.idle=2.59µs
+2026-05-31T10:10:48.308853Z  INFO GC: vers to remove: [Version(47), Version(48), Version(49), Version(50), Version(51), Version(52), Version(53), Version(54)]
+2026-05-31T10:10:48.308986Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:10:48.309005Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=12.5µs time.idle=6.83µs
+2026-05-31T10:10:48.810905Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:48.810941Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=22.6µs time.idle=14.1µs
+2026-05-31T10:10:49.011074Z  INFO pb_proj::upd: new
+2026-05-31T10:10:49.011263Z  INFO pb_proj::upd: close time.busy=166µs time.idle=23.5µs
+2026-05-31T10:10:49.011281Z  INFO GC: vers to remove: [Version(55)]
+2026-05-31T10:10:49.011416Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:10:49.011439Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=6.30µs time.idle=17.9µs
+2026-05-31T10:10:49.011701Z  INFO handle_request{method="textDocument/foldingRange" id=113}: new
+2026-05-31T10:10:49.011721Z  INFO handle_request{method="textDocument/foldingRange" id=113}: close time.busy=11.1µs time.idle=9.29µs
+2026-05-31T10:10:49.162042Z  INFO handle_request{method="textDocument/documentSymbol" id=114}: new
+2026-05-31T10:10:49.162070Z  INFO handle_request{method="textDocument/documentSymbol" id=114}: close time.busy=14.1µs time.idle=15.0µs
+2026-05-31T10:10:49.162079Z  INFO handle_request{method="textDocument/documentSymbol" id=115}: new
+2026-05-31T10:10:49.162090Z  INFO handle_request{method="textDocument/documentSymbol" id=115}: close time.busy=7.43µs time.idle=3.38µs
+2026-05-31T10:10:52.425677Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:52.425711Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=20.8µs time.idle=14.2µs
+2026-05-31T10:10:52.626056Z  INFO pb_proj::upd: new
+2026-05-31T10:10:52.626217Z  INFO pb_proj::upd: close time.busy=137µs time.idle=24.0µs
+2026-05-31T10:10:52.626239Z  INFO GC: vers to remove: [Version(56)]
+2026-05-31T10:10:52.626364Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:10:52.626376Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=4.74µs time.idle=7.90µs
+2026-05-31T10:10:52.626730Z  INFO handle_request{method="textDocument/foldingRange" id=116}: new
+2026-05-31T10:10:52.626750Z  INFO handle_request{method="textDocument/foldingRange" id=116}: close time.busy=11.0µs time.idle=9.29µs
+2026-05-31T10:10:52.776722Z  INFO handle_request{method="textDocument/documentSymbol" id=117}: new
+2026-05-31T10:10:52.776748Z  INFO handle_request{method="textDocument/documentSymbol" id=117}: close time.busy=14.3µs time.idle=13.1µs
+2026-05-31T10:10:52.776758Z  INFO handle_request{method="textDocument/documentSymbol" id=118}: new
+2026-05-31T10:10:52.776763Z  INFO handle_request{method="textDocument/documentSymbol" id=118}: close time.busy=2.44µs time.idle=3.03µs
+2026-05-31T10:10:53.333533Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:53.333567Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=20.3µs time.idle=14.5µs
+2026-05-31T10:10:53.533696Z  INFO pb_proj::upd: new
+2026-05-31T10:10:53.533867Z  INFO pb_proj::upd: close time.busy=149µs time.idle=23.0µs
+2026-05-31T10:10:53.533885Z  INFO GC: vers to remove: [Version(57)]
+2026-05-31T10:10:53.533989Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:10:53.534010Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=3.57µs time.idle=17.7µs
+2026-05-31T10:10:53.534337Z  INFO handle_request{method="textDocument/foldingRange" id=119}: new
+2026-05-31T10:10:53.534358Z  INFO handle_request{method="textDocument/foldingRange" id=119}: close time.busy=10.5µs time.idle=10.4µs
+2026-05-31T10:10:53.684584Z  INFO handle_request{method="textDocument/documentSymbol" id=120}: new
+2026-05-31T10:10:53.684610Z  INFO handle_request{method="textDocument/documentSymbol" id=120}: close time.busy=13.9µs time.idle=13.7µs
+2026-05-31T10:10:53.684621Z  INFO handle_request{method="textDocument/documentSymbol" id=121}: new
+2026-05-31T10:10:53.684627Z  INFO handle_request{method="textDocument/documentSymbol" id=121}: close time.busy=3.41µs time.idle=3.00µs
+2026-05-31T10:10:54.940679Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:54.940728Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=25.2µs time.idle=25.4µs
+2026-05-31T10:10:54.992131Z  INFO handle_request{method="textDocument/completion" id=122}: new
+2026-05-31T10:10:54.992164Z  INFO handle_request{method="textDocument/completion" id=122}: close time.busy=18.7µs time.idle=15.7µs
+2026-05-31T10:10:54.992175Z  INFO pb_proj::upd: new
+2026-05-31T10:10:54.992344Z  INFO pb_proj::upd: close time.busy=160µs time.idle=8.75µs
+2026-05-31T10:10:54.992410Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:54.992420Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.00µs time.idle=8.16µs
+2026-05-31T10:10:55.039736Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:55.039765Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=17.9µs time.idle=11.4µs
+2026-05-31T10:10:55.233613Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:55.233645Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=20.3µs time.idle=12.6µs
+2026-05-31T10:10:55.380708Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:55.380741Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=19.6µs time.idle=14.7µs
+2026-05-31T10:10:55.553664Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:55.553698Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=18.7µs time.idle=15.7µs
+2026-05-31T10:10:55.701771Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:55.701802Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=18.1µs time.idle=13.1µs
+2026-05-31T10:10:55.792731Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:55.792760Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=16.9µs time.idle=13.2µs
+2026-05-31T10:10:55.801089Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:55.801112Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=12.8µs time.idle=10.9µs
+2026-05-31T10:10:55.845992Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:55.846041Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=15.9µs time.idle=34.1µs
+2026-05-31T10:10:56.046150Z  INFO pb_proj::upd: new
+2026-05-31T10:10:56.046330Z  INFO pb_proj::upd: close time.busy=155µs time.idle=25.9µs
+2026-05-31T10:10:56.046347Z  INFO GC: vers to remove: [Version(58), Version(59)]
+2026-05-31T10:10:56.046455Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:10:56.046464Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=2.97µs time.idle=5.73µs
+2026-05-31T10:10:56.046816Z  INFO handle_request{method="textDocument/foldingRange" id=123}: new
+2026-05-31T10:10:56.046835Z  INFO handle_request{method="textDocument/foldingRange" id=123}: close time.busy=9.98µs time.idle=8.67µs
+2026-05-31T10:10:56.196635Z  INFO handle_request{method="textDocument/documentSymbol" id=124}: new
+2026-05-31T10:10:56.196662Z  INFO handle_request{method="textDocument/documentSymbol" id=124}: close time.busy=14.8µs time.idle=13.2µs
+2026-05-31T10:10:56.196675Z  INFO handle_request{method="textDocument/documentSymbol" id=125}: new
+2026-05-31T10:10:56.196684Z  INFO handle_request{method="textDocument/documentSymbol" id=125}: close time.busy=4.14µs time.idle=4.31µs
+2026-05-31T10:10:56.353956Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:56.353985Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=16.8µs time.idle=13.1µs
+2026-05-31T10:10:56.487403Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:56.487434Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=17.1µs time.idle=13.8µs
+2026-05-31T10:10:56.687573Z  INFO pb_proj::upd: new
+2026-05-31T10:10:56.687745Z  INFO pb_proj::upd: close time.busy=149µs time.idle=23.4µs
+2026-05-31T10:10:56.687766Z  INFO GC: vers to remove: [Version(60)]
+2026-05-31T10:10:56.687888Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:10:56.687895Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=2.69µs time.idle=4.40µs
+2026-05-31T10:10:56.688203Z  INFO handle_request{method="textDocument/foldingRange" id=126}: new
+2026-05-31T10:10:56.688224Z  INFO handle_request{method="textDocument/foldingRange" id=126}: close time.busy=12.4µs time.idle=8.83µs
+2026-05-31T10:10:56.707219Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:56.707248Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=16.5µs time.idle=13.7µs
+2026-05-31T10:10:56.907373Z  INFO pb_proj::upd: new
+2026-05-31T10:10:56.907534Z  INFO pb_proj::upd: close time.busy=134µs time.idle=27.6µs
+2026-05-31T10:10:56.907553Z  INFO GC: vers to remove: [Version(61)]
+2026-05-31T10:10:56.907679Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:10:56.907688Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=3.61µs time.idle=4.52µs
+2026-05-31T10:10:56.908010Z  INFO handle_request{method="textDocument/foldingRange" id=127}: new
+2026-05-31T10:10:56.908027Z  INFO handle_request{method="textDocument/foldingRange" id=127}: close time.busy=9.66µs time.idle=7.43µs
+2026-05-31T10:10:57.058111Z  INFO handle_request{method="textDocument/documentSymbol" id=128}: new
+2026-05-31T10:10:57.058138Z  INFO handle_request{method="textDocument/documentSymbol" id=128}: close time.busy=14.5µs time.idle=14.0µs
+2026-05-31T10:10:57.058323Z  INFO handle_request{method="textDocument/documentSymbol" id=129}: new
+2026-05-31T10:10:57.058337Z  INFO handle_request{method="textDocument/documentSymbol" id=129}: close time.busy=6.63µs time.idle=7.69µs
+2026-05-31T10:10:57.167307Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:57.167337Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=18.9µs time.idle=11.4µs
+2026-05-31T10:10:57.218260Z  INFO handle_request{method="textDocument/completion" id=130}: new
+2026-05-31T10:10:57.218284Z  INFO handle_request{method="textDocument/completion" id=130}: close time.busy=14.1µs time.idle=10.8µs
+2026-05-31T10:10:57.218309Z  INFO pb_proj::upd: new
+2026-05-31T10:10:57.218423Z  INFO pb_proj::upd: close time.busy=105µs time.idle=9.41µs
+2026-05-31T10:10:57.218487Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:57.218496Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.83µs time.idle=6.45µs
+2026-05-31T10:10:57.286796Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:57.286824Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=15.7µs time.idle=12.3µs
+2026-05-31T10:10:57.338270Z  INFO handle_request{method="textDocument/completion" id=131}: new
+2026-05-31T10:10:57.338294Z  INFO handle_request{method="textDocument/completion" id=131}: close time.busy=13.9µs time.idle=11.5µs
+2026-05-31T10:10:57.338307Z  INFO pb_proj::upd: new
+2026-05-31T10:10:57.338449Z  INFO pb_proj::upd: close time.busy=134µs time.idle=7.96µs
+2026-05-31T10:10:57.338522Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:57.338533Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.52µs time.idle=8.76µs
+2026-05-31T10:10:57.453680Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:57.453714Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=20.5µs time.idle=14.8µs
+2026-05-31T10:10:57.463343Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:57.463365Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=12.8µs time.idle=10.3µs
+2026-05-31T10:10:57.514225Z  INFO handle_request{method="textDocument/completion" id=132}: new
+2026-05-31T10:10:57.514251Z  INFO handle_request{method="textDocument/completion" id=132}: close time.busy=15.0µs time.idle=11.7µs
+2026-05-31T10:10:57.514265Z  INFO pb_proj::upd: new
+2026-05-31T10:10:57.514377Z  INFO pb_proj::upd: close time.busy=104µs time.idle=7.84µs
+2026-05-31T10:10:57.514439Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:57.514449Z  INFO send_notification{method="telemetry/event"}: close time.busy=3.26µs time.idle=7.15µs
+2026-05-31T10:10:57.664218Z  INFO handle_request{method="textDocument/foldingRange" id=133}: new
+2026-05-31T10:10:57.664251Z  INFO handle_request{method="textDocument/foldingRange" id=133}: close time.busy=16.9µs time.idle=17.2µs
+2026-05-31T10:10:57.814095Z  INFO handle_request{method="textDocument/documentSymbol" id=134}: new
+2026-05-31T10:10:57.814129Z  INFO handle_request{method="textDocument/documentSymbol" id=134}: close time.busy=17.4µs time.idle=17.9µs
+2026-05-31T10:10:57.814142Z  INFO handle_request{method="textDocument/documentSymbol" id=135}: new
+2026-05-31T10:10:57.814152Z  INFO handle_request{method="textDocument/documentSymbol" id=135}: close time.busy=5.69µs time.idle=4.23µs
+2026-05-31T10:10:57.993992Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:57.994036Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=22.4µs time.idle=22.6µs
+2026-05-31T10:10:57.994319Z  INFO handle_request{method="textDocument/completion" id=136}: new
+2026-05-31T10:10:57.994338Z  INFO handle_request{method="textDocument/completion" id=136}: close time.busy=13.2µs time.idle=6.38µs
+2026-05-31T10:10:57.994361Z  INFO pb_proj::upd: new
+2026-05-31T10:10:57.994488Z  INFO pb_proj::upd: close time.busy=119µs time.idle=9.60µs
+2026-05-31T10:10:57.994558Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:57.994569Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.84µs time.idle=8.70µs
+2026-05-31T10:10:58.194598Z  INFO GC: vers to remove: [Version(62), Version(63), Version(64), Version(65)]
+2026-05-31T10:10:58.194748Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:10:58.194759Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=4.22µs time.idle=7.01µs
+2026-05-31T10:10:58.194936Z  INFO handle_request{method="textDocument/foldingRange" id=137}: new
+2026-05-31T10:10:58.194955Z  INFO handle_request{method="textDocument/foldingRange" id=137}: close time.busy=11.0µs time.idle=8.12µs
+2026-05-31T10:10:58.213745Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:58.213769Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=15.0µs time.idle=10.0µs
+2026-05-31T10:10:58.265237Z  INFO handle_request{method="textDocument/completion" id=138}: new
+2026-05-31T10:10:58.265263Z  INFO handle_request{method="textDocument/completion" id=138}: close time.busy=14.7µs time.idle=11.5µs
+2026-05-31T10:10:58.265272Z  INFO pb_proj::upd: new
+2026-05-31T10:10:58.265375Z  INFO pb_proj::upd: close time.busy=93.7µs time.idle=9.74µs
+2026-05-31T10:10:58.265439Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:58.265447Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.08µs time.idle=6.84µs
+2026-05-31T10:10:58.415297Z  INFO handle_request{method="textDocument/foldingRange" id=139}: new
+2026-05-31T10:10:58.415326Z  INFO handle_request{method="textDocument/foldingRange" id=139}: close time.busy=12.9µs time.idle=17.5µs
+2026-05-31T10:10:58.565342Z  INFO handle_request{method="textDocument/documentSymbol" id=140}: new
+2026-05-31T10:10:58.565375Z  INFO handle_request{method="textDocument/documentSymbol" id=140}: close time.busy=17.7µs time.idle=16.6µs
+2026-05-31T10:10:58.565389Z  INFO handle_request{method="textDocument/documentSymbol" id=141}: new
+2026-05-31T10:10:58.565397Z  INFO handle_request{method="textDocument/documentSymbol" id=141}: close time.busy=3.58µs time.idle=4.52µs
+2026-05-31T10:10:58.765728Z  INFO GC: vers to remove: [Version(66)]
+2026-05-31T10:10:58.765859Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:10:58.765869Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=3.41µs time.idle=6.69µs
+2026-05-31T10:10:59.142432Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:59.142470Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=23.6µs time.idle=15.3µs
+2026-05-31T10:10:59.193825Z  INFO handle_request{method="textDocument/completion" id=142}: new
+2026-05-31T10:10:59.193849Z  INFO handle_request{method="textDocument/completion" id=142}: close time.busy=13.4µs time.idle=10.8µs
+2026-05-31T10:10:59.193861Z  INFO pb_proj::upd: new
+2026-05-31T10:10:59.193961Z  INFO pb_proj::upd: close time.busy=91.7µs time.idle=8.84µs
+2026-05-31T10:10:59.194032Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:59.194039Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.44µs time.idle=4.57µs
+2026-05-31T10:10:59.234818Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:59.234848Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=19.1µs time.idle=11.4µs
+2026-05-31T10:10:59.286135Z  INFO handle_request{method="textDocument/completion" id=143}: new
+2026-05-31T10:10:59.286164Z  INFO handle_request{method="textDocument/completion" id=143}: close time.busy=17.9µs time.idle=10.8µs
+2026-05-31T10:10:59.286240Z  INFO pb_proj::upd: new
+2026-05-31T10:10:59.286332Z  INFO pb_proj::upd: close time.busy=82.7µs time.idle=9.63µs
+2026-05-31T10:10:59.286395Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:59.286403Z  INFO send_notification{method="telemetry/event"}: close time.busy=3.30µs time.idle=4.67µs
+2026-05-31T10:10:59.395226Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:59.395265Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=23.9µs time.idle=16.6µs
+2026-05-31T10:10:59.446569Z  INFO handle_request{method="textDocument/completion" id=144}: new
+2026-05-31T10:10:59.446593Z  INFO handle_request{method="textDocument/completion" id=144}: close time.busy=15.2µs time.idle=9.96µs
+2026-05-31T10:10:59.446617Z  INFO pb_proj::upd: new
+2026-05-31T10:10:59.446726Z  INFO pb_proj::upd: close time.busy=100µs time.idle=8.55µs
+2026-05-31T10:10:59.446787Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:59.446800Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.05µs time.idle=11.4µs
+2026-05-31T10:10:59.487725Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:59.487757Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=19.6µs time.idle=12.5µs
+2026-05-31T10:10:59.538959Z  INFO handle_request{method="textDocument/completion" id=145}: new
+2026-05-31T10:10:59.538982Z  INFO handle_request{method="textDocument/completion" id=145}: close time.busy=13.9µs time.idle=10.6µs
+2026-05-31T10:10:59.539021Z  INFO pb_proj::upd: new
+2026-05-31T10:10:59.539140Z  INFO pb_proj::upd: close time.busy=110µs time.idle=8.94µs
+2026-05-31T10:10:59.539220Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:59.539233Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.82µs time.idle=11.0µs
+2026-05-31T10:10:59.688877Z  INFO handle_request{method="textDocument/foldingRange" id=146}: new
+2026-05-31T10:10:59.688910Z  INFO handle_request{method="textDocument/foldingRange" id=146}: close time.busy=17.0µs time.idle=16.4µs
+2026-05-31T10:10:59.782434Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:10:59.782468Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=19.1µs time.idle=15.3µs
+2026-05-31T10:10:59.833791Z  INFO handle_request{method="textDocument/completion" id=147}: new
+2026-05-31T10:10:59.833823Z  INFO handle_request{method="textDocument/completion" id=147}: close time.busy=18.2µs time.idle=14.2µs
+2026-05-31T10:10:59.833835Z  INFO pb_proj::upd: new
+2026-05-31T10:10:59.833989Z  INFO pb_proj::upd: close time.busy=145µs time.idle=8.75µs
+2026-05-31T10:10:59.834078Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:10:59.834104Z  INFO send_notification{method="telemetry/event"}: close time.busy=4.47µs time.idle=21.6µs
+2026-05-31T10:10:59.983367Z  INFO handle_request{method="textDocument/foldingRange" id=148}: new
+2026-05-31T10:10:59.983397Z  INFO handle_request{method="textDocument/foldingRange" id=148}: close time.busy=14.4µs time.idle=15.7µs
+2026-05-31T10:11:00.133905Z  INFO handle_request{method="textDocument/documentSymbol" id=149}: new
+2026-05-31T10:11:00.133929Z  INFO handle_request{method="textDocument/documentSymbol" id=149}: close time.busy=12.4µs time.idle=12.4µs
+2026-05-31T10:11:00.133938Z  INFO handle_request{method="textDocument/documentSymbol" id=150}: new
+2026-05-31T10:11:00.133943Z  INFO handle_request{method="textDocument/documentSymbol" id=150}: close time.busy=2.68µs time.idle=2.34µs
+2026-05-31T10:11:00.334285Z  INFO GC: vers to remove: [Version(67), Version(68), Version(69), Version(70), Version(71)]
+2026-05-31T10:11:00.334431Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:11:00.334441Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=3.32µs time.idle=6.63µs
+2026-05-31T10:11:00.535857Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:00.535896Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=22.6µs time.idle=17.3µs
+2026-05-31T10:11:00.587604Z  INFO handle_request{method="textDocument/completion" id=151}: new
+2026-05-31T10:11:00.587630Z  INFO handle_request{method="textDocument/completion" id=151}: close time.busy=14.5µs time.idle=12.1µs
+2026-05-31T10:11:00.587639Z  INFO pb_proj::upd: new
+2026-05-31T10:11:00.587762Z  INFO pb_proj::upd: close time.busy=117µs time.idle=7.23µs
+2026-05-31T10:11:00.587824Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:11:00.587834Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.12µs time.idle=9.02µs
+2026-05-31T10:11:00.661817Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:00.661847Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=19.7µs time.idle=10.6µs
+2026-05-31T10:11:00.713344Z  INFO handle_request{method="textDocument/completion" id=152}: new
+2026-05-31T10:11:00.713373Z  INFO handle_request{method="textDocument/completion" id=152}: close time.busy=16.5µs time.idle=13.3µs
+2026-05-31T10:11:00.713384Z  INFO pb_proj::upd: new
+2026-05-31T10:11:00.713518Z  INFO pb_proj::upd: close time.busy=127µs time.idle=7.18µs
+2026-05-31T10:11:00.713587Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:11:00.713598Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.33µs time.idle=9.19µs
+2026-05-31T10:11:00.862443Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:00.862477Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=20.8µs time.idle=13.9µs
+2026-05-31T10:11:00.913761Z  INFO handle_request{method="textDocument/completion" id=153}: new
+2026-05-31T10:11:00.913788Z  INFO handle_request{method="textDocument/completion" id=153}: close time.busy=15.6µs time.idle=13.3µs
+2026-05-31T10:11:00.913804Z  INFO pb_proj::upd: new
+2026-05-31T10:11:00.913886Z  INFO pb_proj::upd: close time.busy=72.9µs time.idle=9.80µs
+2026-05-31T10:11:00.913991Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:11:00.914015Z  INFO send_notification{method="telemetry/event"}: close time.busy=3.16µs time.idle=21.1µs
+2026-05-31T10:11:01.063971Z  INFO handle_request{method="textDocument/foldingRange" id=154}: new
+2026-05-31T10:11:01.064011Z  INFO handle_request{method="textDocument/foldingRange" id=154}: close time.busy=24.9µs time.idle=15.8µs
+2026-05-31T10:11:01.108502Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:01.108537Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=22.1µs time.idle=14.4µs
+2026-05-31T10:11:01.159942Z  INFO handle_request{method="textDocument/completion" id=155}: new
+2026-05-31T10:11:01.159978Z  INFO handle_request{method="textDocument/completion" id=155}: close time.busy=21.6µs time.idle=15.7µs
+2026-05-31T10:11:01.159989Z  INFO pb_proj::upd: new
+2026-05-31T10:11:01.160105Z  INFO pb_proj::upd: close time.busy=104µs time.idle=12.4µs
+2026-05-31T10:11:01.160179Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:11:01.160186Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.09µs time.idle=5.47µs
+2026-05-31T10:11:01.222946Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:01.222972Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=16.4µs time.idle=10.3µs
+2026-05-31T10:11:01.274359Z  INFO handle_request{method="textDocument/completion" id=156}: new
+2026-05-31T10:11:01.274386Z  INFO handle_request{method="textDocument/completion" id=156}: close time.busy=15.5µs time.idle=11.8µs
+2026-05-31T10:11:01.274396Z  INFO pb_proj::upd: new
+2026-05-31T10:11:01.274495Z  INFO pb_proj::upd: close time.busy=91.4µs time.idle=7.76µs
+2026-05-31T10:11:01.274567Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:11:01.274576Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.62µs time.idle=7.04µs
+2026-05-31T10:11:01.403774Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:01.403803Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=18.6µs time.idle=11.8µs
+2026-05-31T10:11:01.455298Z  INFO handle_request{method="textDocument/completion" id=157}: new
+2026-05-31T10:11:01.455323Z  INFO handle_request{method="textDocument/completion" id=157}: close time.busy=15.9µs time.idle=9.50µs
+2026-05-31T10:11:01.455334Z  INFO pb_proj::upd: new
+2026-05-31T10:11:01.455445Z  INFO pb_proj::upd: close time.busy=102µs time.idle=9.01µs
+2026-05-31T10:11:01.455511Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:11:01.455525Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.33µs time.idle=11.8µs
+2026-05-31T10:11:01.467884Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:01.467906Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=13.8µs time.idle=8.46µs
+2026-05-31T10:11:01.519137Z  INFO handle_request{method="textDocument/completion" id=158}: new
+2026-05-31T10:11:01.519167Z  INFO handle_request{method="textDocument/completion" id=158}: close time.busy=17.0µs time.idle=13.6µs
+2026-05-31T10:11:01.519178Z  INFO pb_proj::upd: new
+2026-05-31T10:11:01.519307Z  INFO pb_proj::upd: close time.busy=121µs time.idle=8.45µs
+2026-05-31T10:11:01.519379Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:11:01.519390Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.20µs time.idle=10.2µs
+2026-05-31T10:11:01.668975Z  INFO handle_request{method="textDocument/foldingRange" id=159}: new
+2026-05-31T10:11:01.669010Z  INFO handle_request{method="textDocument/foldingRange" id=159}: close time.busy=20.0µs time.idle=15.0µs
+2026-05-31T10:11:01.819313Z  INFO handle_request{method="textDocument/documentSymbol" id=160}: new
+2026-05-31T10:11:01.819345Z  INFO handle_request{method="textDocument/documentSymbol" id=160}: close time.busy=16.8µs time.idle=15.7µs
+2026-05-31T10:11:01.819354Z  INFO handle_request{method="textDocument/documentSymbol" id=161}: new
+2026-05-31T10:11:01.819361Z  INFO handle_request{method="textDocument/documentSymbol" id=161}: close time.busy=3.95µs time.idle=2.88µs
+2026-05-31T10:11:01.996157Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:01.996199Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=24.3µs time.idle=18.7µs
+2026-05-31T10:11:02.196311Z  INFO pb_proj::upd: new
+2026-05-31T10:11:02.196438Z  INFO pb_proj::upd: close time.busy=108µs time.idle=19.9µs
+2026-05-31T10:11:02.196457Z  INFO GC: vers to remove: [Version(72), Version(73), Version(74), Version(75), Version(76), Version(77), Version(78), Version(79)]
+2026-05-31T10:11:02.196727Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:11:02.196735Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=3.05µs time.idle=5.12µs
+2026-05-31T10:11:02.197125Z  INFO handle_request{method="textDocument/foldingRange" id=162}: new
+2026-05-31T10:11:02.197151Z  INFO handle_request{method="textDocument/foldingRange" id=162}: close time.busy=16.1µs time.idle=10.2µs
+2026-05-31T10:11:02.346987Z  INFO handle_request{method="textDocument/documentSymbol" id=163}: new
+2026-05-31T10:11:02.347028Z  INFO handle_request{method="textDocument/documentSymbol" id=163}: close time.busy=16.8µs time.idle=25.5µs
+2026-05-31T10:11:02.347038Z  INFO handle_request{method="textDocument/documentSymbol" id=164}: new
+2026-05-31T10:11:02.347044Z  INFO handle_request{method="textDocument/documentSymbol" id=164}: close time.busy=2.41µs time.idle=3.34µs
+2026-05-31T10:11:02.503260Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:02.503292Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=18.8µs time.idle=13.3µs
+2026-05-31T10:11:02.703419Z  INFO pb_proj::upd: new
+2026-05-31T10:11:02.703635Z  INFO pb_proj::upd: close time.busy=179µs time.idle=37.0µs
+2026-05-31T10:11:02.703657Z  INFO GC: vers to remove: [Version(80)]
+2026-05-31T10:11:02.703783Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:11:02.703793Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=3.06µs time.idle=6.63µs
+2026-05-31T10:11:02.704104Z  INFO handle_request{method="textDocument/foldingRange" id=165}: new
+2026-05-31T10:11:02.704129Z  INFO handle_request{method="textDocument/foldingRange" id=165}: close time.busy=13.7µs time.idle=11.1µs
+2026-05-31T10:11:02.743569Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:02.743597Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=16.3µs time.idle=12.0µs
+2026-05-31T10:11:02.943714Z  INFO pb_proj::upd: new
+2026-05-31T10:11:02.943839Z  INFO pb_proj::upd: close time.busy=108µs time.idle=17.3µs
+2026-05-31T10:11:02.943858Z  INFO GC: vers to remove: [Version(81)]
+2026-05-31T10:11:02.943972Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:11:02.943981Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=2.93µs time.idle=6.83µs
+2026-05-31T10:11:02.944636Z  INFO handle_request{method="textDocument/foldingRange" id=166}: new
+2026-05-31T10:11:02.944659Z  INFO handle_request{method="textDocument/foldingRange" id=166}: close time.busy=13.3µs time.idle=9.18µs
+2026-05-31T10:11:03.094849Z  INFO handle_request{method="textDocument/documentSymbol" id=167}: new
+2026-05-31T10:11:03.094873Z  INFO handle_request{method="textDocument/documentSymbol" id=167}: close time.busy=12.9µs time.idle=12.0µs
+2026-05-31T10:11:03.094882Z  INFO handle_request{method="textDocument/documentSymbol" id=168}: new
+2026-05-31T10:11:03.094886Z  INFO handle_request{method="textDocument/documentSymbol" id=168}: close time.busy=2.11µs time.idle=2.28µs
+2026-05-31T10:11:03.623426Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:03.623455Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=19.3µs time.idle=11.2µs
+2026-05-31T10:11:03.763466Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:03.763501Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=20.8µs time.idle=14.6µs
+2026-05-31T10:11:03.963618Z  INFO pb_proj::upd: new
+2026-05-31T10:11:03.963781Z  INFO pb_proj::upd: close time.busy=136µs time.idle=27.1µs
+2026-05-31T10:11:03.963802Z  INFO GC: vers to remove: [Version(82)]
+2026-05-31T10:11:03.963900Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:11:03.963907Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=2.76µs time.idle=4.54µs
+2026-05-31T10:11:03.964253Z  INFO handle_request{method="textDocument/foldingRange" id=169}: new
+2026-05-31T10:11:03.964271Z  INFO handle_request{method="textDocument/foldingRange" id=169}: close time.busy=10.0µs time.idle=8.50µs
+2026-05-31T10:11:04.114152Z  INFO handle_request{method="textDocument/documentSymbol" id=170}: new
+2026-05-31T10:11:04.114182Z  INFO handle_request{method="textDocument/documentSymbol" id=170}: close time.busy=15.9µs time.idle=14.8µs
+2026-05-31T10:11:04.114194Z  INFO handle_request{method="textDocument/documentSymbol" id=171}: new
+2026-05-31T10:11:04.114202Z  INFO handle_request{method="textDocument/documentSymbol" id=171}: close time.busy=4.24µs time.idle=3.55µs
+2026-05-31T10:11:04.304948Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:04.304987Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=24.1µs time.idle=15.7µs
+2026-05-31T10:11:04.356039Z  INFO handle_request{method="textDocument/completion" id=172}: new
+2026-05-31T10:11:04.356067Z  INFO handle_request{method="textDocument/completion" id=172}: close time.busy=17.2µs time.idle=10.9µs
+2026-05-31T10:11:04.356078Z  INFO pb_proj::upd: new
+2026-05-31T10:11:04.356425Z  INFO pb_proj::upd: close time.busy=340µs time.idle=7.59µs
+2026-05-31T10:11:04.356496Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:11:04.356506Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.92µs time.idle=7.40µs
+2026-05-31T10:11:04.357057Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:04.357072Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=9.68µs time.idle=5.76µs
+2026-05-31T10:11:04.549957Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:04.549986Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=17.5µs time.idle=12.1µs
+2026-05-31T10:11:04.677646Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:04.677687Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=24.1µs time.idle=17.0µs
+2026-05-31T10:11:04.830877Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:04.830920Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=21.6µs time.idle=23.6µs
+2026-05-31T10:11:04.945044Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:04.945081Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=21.8µs time.idle=15.7µs
+2026-05-31T10:11:05.037016Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:05.037050Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=20.0µs time.idle=15.2µs
+2026-05-31T10:11:05.124076Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:05.124112Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=22.3µs time.idle=14.2µs
+2026-05-31T10:11:05.324219Z  INFO pb_proj::upd: new
+2026-05-31T10:11:05.324393Z  INFO pb_proj::upd: close time.busy=150µs time.idle=24.9µs
+2026-05-31T10:11:05.324412Z  INFO GC: vers to remove: [Version(83), Version(84)]
+2026-05-31T10:11:05.324546Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:11:05.324555Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=3.41µs time.idle=5.37µs
+2026-05-31T10:11:05.324855Z  INFO handle_request{method="textDocument/foldingRange" id=173}: new
+2026-05-31T10:11:05.324873Z  INFO handle_request{method="textDocument/foldingRange" id=173}: close time.busy=9.84µs time.idle=8.83µs
+2026-05-31T10:11:05.474751Z  INFO handle_request{method="textDocument/documentSymbol" id=174}: new
+2026-05-31T10:11:05.474777Z  INFO handle_request{method="textDocument/documentSymbol" id=174}: close time.busy=14.6µs time.idle=12.0µs
+2026-05-31T10:11:05.474786Z  INFO handle_request{method="textDocument/documentSymbol" id=175}: new
+2026-05-31T10:11:05.474792Z  INFO handle_request{method="textDocument/documentSymbol" id=175}: close time.busy=2.76µs time.idle=3.33µs
+2026-05-31T10:11:05.871014Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:05.871045Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=19.4µs time.idle=12.4µs
+2026-05-31T10:11:05.922153Z  INFO handle_request{method="textDocument/completion" id=176}: new
+2026-05-31T10:11:05.922185Z  INFO handle_request{method="textDocument/completion" id=176}: close time.busy=18.0µs time.idle=14.2µs
+2026-05-31T10:11:05.922196Z  INFO pb_proj::upd: new
+2026-05-31T10:11:05.922313Z  INFO pb_proj::upd: close time.busy=109µs time.idle=8.37µs
+2026-05-31T10:11:05.922383Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:11:05.922392Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.56µs time.idle=6.61µs
+2026-05-31T10:11:05.950082Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:05.950105Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=15.3µs time.idle=8.93µs
+2026-05-31T10:11:06.150213Z  INFO pb_proj::upd: new
+2026-05-31T10:11:06.150305Z  INFO pb_proj::upd: close time.busy=77.9µs time.idle=15.1µs
+2026-05-31T10:11:06.150325Z  INFO GC: vers to remove: [Version(85), Version(86)]
+2026-05-31T10:11:06.150464Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:11:06.150486Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=14.0µs time.idle=7.99µs
+2026-05-31T10:11:06.150877Z  INFO handle_request{method="textDocument/foldingRange" id=177}: new
+2026-05-31T10:11:06.150892Z  INFO handle_request{method="textDocument/foldingRange" id=177}: close time.busy=8.47µs time.idle=7.19µs
+2026-05-31T10:11:06.210353Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:06.210386Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=20.9µs time.idle=13.3µs
+2026-05-31T10:11:06.337081Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:06.337114Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=19.7µs time.idle=14.7µs
+2026-05-31T10:11:06.537219Z  INFO pb_proj::upd: new
+2026-05-31T10:11:06.537332Z  INFO pb_proj::upd: close time.busy=99.4µs time.idle=14.1µs
+2026-05-31T10:11:06.537350Z  INFO GC: vers to remove: [Version(87)]
+2026-05-31T10:11:06.537459Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:11:06.537472Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=4.19µs time.idle=8.58µs
+2026-05-31T10:11:06.537879Z  INFO handle_request{method="textDocument/foldingRange" id=178}: new
+2026-05-31T10:11:06.537898Z  INFO handle_request{method="textDocument/foldingRange" id=178}: close time.busy=11.2µs time.idle=8.68µs
+2026-05-31T10:11:06.688637Z  INFO handle_request{method="textDocument/documentSymbol" id=179}: new
+2026-05-31T10:11:06.688670Z  INFO handle_request{method="textDocument/documentSymbol" id=179}: close time.busy=18.3µs time.idle=16.5µs
+2026-05-31T10:11:06.688683Z  INFO handle_request{method="textDocument/documentSymbol" id=180}: new
+2026-05-31T10:11:06.688693Z  INFO handle_request{method="textDocument/documentSymbol" id=180}: close time.busy=5.78µs time.idle=4.63µs
+2026-05-31T10:11:06.725408Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:06.725432Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=14.8µs time.idle=9.48µs
+2026-05-31T10:11:06.897994Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:06.898030Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=17.4µs time.idle=19.5µs
+2026-05-31T10:11:07.050790Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:07.050820Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=17.6µs time.idle=13.9µs
+2026-05-31T10:11:07.125128Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:07.125153Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=14.6µs time.idle=11.2µs
+2026-05-31T10:11:07.325258Z  INFO pb_proj::upd: new
+2026-05-31T10:11:07.325410Z  INFO pb_proj::upd: close time.busy=135µs time.idle=18.5µs
+2026-05-31T10:11:07.325430Z  INFO GC: vers to remove: [Version(88)]
+2026-05-31T10:11:07.325538Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:11:07.325547Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=3.18µs time.idle=6.09µs
+2026-05-31T10:11:07.325821Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:07.325841Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=12.7µs time.idle=8.10µs
+2026-05-31T10:11:07.525955Z  INFO pb_proj::upd: new
+2026-05-31T10:11:07.526074Z  INFO pb_proj::upd: close time.busy=101µs time.idle=18.6µs
+2026-05-31T10:11:07.526090Z  INFO GC: vers to remove: [Version(89)]
+2026-05-31T10:11:07.526533Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:11:07.526545Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=4.37µs time.idle=8.33µs
+2026-05-31T10:11:07.526832Z  INFO handle_request{method="textDocument/foldingRange" id=181}: new
+2026-05-31T10:11:07.526849Z  INFO handle_request{method="textDocument/foldingRange" id=181}: close time.busy=9.99µs time.idle=7.04µs
+2026-05-31T10:11:07.677108Z  INFO handle_request{method="textDocument/documentSymbol" id=182}: new
+2026-05-31T10:11:07.677134Z  INFO handle_request{method="textDocument/documentSymbol" id=182}: close time.busy=12.9µs time.idle=13.6µs
+2026-05-31T10:11:07.677143Z  INFO handle_request{method="textDocument/documentSymbol" id=183}: new
+2026-05-31T10:11:07.677148Z  INFO handle_request{method="textDocument/documentSymbol" id=183}: close time.busy=2.36µs time.idle=2.38µs
+2026-05-31T10:11:07.925848Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:07.925878Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=18.2µs time.idle=12.2µs
+2026-05-31T10:11:08.091915Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:08.091944Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=17.1µs time.idle=13.2µs
+2026-05-31T10:11:08.292092Z  INFO pb_proj::upd: new
+2026-05-31T10:11:08.292216Z  INFO pb_proj::upd: close time.busy=101µs time.idle=23.2µs
+2026-05-31T10:11:08.292236Z  INFO GC: vers to remove: [Version(90)]
+2026-05-31T10:11:08.292337Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:11:08.292347Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=3.96µs time.idle=6.44µs
+2026-05-31T10:11:08.292950Z  INFO handle_request{method="textDocument/foldingRange" id=184}: new
+2026-05-31T10:11:08.292969Z  INFO handle_request{method="textDocument/foldingRange" id=184}: close time.busy=10.1µs time.idle=8.93µs
+2026-05-31T10:11:08.443138Z  INFO handle_request{method="textDocument/documentSymbol" id=185}: new
+2026-05-31T10:11:08.443174Z  INFO handle_request{method="textDocument/documentSymbol" id=185}: close time.busy=13.5µs time.idle=22.8µs
+2026-05-31T10:11:08.443290Z  INFO handle_request{method="textDocument/documentSymbol" id=186}: new
+2026-05-31T10:11:08.443298Z  INFO handle_request{method="textDocument/documentSymbol" id=186}: close time.busy=4.05µs time.idle=3.79µs
+2026-05-31T10:11:08.732028Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:08.732062Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=20.2µs time.idle=14.5µs
+2026-05-31T10:11:08.805043Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:08.805070Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=15.8µs time.idle=11.7µs
+2026-05-31T10:11:08.856496Z  INFO handle_request{method="textDocument/completion" id=187}: new
+2026-05-31T10:11:08.856528Z  INFO handle_request{method="textDocument/completion" id=187}: close time.busy=19.0µs time.idle=13.7µs
+2026-05-31T10:11:08.856537Z  INFO pb_proj::upd: new
+2026-05-31T10:11:08.856695Z  INFO pb_proj::upd: close time.busy=149µs time.idle=8.71µs
+2026-05-31T10:11:08.856764Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:11:08.856776Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.33µs time.idle=9.47µs
+2026-05-31T10:11:08.945986Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:08.946034Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=23.9µs time.idle=25.1µs
+2026-05-31T10:11:08.997479Z  INFO handle_request{method="textDocument/completion" id=188}: new
+2026-05-31T10:11:08.997509Z  INFO handle_request{method="textDocument/completion" id=188}: close time.busy=14.8µs time.idle=15.8µs
+2026-05-31T10:11:08.997521Z  INFO pb_proj::upd: new
+2026-05-31T10:11:08.997672Z  INFO pb_proj::upd: close time.busy=142µs time.idle=9.12µs
+2026-05-31T10:11:08.997760Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:11:08.997774Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.98µs time.idle=11.3µs
+2026-05-31T10:11:09.147521Z  INFO handle_request{method="textDocument/foldingRange" id=189}: new
+2026-05-31T10:11:09.147545Z  INFO handle_request{method="textDocument/foldingRange" id=189}: close time.busy=12.1µs time.idle=12.9µs
+2026-05-31T10:11:09.206178Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:09.206216Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=22.3µs time.idle=16.1µs
+2026-05-31T10:11:09.257796Z  INFO handle_request{method="textDocument/completion" id=190}: new
+2026-05-31T10:11:09.257823Z  INFO handle_request{method="textDocument/completion" id=190}: close time.busy=16.3µs time.idle=11.6µs
+2026-05-31T10:11:09.257850Z  INFO pb_proj::upd: new
+2026-05-31T10:11:09.257955Z  INFO pb_proj::upd: close time.busy=95.7µs time.idle=10.0µs
+2026-05-31T10:11:09.258026Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:11:09.258035Z  INFO send_notification{method="telemetry/event"}: close time.busy=1.87µs time.idle=7.32µs
+2026-05-31T10:11:09.278059Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:09.278082Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=14.6µs time.idle=8.97µs
+2026-05-31T10:11:09.329468Z  INFO handle_request{method="textDocument/completion" id=191}: new
+2026-05-31T10:11:09.329490Z  INFO handle_request{method="textDocument/completion" id=191}: close time.busy=13.5µs time.idle=9.84µs
+2026-05-31T10:11:09.329578Z  INFO pb_proj::upd: new
+2026-05-31T10:11:09.329774Z  INFO pb_proj::upd: close time.busy=188µs time.idle=8.26µs
+2026-05-31T10:11:09.329843Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:11:09.329854Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.31µs time.idle=8.85µs
+2026-05-31T10:11:09.451261Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:09.451287Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=16.2µs time.idle=10.2µs
+2026-05-31T10:11:09.502558Z  INFO handle_request{method="textDocument/completion" id=192}: new
+2026-05-31T10:11:09.502582Z  INFO handle_request{method="textDocument/completion" id=192}: close time.busy=14.2µs time.idle=10.5µs
+2026-05-31T10:11:09.502591Z  INFO pb_proj::upd: new
+2026-05-31T10:11:09.502798Z  INFO pb_proj::upd: close time.busy=200µs time.idle=7.22µs
+2026-05-31T10:11:09.502892Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:11:09.502905Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.64µs time.idle=10.6µs
+2026-05-31T10:11:09.652611Z  INFO handle_request{method="textDocument/foldingRange" id=193}: new
+2026-05-31T10:11:09.652637Z  INFO handle_request{method="textDocument/foldingRange" id=193}: close time.busy=12.5µs time.idle=15.0µs
+2026-05-31T10:11:09.802681Z  INFO handle_request{method="textDocument/documentSymbol" id=194}: new
+2026-05-31T10:11:09.802708Z  INFO handle_request{method="textDocument/documentSymbol" id=194}: close time.busy=13.7µs time.idle=14.2µs
+2026-05-31T10:11:09.802718Z  INFO handle_request{method="textDocument/documentSymbol" id=195}: new
+2026-05-31T10:11:09.802724Z  INFO handle_request{method="textDocument/documentSymbol" id=195}: close time.busy=2.84µs time.idle=3.51µs
+2026-05-31T10:11:10.002834Z  INFO GC: vers to remove: [Version(91), Version(92), Version(93), Version(94), Version(95)]
+2026-05-31T10:11:10.002950Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:11:10.002960Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=4.20µs time.idle=6.44µs
+2026-05-31T10:11:10.166791Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:10.166830Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=25.2µs time.idle=14.6µs
+2026-05-31T10:11:10.366956Z  INFO pb_proj::upd: new
+2026-05-31T10:11:10.367105Z  INFO pb_proj::upd: close time.busy=127µs time.idle=22.3µs
+2026-05-31T10:11:10.367123Z  INFO GC: vers to remove: [Version(96)]
+2026-05-31T10:11:10.367248Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:11:10.367256Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=2.63µs time.idle=4.94µs
+2026-05-31T10:11:10.367823Z  INFO handle_request{method="textDocument/foldingRange" id=196}: new
+2026-05-31T10:11:10.367845Z  INFO handle_request{method="textDocument/foldingRange" id=196}: close time.busy=13.0µs time.idle=9.51µs
+2026-05-31T10:11:10.378258Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:10.378281Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=13.4µs time.idle=9.82µs
+2026-05-31T10:11:10.578399Z  INFO pb_proj::upd: new
+2026-05-31T10:11:10.578583Z  INFO pb_proj::upd: close time.busy=159µs time.idle=25.4µs
+2026-05-31T10:11:10.578604Z  INFO GC: vers to remove: [Version(97)]
+2026-05-31T10:11:10.578702Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:11:10.578709Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=2.80µs time.idle=3.87µs
+2026-05-31T10:11:10.579129Z  INFO handle_request{method="textDocument/foldingRange" id=197}: new
+2026-05-31T10:11:10.579149Z  INFO handle_request{method="textDocument/foldingRange" id=197}: close time.busy=10.4µs time.idle=9.17µs
+2026-05-31T10:11:10.608572Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:10.608602Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=18.4µs time.idle=12.9µs
+2026-05-31T10:11:10.609229Z  INFO handle_notification{method="$/cancelRequest"}: new
+2026-05-31T10:11:10.609236Z  INFO handle_notification{method="$/cancelRequest"}: Cancelled request id = 197
+2026-05-31T10:11:10.609241Z  INFO handle_notification{method="$/cancelRequest"}: close time.busy=5.82µs time.idle=6.54µs
+2026-05-31T10:11:10.801435Z  INFO handle_request{method="textDocument/foldingRange" id=198}: new
+2026-05-31T10:11:10.801463Z  INFO handle_request{method="textDocument/foldingRange" id=198}: close time.busy=14.3µs time.idle=14.2µs
+2026-05-31T10:11:10.801560Z  INFO pb_proj::upd: new
+2026-05-31T10:11:10.801668Z  INFO pb_proj::upd: close time.busy=99.0µs time.idle=8.89µs
+2026-05-31T10:11:10.951709Z  INFO handle_request{method="textDocument/documentSymbol" id=199}: new
+2026-05-31T10:11:10.951735Z  INFO handle_request{method="textDocument/documentSymbol" id=199}: close time.busy=12.8µs time.idle=13.8µs
+2026-05-31T10:11:10.951746Z  INFO handle_request{method="textDocument/documentSymbol" id=200}: new
+2026-05-31T10:11:10.951752Z  INFO handle_request{method="textDocument/documentSymbol" id=200}: close time.busy=3.62µs time.idle=2.98µs
+2026-05-31T10:11:11.152081Z  INFO GC: vers to remove: [Version(98)]
+2026-05-31T10:11:11.152226Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:11:11.152236Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=3.69µs time.idle=6.58µs
+2026-05-31T10:11:14.014533Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:14.014578Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=31.5µs time.idle=15.1µs
+2026-05-31T10:11:14.214708Z  INFO pb_proj::upd: new
+2026-05-31T10:11:14.214858Z  INFO pb_proj::upd: close time.busy=129µs time.idle=21.9µs
+2026-05-31T10:11:14.214877Z  INFO GC: vers to remove: [Version(99)]
+2026-05-31T10:11:14.215006Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:11:14.215013Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=3.81µs time.idle=3.91µs
+2026-05-31T10:11:14.215265Z  INFO handle_request{method="textDocument/foldingRange" id=201}: new
+2026-05-31T10:11:14.215284Z  INFO handle_request{method="textDocument/foldingRange" id=201}: close time.busy=10.4µs time.idle=8.46µs
+2026-05-31T10:11:14.287388Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:14.287416Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=16.6µs time.idle=12.6µs
+2026-05-31T10:11:14.338625Z  INFO handle_request{method="textDocument/completion" id=202}: new
+2026-05-31T10:11:14.338654Z  INFO handle_request{method="textDocument/completion" id=202}: close time.busy=16.3µs time.idle=13.5µs
+2026-05-31T10:11:14.338679Z  INFO pb_proj::upd: new
+2026-05-31T10:11:14.338819Z  INFO pb_proj::upd: close time.busy=132µs time.idle=8.37µs
+2026-05-31T10:11:14.338886Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:11:14.338896Z  INFO send_notification{method="telemetry/event"}: close time.busy=1.95µs time.idle=8.19µs
+2026-05-31T10:11:14.473814Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:14.473847Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=19.2µs time.idle=15.1µs
+2026-05-31T10:11:14.621278Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:14.621310Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=17.8µs time.idle=14.9µs
+2026-05-31T10:11:14.707670Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:14.707699Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=16.6µs time.idle=13.2µs
+2026-05-31T10:11:14.907818Z  INFO pb_proj::upd: new
+2026-05-31T10:11:14.907972Z  INFO pb_proj::upd: close time.busy=128µs time.idle=26.7µs
+2026-05-31T10:11:14.907988Z  INFO GC: vers to remove: [Version(100), Version(101)]
+2026-05-31T10:11:14.908124Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:11:14.908136Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=2.73µs time.idle=9.59µs
+2026-05-31T10:11:14.908519Z  INFO handle_request{method="textDocument/foldingRange" id=203}: new
+2026-05-31T10:11:14.908538Z  INFO handle_request{method="textDocument/foldingRange" id=203}: close time.busy=10.4µs time.idle=9.03µs
+2026-05-31T10:11:15.014579Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:15.014608Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=16.7µs time.idle=12.6µs
+2026-05-31T10:11:15.058315Z  INFO handle_request{method="textDocument/documentSymbol" id=204}: new
+2026-05-31T10:11:15.058339Z  INFO handle_request{method="textDocument/documentSymbol" id=204}: close time.busy=11.7µs time.idle=12.4µs
+2026-05-31T10:11:15.058354Z  INFO pb_proj::upd: new
+2026-05-31T10:11:15.058480Z  INFO pb_proj::upd: close time.busy=116µs time.idle=9.87µs
+2026-05-31T10:11:15.215119Z  INFO handle_request{method="textDocument/foldingRange" id=205}: new
+2026-05-31T10:11:15.215147Z  INFO handle_request{method="textDocument/foldingRange" id=205}: close time.busy=13.7µs time.idle=15.3µs
+2026-05-31T10:11:15.365524Z  INFO handle_request{method="textDocument/documentSymbol" id=206}: new
+2026-05-31T10:11:15.365550Z  INFO handle_request{method="textDocument/documentSymbol" id=206}: close time.busy=13.3µs time.idle=13.7µs
+2026-05-31T10:11:15.365560Z  INFO handle_request{method="textDocument/documentSymbol" id=207}: new
+2026-05-31T10:11:15.365565Z  INFO handle_request{method="textDocument/documentSymbol" id=207}: close time.busy=2.74µs time.idle=2.63µs
+2026-05-31T10:11:15.528683Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:15.528714Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=19.3µs time.idle=12.1µs
+2026-05-31T10:11:15.579560Z  INFO handle_request{method="textDocument/completion" id=208}: new
+2026-05-31T10:11:15.579585Z  INFO handle_request{method="textDocument/completion" id=208}: close time.busy=13.5µs time.idle=12.4µs
+2026-05-31T10:11:15.579689Z  INFO pb_proj::upd: new
+2026-05-31T10:11:15.579872Z  INFO pb_proj::upd: close time.busy=173µs time.idle=9.90µs
+2026-05-31T10:11:15.579933Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:11:15.579942Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.47µs time.idle=6.74µs
+2026-05-31T10:11:15.614365Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:15.614391Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=15.4µs time.idle=10.9µs
+2026-05-31T10:11:15.674510Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:15.674535Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=15.8µs time.idle=9.94µs
+2026-05-31T10:11:15.874671Z  INFO pb_proj::upd: new
+2026-05-31T10:11:15.874863Z  INFO pb_proj::upd: close time.busy=175µs time.idle=18.0µs
+2026-05-31T10:11:15.874876Z  INFO GC: vers to remove: [Version(102), Version(103), Version(104)]
+2026-05-31T10:11:15.875037Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:11:15.875045Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=3.38µs time.idle=4.87µs
+2026-05-31T10:11:15.875316Z  INFO handle_request{method="textDocument/foldingRange" id=209}: new
+2026-05-31T10:11:15.875335Z  INFO handle_request{method="textDocument/foldingRange" id=209}: close time.busy=10.4µs time.idle=8.92µs
+2026-05-31T10:11:16.025284Z  INFO handle_request{method="textDocument/documentSymbol" id=210}: new
+2026-05-31T10:11:16.025307Z  INFO handle_request{method="textDocument/documentSymbol" id=210}: close time.busy=12.3µs time.idle=11.5µs
+2026-05-31T10:11:16.025457Z  INFO handle_request{method="textDocument/documentSymbol" id=211}: new
+2026-05-31T10:11:16.025465Z  INFO handle_request{method="textDocument/documentSymbol" id=211}: close time.busy=4.16µs time.idle=4.04µs
+2026-05-31T10:11:17.055556Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:17.055585Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=18.3µs time.idle=11.4µs
+2026-05-31T10:11:17.107012Z  INFO handle_request{method="textDocument/completion" id=212}: new
+2026-05-31T10:11:17.107034Z  INFO handle_request{method="textDocument/completion" id=212}: close time.busy=13.7µs time.idle=9.71µs
+2026-05-31T10:11:17.107045Z  INFO pb_proj::upd: new
+2026-05-31T10:11:17.107172Z  INFO pb_proj::upd: close time.busy=120µs time.idle=7.61µs
+2026-05-31T10:11:17.107238Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:11:17.107250Z  INFO send_notification{method="telemetry/event"}: close time.busy=5.25µs time.idle=7.12µs
+2026-05-31T10:11:17.221701Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:17.221730Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=18.0µs time.idle=11.7µs
+2026-05-31T10:11:17.402362Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:17.402394Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=17.4µs time.idle=15.1µs
+2026-05-31T10:11:17.602531Z  INFO pb_proj::upd: new
+2026-05-31T10:11:17.602748Z  INFO pb_proj::upd: close time.busy=191µs time.idle=25.9µs
+2026-05-31T10:11:17.602770Z  INFO GC: vers to remove: [Version(105), Version(106)]
+2026-05-31T10:11:17.602872Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:11:17.602881Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=2.85µs time.idle=6.42µs
+2026-05-31T10:11:17.603379Z  INFO handle_request{method="textDocument/foldingRange" id=213}: new
+2026-05-31T10:11:17.603404Z  INFO handle_request{method="textDocument/foldingRange" id=213}: close time.busy=15.8µs time.idle=9.68µs
+2026-05-31T10:11:17.614616Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:17.614642Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=16.1µs time.idle=10.4µs
+2026-05-31T10:11:17.814737Z  INFO pb_proj::upd: new
+2026-05-31T10:11:17.814870Z  INFO pb_proj::upd: close time.busy=118µs time.idle=16.7µs
+2026-05-31T10:11:17.814890Z  INFO GC: vers to remove: [Version(107)]
+2026-05-31T10:11:17.815015Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:11:17.815022Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=2.90µs time.idle=4.69µs
+2026-05-31T10:11:17.815700Z  INFO handle_request{method="textDocument/foldingRange" id=214}: new
+2026-05-31T10:11:17.815714Z  INFO handle_request{method="textDocument/foldingRange" id=214}: close time.busy=8.50µs time.idle=6.37µs
+2026-05-31T10:11:17.966390Z  INFO handle_request{method="textDocument/documentSymbol" id=215}: new
+2026-05-31T10:11:17.966417Z  INFO handle_request{method="textDocument/documentSymbol" id=215}: close time.busy=13.7µs time.idle=14.4µs
+2026-05-31T10:11:17.966427Z  INFO handle_request{method="textDocument/documentSymbol" id=216}: new
+2026-05-31T10:11:17.966432Z  INFO handle_request{method="textDocument/documentSymbol" id=216}: close time.busy=2.65µs time.idle=2.67µs
+2026-05-31T10:11:18.174754Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:18.174782Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=17.4µs time.idle=11.1µs
+2026-05-31T10:11:18.226358Z  INFO handle_request{method="textDocument/completion" id=217}: new
+2026-05-31T10:11:18.226384Z  INFO handle_request{method="textDocument/completion" id=217}: close time.busy=15.3µs time.idle=11.6µs
+2026-05-31T10:11:18.226398Z  INFO pb_proj::upd: new
+2026-05-31T10:11:18.226533Z  INFO pb_proj::upd: close time.busy=128µs time.idle=8.05µs
+2026-05-31T10:11:18.226610Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:11:18.226619Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.35µs time.idle=7.21µs
+2026-05-31T10:11:18.376060Z  INFO handle_request{method="textDocument/foldingRange" id=218}: new
+2026-05-31T10:11:18.376084Z  INFO handle_request{method="textDocument/foldingRange" id=218}: close time.busy=12.4µs time.idle=12.3µs
+2026-05-31T10:11:18.526370Z  INFO handle_request{method="textDocument/documentSymbol" id=219}: new
+2026-05-31T10:11:18.526384Z  INFO handle_request{method="textDocument/documentSymbol" id=219}: close time.busy=6.76µs time.idle=7.69µs
+2026-05-31T10:11:18.526390Z  INFO handle_request{method="textDocument/documentSymbol" id=220}: new
+2026-05-31T10:11:18.526395Z  INFO handle_request{method="textDocument/documentSymbol" id=220}: close time.busy=2.12µs time.idle=2.62µs
+2026-05-31T10:11:18.595733Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:18.595756Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=14.4µs time.idle=9.70µs
+2026-05-31T10:11:18.646572Z  INFO handle_request{method="textDocument/completion" id=221}: new
+2026-05-31T10:11:18.646597Z  INFO handle_request{method="textDocument/completion" id=221}: close time.busy=15.1µs time.idle=10.4µs
+2026-05-31T10:11:18.646611Z  INFO pb_proj::upd: new
+2026-05-31T10:11:18.646761Z  INFO pb_proj::upd: close time.busy=143µs time.idle=7.57µs
+2026-05-31T10:11:18.646822Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:11:18.646833Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.24µs time.idle=8.58µs
+2026-05-31T10:11:18.795985Z  INFO handle_request{method="textDocument/foldingRange" id=222}: new
+2026-05-31T10:11:18.796014Z  INFO handle_request{method="textDocument/foldingRange" id=222}: close time.busy=10.7µs time.idle=19.2µs
+2026-05-31T10:11:18.910045Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:18.910078Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=19.7µs time.idle=15.2µs
+2026-05-31T10:11:18.946247Z  INFO handle_request{method="textDocument/documentSymbol" id=223}: new
+2026-05-31T10:11:18.946268Z  INFO handle_request{method="textDocument/documentSymbol" id=223}: close time.busy=11.0µs time.idle=10.5µs
+2026-05-31T10:11:18.946280Z  INFO pb_proj::upd: new
+2026-05-31T10:11:18.946444Z  INFO pb_proj::upd: close time.busy=157µs time.idle=7.35µs
+2026-05-31T10:11:18.960939Z  INFO handle_request{method="textDocument/completion" id=224}: new
+2026-05-31T10:11:18.960959Z  INFO handle_request{method="textDocument/completion" id=224}: close time.busy=11.4µs time.idle=9.19µs
+2026-05-31T10:11:18.961025Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:11:18.961034Z  INFO send_notification{method="telemetry/event"}: close time.busy=1.94µs time.idle=6.91µs
+2026-05-31T10:11:18.975492Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:18.975512Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=11.6µs time.idle=9.04µs
+2026-05-31T10:11:19.175626Z  INFO pb_proj::upd: new
+2026-05-31T10:11:19.175790Z  INFO pb_proj::upd: close time.busy=136µs time.idle=28.3µs
+2026-05-31T10:11:19.175808Z  INFO GC: vers to remove: [Version(108), Version(109), Version(110), Version(111)]
+2026-05-31T10:11:19.175945Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:11:19.175957Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=4.13µs time.idle=8.28µs
+2026-05-31T10:11:19.176444Z  INFO handle_request{method="textDocument/foldingRange" id=225}: new
+2026-05-31T10:11:19.176462Z  INFO handle_request{method="textDocument/foldingRange" id=225}: close time.busy=10.4µs time.idle=8.52µs
+2026-05-31T10:11:19.195606Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:19.195628Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=13.0µs time.idle=9.80µs
+2026-05-31T10:11:19.295467Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:19.295499Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=17.6µs time.idle=14.9µs
+2026-05-31T10:11:19.375709Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:19.375739Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=17.2µs time.idle=14.1µs
+2026-05-31T10:11:19.575862Z  INFO pb_proj::upd: new
+2026-05-31T10:11:19.575972Z  INFO pb_proj::upd: close time.busy=93.1µs time.idle=18.6µs
+2026-05-31T10:11:19.575994Z  INFO GC: vers to remove: [Version(112)]
+2026-05-31T10:11:19.576156Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:11:19.576170Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=5.77µs time.idle=8.37µs
+2026-05-31T10:11:19.576266Z  INFO handle_request{method="textDocument/foldingRange" id=226}: new
+2026-05-31T10:11:19.576283Z  INFO handle_request{method="textDocument/foldingRange" id=226}: close time.busy=9.23µs time.idle=7.85µs
+2026-05-31T10:11:19.702993Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:19.703029Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=16.9µs time.idle=20.1µs
+2026-05-31T10:11:19.726101Z  INFO handle_request{method="textDocument/documentSymbol" id=227}: new
+2026-05-31T10:11:19.726124Z  INFO handle_request{method="textDocument/documentSymbol" id=227}: close time.busy=11.3µs time.idle=11.8µs
+2026-05-31T10:11:19.726149Z  INFO pb_proj::upd: new
+2026-05-31T10:11:19.726303Z  INFO pb_proj::upd: close time.busy=144µs time.idle=9.94µs
+2026-05-31T10:11:19.903294Z  INFO handle_request{method="textDocument/foldingRange" id=228}: new
+2026-05-31T10:11:19.903322Z  INFO handle_request{method="textDocument/foldingRange" id=228}: close time.busy=13.4µs time.idle=15.1µs
+2026-05-31T10:11:20.053657Z  INFO handle_request{method="textDocument/documentSymbol" id=229}: new
+2026-05-31T10:11:20.053684Z  INFO handle_request{method="textDocument/documentSymbol" id=229}: close time.busy=14.6µs time.idle=13.3µs
+2026-05-31T10:11:20.053694Z  INFO handle_request{method="textDocument/documentSymbol" id=230}: new
+2026-05-31T10:11:20.053700Z  INFO handle_request{method="textDocument/documentSymbol" id=230}: close time.busy=3.54µs time.idle=2.58µs
+2026-05-31T10:11:20.242848Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:20.242880Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=18.6µs time.idle=13.7µs
+2026-05-31T10:11:20.443017Z  INFO pb_proj::upd: new
+2026-05-31T10:11:20.443127Z  INFO pb_proj::upd: close time.busy=89.5µs time.idle=20.8µs
+2026-05-31T10:11:20.443147Z  INFO GC: vers to remove: [Version(113), Version(114)]
+2026-05-31T10:11:20.443309Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:11:20.443321Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=3.72µs time.idle=9.06µs
+2026-05-31T10:11:20.443425Z  INFO handle_request{method="textDocument/foldingRange" id=231}: new
+2026-05-31T10:11:20.443444Z  INFO handle_request{method="textDocument/foldingRange" id=231}: close time.busy=10.2µs time.idle=9.14µs
+2026-05-31T10:11:20.593488Z  INFO handle_request{method="textDocument/documentSymbol" id=232}: new
+2026-05-31T10:11:20.593516Z  INFO handle_request{method="textDocument/documentSymbol" id=232}: close time.busy=14.8µs time.idle=13.4µs
+2026-05-31T10:11:20.593526Z  INFO handle_request{method="textDocument/documentSymbol" id=233}: new
+2026-05-31T10:11:20.593533Z  INFO handle_request{method="textDocument/documentSymbol" id=233}: close time.busy=4.94µs time.idle=2.77µs
+2026-05-31T10:11:21.023662Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:21.023694Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=19.5µs time.idle=13.3µs
+2026-05-31T10:11:21.223805Z  INFO pb_proj::upd: new
+2026-05-31T10:11:21.223912Z  INFO handle_request{method="textDocument/foldingRange" id=234}: new
+2026-05-31T10:11:21.223934Z  INFO handle_request{method="textDocument/foldingRange" id=234}: close time.busy=12.3µs time.idle=10.1µs
+2026-05-31T10:11:21.223959Z  INFO pb_proj::upd: close time.busy=138µs time.idle=16.2µs
+2026-05-31T10:11:21.223968Z  INFO GC: vers to remove: [Version(115)]
+2026-05-31T10:11:21.224130Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:11:21.224136Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=1.77µs time.idle=4.74µs
+2026-05-31T10:11:21.374119Z  INFO handle_request{method="textDocument/documentSymbol" id=235}: new
+2026-05-31T10:11:21.374148Z  INFO handle_request{method="textDocument/documentSymbol" id=235}: close time.busy=14.7µs time.idle=15.3µs
+2026-05-31T10:11:21.374223Z  INFO handle_request{method="textDocument/documentSymbol" id=236}: new
+2026-05-31T10:11:21.374230Z  INFO handle_request{method="textDocument/documentSymbol" id=236}: close time.busy=4.20µs time.idle=2.97µs
+2026-05-31T10:11:22.103740Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:22.103775Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=21.4µs time.idle=13.8µs
+2026-05-31T10:11:22.303892Z  INFO pb_proj::upd: new
+2026-05-31T10:11:22.304132Z  INFO pb_proj::upd: close time.busy=220µs time.idle=21.2µs
+2026-05-31T10:11:22.304150Z  INFO GC: vers to remove: [Version(116)]
+2026-05-31T10:11:22.304235Z  INFO handle_request{method="textDocument/foldingRange" id=237}: new
+2026-05-31T10:11:22.304252Z  INFO handle_request{method="textDocument/foldingRange" id=237}: close time.busy=11.3µs time.idle=6.02µs
+2026-05-31T10:11:22.304255Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:11:22.304262Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=1.33µs time.idle=5.85µs
+2026-05-31T10:11:22.454252Z  INFO handle_request{method="textDocument/documentSymbol" id=238}: new
+2026-05-31T10:11:22.454280Z  INFO handle_request{method="textDocument/documentSymbol" id=238}: close time.busy=14.3µs time.idle=14.6µs
+2026-05-31T10:11:22.454294Z  INFO handle_request{method="textDocument/documentSymbol" id=239}: new
+2026-05-31T10:11:22.454301Z  INFO handle_request{method="textDocument/documentSymbol" id=239}: close time.busy=3.67µs time.idle=2.97µs
+2026-05-31T10:11:29.453304Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:29.453335Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=19.5µs time.idle=12.6µs
+2026-05-31T10:11:29.504509Z  INFO handle_request{method="textDocument/completion" id=240}: new
+2026-05-31T10:11:29.504536Z  INFO handle_request{method="textDocument/completion" id=240}: close time.busy=14.8µs time.idle=12.7µs
+2026-05-31T10:11:29.504550Z  INFO pb_proj::upd: new
+2026-05-31T10:11:29.504690Z  INFO pb_proj::upd: close time.busy=131µs time.idle=8.85µs
+2026-05-31T10:11:29.504756Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:11:29.504770Z  INFO send_notification{method="telemetry/event"}: close time.busy=3.21µs time.idle=11.1µs
+2026-05-31T10:11:29.565847Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:29.565876Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=16.8µs time.idle=12.0µs
+2026-05-31T10:11:29.765991Z  INFO pb_proj::upd: new
+2026-05-31T10:11:29.766190Z  INFO pb_proj::upd: close time.busy=164µs time.idle=35.2µs
+2026-05-31T10:11:29.766213Z  INFO GC: vers to remove: [Version(117), Version(118)]
+2026-05-31T10:11:29.766351Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:11:29.766359Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=2.61µs time.idle=5.22µs
+2026-05-31T10:11:29.767013Z  INFO handle_request{method="textDocument/foldingRange" id=241}: new
+2026-05-31T10:11:29.767033Z  INFO handle_request{method="textDocument/foldingRange" id=241}: close time.busy=10.9µs time.idle=10.1µs
+2026-05-31T10:11:29.886031Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:29.886060Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=18.2µs time.idle=11.7µs
+2026-05-31T10:11:29.917215Z  INFO handle_request{method="textDocument/documentSymbol" id=242}: new
+2026-05-31T10:11:29.917235Z  INFO handle_request{method="textDocument/documentSymbol" id=242}: close time.busy=9.85µs time.idle=10.4µs
+2026-05-31T10:11:29.917247Z  INFO pb_proj::upd: new
+2026-05-31T10:11:29.917387Z  INFO pb_proj::upd: close time.busy=133µs time.idle=7.58µs
+2026-05-31T10:11:29.958624Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:29.958645Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=13.2µs time.idle=8.17µs
+2026-05-31T10:11:30.158770Z  INFO pb_proj::upd: new
+2026-05-31T10:11:30.158918Z  INFO pb_proj::upd: close time.busy=126µs time.idle=22.7µs
+2026-05-31T10:11:30.158936Z  INFO GC: vers to remove: [Version(119), Version(120)]
+2026-05-31T10:11:30.159058Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:11:30.159073Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=4.35µs time.idle=10.8µs
+2026-05-31T10:11:30.159623Z  INFO handle_request{method="textDocument/foldingRange" id=243}: new
+2026-05-31T10:11:30.159640Z  INFO handle_request{method="textDocument/foldingRange" id=243}: close time.busy=8.99µs time.idle=8.58µs
+2026-05-31T10:11:30.186126Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:30.186157Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=18.9µs time.idle=13.3µs
+2026-05-31T10:11:30.238002Z  INFO handle_request{method="textDocument/completion" id=244}: new
+2026-05-31T10:11:30.238028Z  INFO handle_request{method="textDocument/completion" id=244}: close time.busy=14.1µs time.idle=12.4µs
+2026-05-31T10:11:30.238036Z  INFO pb_proj::upd: new
+2026-05-31T10:11:30.238175Z  INFO pb_proj::upd: close time.busy=131µs time.idle=8.73µs
+2026-05-31T10:11:30.238241Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:11:30.238252Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.25µs time.idle=9.31µs
+2026-05-31T10:11:30.387148Z  INFO handle_request{method="textDocument/foldingRange" id=245}: new
+2026-05-31T10:11:30.387173Z  INFO handle_request{method="textDocument/foldingRange" id=245}: close time.busy=12.4µs time.idle=12.9µs
+2026-05-31T10:11:30.537122Z  INFO handle_request{method="textDocument/documentSymbol" id=246}: new
+2026-05-31T10:11:30.537144Z  INFO handle_request{method="textDocument/documentSymbol" id=246}: close time.busy=11.5µs time.idle=11.2µs
+2026-05-31T10:11:30.537153Z  INFO handle_request{method="textDocument/documentSymbol" id=247}: new
+2026-05-31T10:11:30.537159Z  INFO handle_request{method="textDocument/documentSymbol" id=247}: close time.busy=2.68µs time.idle=3.47µs
+2026-05-31T10:11:30.737321Z  INFO GC: vers to remove: [Version(121)]
+2026-05-31T10:11:30.737589Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:11:30.737600Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=3.02µs time.idle=8.96µs
+2026-05-31T10:11:30.834159Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:30.834188Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=18.1µs time.idle=11.5µs
+2026-05-31T10:11:30.885586Z  INFO handle_request{method="textDocument/completion" id=248}: new
+2026-05-31T10:11:30.885626Z  INFO handle_request{method="textDocument/completion" id=248}: close time.busy=25.2µs time.idle=14.7µs
+2026-05-31T10:11:30.885635Z  INFO pb_proj::upd: new
+2026-05-31T10:11:30.885769Z  INFO pb_proj::upd: close time.busy=126µs time.idle=8.77µs
+2026-05-31T10:11:30.885845Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:11:30.885858Z  INFO send_notification{method="telemetry/event"}: close time.busy=3.56µs time.idle=9.71µs
+2026-05-31T10:11:30.886801Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:30.886822Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=12.7µs time.idle=8.40µs
+2026-05-31T10:11:31.086854Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:31.086886Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=18.9µs time.idle=14.0µs
+2026-05-31T10:11:31.137883Z  INFO handle_request{method="textDocument/completion" id=249}: new
+2026-05-31T10:11:31.137906Z  INFO handle_request{method="textDocument/completion" id=249}: close time.busy=14.6µs time.idle=9.89µs
+2026-05-31T10:11:31.137931Z  INFO pb_proj::upd: new
+2026-05-31T10:11:31.138116Z  INFO pb_proj::upd: close time.busy=175µs time.idle=9.83µs
+2026-05-31T10:11:31.138187Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:11:31.138198Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.36µs time.idle=8.25µs
+2026-05-31T10:11:31.193826Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:31.193854Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=17.2µs time.idle=11.1µs
+2026-05-31T10:11:31.393966Z  INFO pb_proj::upd: new
+2026-05-31T10:11:31.394143Z  INFO pb_proj::upd: close time.busy=153µs time.idle=24.4µs
+2026-05-31T10:11:31.394161Z  INFO GC: vers to remove: [Version(122), Version(123), Version(124)]
+2026-05-31T10:11:31.394290Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:11:31.394298Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=3.03µs time.idle=5.31µs
+2026-05-31T10:11:31.394658Z  INFO handle_request{method="textDocument/foldingRange" id=250}: new
+2026-05-31T10:11:31.394678Z  INFO handle_request{method="textDocument/foldingRange" id=250}: close time.busy=10.7µs time.idle=9.21µs
+2026-05-31T10:11:31.544951Z  INFO handle_request{method="textDocument/documentSymbol" id=251}: new
+2026-05-31T10:11:31.544978Z  INFO handle_request{method="textDocument/documentSymbol" id=251}: close time.busy=14.0µs time.idle=13.4µs
+2026-05-31T10:11:31.544988Z  INFO handle_request{method="textDocument/documentSymbol" id=252}: new
+2026-05-31T10:11:31.545008Z  INFO handle_request{method="textDocument/documentSymbol" id=252}: close time.busy=3.17µs time.idle=16.5µs
+2026-05-31T10:11:31.814713Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:31.814751Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=23.5µs time.idle=15.9µs
+2026-05-31T10:11:31.866076Z  INFO handle_request{method="textDocument/completion" id=253}: new
+2026-05-31T10:11:31.866105Z  INFO handle_request{method="textDocument/completion" id=253}: close time.busy=17.2µs time.idle=12.3µs
+2026-05-31T10:11:31.866114Z  INFO pb_proj::upd: new
+2026-05-31T10:11:31.866259Z  INFO pb_proj::upd: close time.busy=137µs time.idle=7.70µs
+2026-05-31T10:11:31.866327Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:11:31.866338Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.37µs time.idle=9.38µs
+2026-05-31T10:11:32.015413Z  INFO handle_request{method="textDocument/foldingRange" id=254}: new
+2026-05-31T10:11:32.015437Z  INFO handle_request{method="textDocument/foldingRange" id=254}: close time.busy=11.9µs time.idle=12.6µs
+2026-05-31T10:11:32.034703Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:32.034740Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=22.0µs time.idle=16.3µs
+2026-05-31T10:11:32.154741Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:32.154785Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=26.6µs time.idle=18.3µs
+2026-05-31T10:11:32.354918Z  INFO pb_proj::upd: new
+2026-05-31T10:11:32.355081Z  INFO pb_proj::upd: close time.busy=138µs time.idle=26.0µs
+2026-05-31T10:11:32.355097Z  INFO GC: vers to remove: [Version(125), Version(126)]
+2026-05-31T10:11:32.355217Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:11:32.355225Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=2.94µs time.idle=5.03µs
+2026-05-31T10:11:32.355872Z  INFO handle_request{method="textDocument/foldingRange" id=255}: new
+2026-05-31T10:11:32.355894Z  INFO handle_request{method="textDocument/foldingRange" id=255}: close time.busy=12.6µs time.idle=10.0µs
+2026-05-31T10:11:32.506487Z  INFO handle_request{method="textDocument/documentSymbol" id=256}: new
+2026-05-31T10:11:32.506515Z  INFO handle_request{method="textDocument/documentSymbol" id=256}: close time.busy=14.6µs time.idle=14.1µs
+2026-05-31T10:11:32.506526Z  INFO handle_request{method="textDocument/documentSymbol" id=257}: new
+2026-05-31T10:11:32.506531Z  INFO handle_request{method="textDocument/documentSymbol" id=257}: close time.busy=2.68µs time.idle=3.01µs
+2026-05-31T10:11:32.568702Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:32.568734Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=19.2µs time.idle=14.3µs
+2026-05-31T10:11:32.769203Z  INFO pb_proj::upd: new
+2026-05-31T10:11:32.769356Z  INFO pb_proj::upd: close time.busy=125µs time.idle=27.5µs
+2026-05-31T10:11:32.769377Z  INFO GC: vers to remove: [Version(127)]
+2026-05-31T10:11:32.769507Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:11:32.769518Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=3.11µs time.idle=8.21µs
+2026-05-31T10:11:32.770220Z  INFO handle_request{method="textDocument/foldingRange" id=258}: new
+2026-05-31T10:11:32.770239Z  INFO handle_request{method="textDocument/foldingRange" id=258}: close time.busy=10.6µs time.idle=8.65µs
+2026-05-31T10:11:32.895147Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:32.895181Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=19.4µs time.idle=15.4µs
+2026-05-31T10:11:32.921500Z  INFO handle_request{method="textDocument/documentSymbol" id=259}: new
+2026-05-31T10:11:32.921520Z  INFO handle_request{method="textDocument/documentSymbol" id=259}: close time.busy=9.59µs time.idle=10.7µs
+2026-05-31T10:11:32.921543Z  INFO pb_proj::upd: new
+2026-05-31T10:11:32.921678Z  INFO pb_proj::upd: close time.busy=126µs time.idle=8.82µs
+2026-05-31T10:11:33.095869Z  INFO handle_request{method="textDocument/foldingRange" id=260}: new
+2026-05-31T10:11:33.095901Z  INFO handle_request{method="textDocument/foldingRange" id=260}: close time.busy=16.3µs time.idle=16.8µs
+2026-05-31T10:11:33.246105Z  INFO handle_request{method="textDocument/documentSymbol" id=261}: new
+2026-05-31T10:11:33.246134Z  INFO handle_request{method="textDocument/documentSymbol" id=261}: close time.busy=16.1µs time.idle=14.8µs
+2026-05-31T10:11:33.246145Z  INFO handle_request{method="textDocument/documentSymbol" id=262}: new
+2026-05-31T10:11:33.246150Z  INFO handle_request{method="textDocument/documentSymbol" id=262}: close time.busy=2.97µs time.idle=2.57µs
+2026-05-31T10:11:33.446254Z  INFO GC: vers to remove: [Version(128)]
+2026-05-31T10:11:33.446376Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:11:33.446387Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=3.53µs time.idle=7.01µs
+2026-05-31T10:11:33.828272Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:33.828308Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=22.1µs time.idle=14.9µs
+2026-05-31T10:11:33.879593Z  INFO handle_request{method="textDocument/completion" id=263}: new
+2026-05-31T10:11:33.879623Z  INFO handle_request{method="textDocument/completion" id=263}: close time.busy=17.9µs time.idle=12.8µs
+2026-05-31T10:11:33.879634Z  INFO pb_proj::upd: new
+2026-05-31T10:11:33.879746Z  INFO pb_proj::upd: close time.busy=102µs time.idle=9.62µs
+2026-05-31T10:11:33.879832Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:11:33.879842Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.38µs time.idle=8.01µs
+2026-05-31T10:11:34.001012Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:34.001041Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=17.6µs time.idle=12.1µs
+2026-05-31T10:11:34.052749Z  INFO handle_request{method="textDocument/completion" id=264}: new
+2026-05-31T10:11:34.052776Z  INFO handle_request{method="textDocument/completion" id=264}: close time.busy=15.2µs time.idle=12.2µs
+2026-05-31T10:11:34.052785Z  INFO pb_proj::upd: new
+2026-05-31T10:11:34.052942Z  INFO pb_proj::upd: close time.busy=149µs time.idle=8.30µs
+2026-05-31T10:11:34.053019Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:11:34.053029Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.30µs time.idle=8.57µs
+2026-05-31T10:11:34.202077Z  INFO handle_request{method="textDocument/foldingRange" id=265}: new
+2026-05-31T10:11:34.202094Z  INFO handle_request{method="textDocument/foldingRange" id=265}: close time.busy=8.28µs time.idle=9.93µs
+2026-05-31T10:11:34.352702Z  INFO handle_request{method="textDocument/documentSymbol" id=266}: new
+2026-05-31T10:11:34.352732Z  INFO handle_request{method="textDocument/documentSymbol" id=266}: close time.busy=13.0µs time.idle=18.1µs
+2026-05-31T10:11:34.352741Z  INFO handle_request{method="textDocument/documentSymbol" id=267}: new
+2026-05-31T10:11:34.352748Z  INFO handle_request{method="textDocument/documentSymbol" id=267}: close time.busy=3.41µs time.idle=2.84µs
+2026-05-31T10:11:34.360983Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:34.361009Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=18.4µs time.idle=7.05µs
+2026-05-31T10:11:34.561120Z  INFO pb_proj::upd: new
+2026-05-31T10:11:34.561379Z  INFO pb_proj::upd: close time.busy=237µs time.idle=22.0µs
+2026-05-31T10:11:34.561399Z  INFO GC: vers to remove: [Version(129), Version(130), Version(131)]
+2026-05-31T10:11:34.561534Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:11:34.561543Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=3.32µs time.idle=6.47µs
+2026-05-31T10:11:34.561657Z  INFO handle_request{method="textDocument/foldingRange" id=268}: new
+2026-05-31T10:11:34.561672Z  INFO handle_request{method="textDocument/foldingRange" id=268}: close time.busy=8.47µs time.idle=6.76µs
+2026-05-31T10:11:34.614956Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:34.614981Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=15.1µs time.idle=10.7µs
+2026-05-31T10:11:34.669611Z  INFO handle_request{method="textDocument/completion" id=269}: new
+2026-05-31T10:11:34.669654Z  INFO handle_request{method="textDocument/completion" id=269}: close time.busy=20.4µs time.idle=23.5µs
+2026-05-31T10:11:34.669676Z  INFO pb_proj::upd: new
+2026-05-31T10:11:34.669806Z  INFO pb_proj::upd: close time.busy=122µs time.idle=7.47µs
+2026-05-31T10:11:34.669868Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:11:34.669880Z  INFO send_notification{method="telemetry/event"}: close time.busy=1.90µs time.idle=10.6µs
+2026-05-31T10:11:34.815500Z  INFO handle_request{method="textDocument/foldingRange" id=270}: new
+2026-05-31T10:11:34.815525Z  INFO handle_request{method="textDocument/foldingRange" id=270}: close time.busy=13.1µs time.idle=11.9µs
+2026-05-31T10:11:34.874939Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:34.874959Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=10.8µs time.idle=8.97µs
+2026-05-31T10:11:35.028436Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:35.028472Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=21.5µs time.idle=15.8µs
+2026-05-31T10:11:35.156720Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:35.156751Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=17.4µs time.idle=14.5µs
+2026-05-31T10:11:35.356881Z  INFO pb_proj::upd: new
+2026-05-31T10:11:35.357398Z  INFO pb_proj::upd: close time.busy=495µs time.idle=22.5µs
+2026-05-31T10:11:35.357412Z  INFO GC: vers to remove: [Version(132), Version(133)]
+2026-05-31T10:11:35.357417Z  INFO handle_request{method="textDocument/foldingRange" id=271}: new
+2026-05-31T10:11:35.357439Z  INFO handle_request{method="textDocument/foldingRange" id=271}: close time.busy=13.1µs time.idle=8.71µs
+2026-05-31T10:11:35.357526Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:11:35.357535Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=2.22µs time.idle=7.38µs
+2026-05-31T10:11:35.507488Z  INFO handle_request{method="textDocument/documentSymbol" id=272}: new
+2026-05-31T10:11:35.507512Z  INFO handle_request{method="textDocument/documentSymbol" id=272}: close time.busy=12.5µs time.idle=12.0µs
+2026-05-31T10:11:35.507522Z  INFO handle_request{method="textDocument/documentSymbol" id=273}: new
+2026-05-31T10:11:35.507533Z  INFO handle_request{method="textDocument/documentSymbol" id=273}: close time.busy=8.21µs time.idle=2.85µs
+2026-05-31T10:11:35.756429Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:35.756456Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=16.4µs time.idle=11.8µs
+2026-05-31T10:11:35.807367Z  INFO handle_request{method="textDocument/completion" id=274}: new
+2026-05-31T10:11:35.807390Z  INFO handle_request{method="textDocument/completion" id=274}: close time.busy=14.6µs time.idle=9.82µs
+2026-05-31T10:11:35.807403Z  INFO pb_proj::upd: new
+2026-05-31T10:11:35.807528Z  INFO pb_proj::upd: close time.busy=115µs time.idle=9.48µs
+2026-05-31T10:11:35.807611Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T10:11:35.807622Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.78µs time.idle=8.43µs
+2026-05-31T10:11:35.889194Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:35.889221Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=17.1µs time.idle=10.9µs
+2026-05-31T10:11:35.981944Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:35.981972Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=17.1µs time.idle=10.7µs
+2026-05-31T10:11:36.168922Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:36.168955Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=18.4µs time.idle=15.2µs
+2026-05-31T10:11:36.369076Z  INFO pb_proj::upd: new
+2026-05-31T10:11:36.369234Z  INFO pb_proj::upd: close time.busy=133µs time.idle=26.2µs
+2026-05-31T10:11:36.369255Z  INFO GC: vers to remove: [Version(134), Version(135)]
+2026-05-31T10:11:36.369398Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:11:36.369408Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=2.78µs time.idle=21.5µs
+2026-05-31T10:11:36.370130Z  INFO handle_request{method="textDocument/foldingRange" id=275}: new
+2026-05-31T10:11:36.370147Z  INFO handle_request{method="textDocument/foldingRange" id=275}: close time.busy=9.14µs time.idle=7.88µs
+2026-05-31T10:11:36.520014Z  INFO handle_request{method="textDocument/documentSymbol" id=276}: new
+2026-05-31T10:11:36.520036Z  INFO handle_request{method="textDocument/documentSymbol" id=276}: close time.busy=11.6µs time.idle=11.5µs
+2026-05-31T10:11:36.520318Z  INFO handle_request{method="textDocument/documentSymbol" id=277}: new
+2026-05-31T10:11:36.520331Z  INFO handle_request{method="textDocument/documentSymbol" id=277}: close time.busy=5.97µs time.idle=7.36µs
+2026-05-31T10:11:36.748986Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:36.749026Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=19.7µs time.idle=21.5µs
+2026-05-31T10:11:36.949151Z  INFO pb_proj::upd: new
+2026-05-31T10:11:36.949329Z  INFO pb_proj::upd: close time.busy=155µs time.idle=24.4µs
+2026-05-31T10:11:36.949347Z  INFO GC: vers to remove: [Version(136)]
+2026-05-31T10:11:36.949473Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:11:36.949479Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=2.73µs time.idle=3.88µs
+2026-05-31T10:11:36.949769Z  INFO handle_request{method="textDocument/foldingRange" id=278}: new
+2026-05-31T10:11:36.949789Z  INFO handle_request{method="textDocument/foldingRange" id=278}: close time.busy=9.87µs time.idle=9.74µs
+2026-05-31T10:11:37.100203Z  INFO handle_request{method="textDocument/documentSymbol" id=279}: new
+2026-05-31T10:11:37.100230Z  INFO handle_request{method="textDocument/documentSymbol" id=279}: close time.busy=14.5µs time.idle=13.4µs
+2026-05-31T10:11:37.100240Z  INFO handle_request{method="textDocument/documentSymbol" id=280}: new
+2026-05-31T10:11:37.100245Z  INFO handle_request{method="textDocument/documentSymbol" id=280}: close time.busy=2.33µs time.idle=2.56µs
+2026-05-31T10:11:42.576401Z  INFO handle_request{method="textDocument/hover" id=281}: new
+2026-05-31T10:11:42.576430Z  INFO handle_request{method="textDocument/hover" id=281}: close time.busy=15.7µs time.idle=14.7µs
+2026-05-31T10:11:43.186540Z  INFO handle_request{method="textDocument/hover" id=282}: new
+2026-05-31T10:11:43.186576Z  INFO handle_request{method="textDocument/hover" id=282}: close time.busy=14.8µs time.idle=22.4µs
+2026-05-31T10:11:44.419638Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:44.419675Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=23.2µs time.idle=14.8µs
+2026-05-31T10:11:44.600370Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:44.600399Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=16.9µs time.idle=13.2µs
+2026-05-31T10:11:44.679174Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:44.679201Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=15.7µs time.idle=12.4µs
+2026-05-31T10:11:44.800166Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:44.800194Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=16.9µs time.idle=12.4µs
+2026-05-31T10:11:45.000419Z  INFO pb_proj::upd: new
+2026-05-31T10:11:45.000636Z  INFO pb_proj::upd: close time.busy=199µs time.idle=19.2µs
+2026-05-31T10:11:45.000655Z  INFO GC: vers to remove: [Version(137)]
+2026-05-31T10:11:45.000726Z  INFO handle_request{method="textDocument/foldingRange" id=283}: new
+2026-05-31T10:11:45.000747Z  INFO handle_request{method="textDocument/foldingRange" id=283}: close time.busy=10.9µs time.idle=10.7µs
+2026-05-31T10:11:45.000756Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:11:45.000762Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=1.77µs time.idle=4.37µs
+2026-05-31T10:11:45.150764Z  INFO handle_request{method="textDocument/documentSymbol" id=284}: new
+2026-05-31T10:11:45.150791Z  INFO handle_request{method="textDocument/documentSymbol" id=284}: close time.busy=12.9µs time.idle=15.6µs
+2026-05-31T10:11:45.150800Z  INFO handle_request{method="textDocument/documentSymbol" id=285}: new
+2026-05-31T10:11:45.150806Z  INFO handle_request{method="textDocument/documentSymbol" id=285}: close time.busy=2.95µs time.idle=2.60µs
+2026-05-31T10:11:45.450076Z  INFO handle_notification{method="textDocument/didSave"}: new
+2026-05-31T10:11:45.450099Z  INFO handle_notification{method="textDocument/didSave"}: close time.busy=9.33µs time.idle=14.9µs
+2026-05-31T10:11:45.741432Z  INFO handle_notification{method="workspace/didChangeWatchedFiles"}: new
+2026-05-31T10:11:45.741455Z  INFO handle_notification{method="workspace/didChangeWatchedFiles"}: close time.busy=12.5µs time.idle=11.0µs
+2026-05-31T10:11:45.741480Z  INFO changes: {
+  kind=Changed url=file:///home/maksim/Projects/Go/Project/permissions/proto/permissions/permissions.proto
+}
+2026-05-31T10:11:45.941613Z  INFO pb_proj::upd: new
+2026-05-31T10:11:45.941723Z  INFO pb_proj::upd: close time.busy=99.0µs time.idle=11.0µs
+2026-05-31T10:11:45.941745Z  INFO GC: vers to remove: [Version(138)]
+2026-05-31T10:11:45.941838Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:11:45.941845Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=3.32µs time.idle=3.77µs
+2026-05-31T10:11:48.108628Z  INFO handle_request{method="textDocument/hover" id=286}: new
+2026-05-31T10:11:48.108663Z  INFO handle_request{method="textDocument/hover" id=286}: close time.busy=17.1µs time.idle=18.7µs
+2026-05-31T10:11:49.095233Z  INFO handle_request{method="textDocument/hover" id=287}: new
+2026-05-31T10:11:49.095263Z  INFO handle_request{method="textDocument/hover" id=287}: close time.busy=16.3µs time.idle=14.4µs
+2026-05-31T10:11:49.459657Z  INFO handle_request{method="textDocument/hover" id=288}: new
+2026-05-31T10:11:49.459684Z  INFO handle_request{method="textDocument/hover" id=288}: close time.busy=15.3µs time.idle=13.0µs
+2026-05-31T10:11:50.176838Z  INFO handle_request{method="textDocument/hover" id=289}: new
+2026-05-31T10:11:50.176868Z  INFO handle_request{method="textDocument/hover" id=289}: close time.busy=16.4µs time.idle=14.3µs
+2026-05-31T10:11:52.347667Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T10:11:52.347701Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=20.9µs time.idle=14.2µs
+2026-05-31T10:11:52.548048Z  INFO pb_proj::upd: new
+2026-05-31T10:11:52.548160Z  INFO pb_proj::upd: close time.busy=95.7µs time.idle=17.5µs
+2026-05-31T10:11:52.548177Z  INFO GC: vers to remove: [Version(139)]
+2026-05-31T10:11:52.548304Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:11:52.548313Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=3.22µs time.idle=5.81µs
+2026-05-31T10:11:52.549990Z  INFO handle_request{method="textDocument/foldingRange" id=290}: new
+2026-05-31T10:11:52.550010Z  INFO handle_request{method="textDocument/foldingRange" id=290}: close time.busy=10.7µs time.idle=10.2µs
+2026-05-31T10:11:52.699968Z  INFO handle_request{method="textDocument/documentSymbol" id=291}: new
+2026-05-31T10:11:52.699991Z  INFO handle_request{method="textDocument/documentSymbol" id=291}: close time.busy=13.1µs time.idle=11.3µs
+2026-05-31T10:11:52.700008Z  INFO handle_request{method="textDocument/documentSymbol" id=292}: new
+2026-05-31T10:11:52.700014Z  INFO handle_request{method="textDocument/documentSymbol" id=292}: close time.busy=3.45µs time.idle=2.67µs
+2026-05-31T10:11:53.585689Z  INFO handle_notification{method="textDocument/didSave"}: new
+2026-05-31T10:11:53.585711Z  INFO handle_notification{method="textDocument/didSave"}: close time.busy=8.98µs time.idle=13.1µs
+2026-05-31T10:11:53.871038Z  INFO handle_notification{method="workspace/didChangeWatchedFiles"}: new
+2026-05-31T10:11:53.871070Z  INFO handle_notification{method="workspace/didChangeWatchedFiles"}: close time.busy=16.0µs time.idle=17.4µs
+2026-05-31T10:11:53.871082Z  INFO changes: {
+  kind=Changed url=file:///home/maksim/Projects/Go/Project/permissions/proto/permissions/permissions.proto
+}
+2026-05-31T10:11:54.071218Z  INFO pb_proj::upd: new
+2026-05-31T10:11:54.071316Z  INFO pb_proj::upd: close time.busy=81.6µs time.idle=16.9µs
+2026-05-31T10:11:54.071337Z  INFO GC: vers to remove: [Version(140)]
+2026-05-31T10:11:54.071466Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:11:54.071476Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=2.48µs time.idle=8.32µs
+2026-05-31T10:12:36.946250Z  INFO handle_notification{method="workspace/didChangeWatchedFiles"}: new
+2026-05-31T10:12:36.946273Z  INFO handle_notification{method="workspace/didChangeWatchedFiles"}: close time.busy=11.8µs time.idle=12.7µs
+2026-05-31T10:12:36.946282Z  INFO changes: {
+  kind=Deleted url=file:///home/maksim/Projects/Go/Project/permissions/gen/go/permissions
+}
+2026-05-31T10:12:37.146631Z  INFO pb_proj::upd: new
+2026-05-31T10:12:37.146783Z  INFO pb_proj::upd: close time.busy=135µs time.idle=17.5µs
+2026-05-31T10:12:37.146804Z  INFO GC: vers to remove: [Version(141)]
+2026-05-31T10:12:37.146911Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:12:37.146918Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=2.40µs time.idle=4.44µs
+2026-05-31T10:13:55.158974Z  INFO handle_notification{method="workspace/didChangeWatchedFiles"}: new
+2026-05-31T10:13:55.159013Z  INFO handle_notification{method="workspace/didChangeWatchedFiles"}: close time.busy=23.2µs time.idle=17.1µs
+2026-05-31T10:13:55.159042Z  INFO changes: {
+  kind=Created url=file:///home/maksim/Projects/Go/Project/permissions/gen/go/permissions
+}
+2026-05-31T10:13:55.359233Z  INFO pb_proj::upd: new
+2026-05-31T10:13:55.359354Z  INFO pb_proj::upd: close time.busy=105µs time.idle=17.1µs
+2026-05-31T10:13:55.359375Z  INFO GC: vers to remove: [Version(142)]
+2026-05-31T10:13:55.359506Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:13:55.359513Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=3.23µs time.idle=3.98µs
+2026-05-31T10:31:09.220589Z  INFO handle_request{method="textDocument/foldingRange" id=293}: new
+2026-05-31T10:31:09.220613Z  INFO handle_request{method="textDocument/foldingRange" id=293}: close time.busy=12.1µs time.idle=12.6µs
+2026-05-31T10:31:09.322226Z  INFO handle_request{method="textDocument/documentSymbol" id=294}: new
+2026-05-31T10:31:09.322251Z  INFO handle_request{method="textDocument/documentSymbol" id=294}: close time.busy=13.6µs time.idle=12.8µs
+2026-05-31T10:57:24.209055Z  INFO handle_notification{method="workspace/didChangeWatchedFiles"}: new
+2026-05-31T10:57:24.209095Z  INFO handle_notification{method="workspace/didChangeWatchedFiles"}: close time.busy=16.3µs time.idle=24.9µs
+2026-05-31T10:57:24.209106Z  INFO changes: {
+  kind=Created url=file:///home/maksim/Projects/Go/Project/permissions/cmd/permissions/main.go
+}
+2026-05-31T10:57:24.409465Z  INFO pb_proj::upd: new
+2026-05-31T10:57:24.409606Z  INFO pb_proj::upd: close time.busy=126µs time.idle=14.7µs
+2026-05-31T10:57:24.409621Z  INFO GC: vers to remove: [Version(143)]
+2026-05-31T10:57:24.409721Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:57:24.409727Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=2.30µs time.idle=4.29µs
+2026-05-31T10:57:30.466884Z  INFO handle_notification{method="workspace/didChangeWatchedFiles"}: new
+2026-05-31T10:57:30.466910Z  INFO handle_notification{method="workspace/didChangeWatchedFiles"}: close time.busy=11.8µs time.idle=14.4µs
+2026-05-31T10:57:30.466920Z  INFO changes: {
+  kind=Created url=file:///home/maksim/Projects/Go/Project/permissions/internal/app/grpc/app.go
+}
+2026-05-31T10:57:30.667044Z  INFO pb_proj::upd: new
+2026-05-31T10:57:30.667189Z  INFO pb_proj::upd: close time.busy=127µs time.idle=17.7µs
+2026-05-31T10:57:30.667206Z  INFO GC: vers to remove: [Version(144)]
+2026-05-31T10:57:30.667310Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:57:30.667319Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=3.11µs time.idle=6.22µs
+2026-05-31T10:57:38.205065Z  INFO handle_notification{method="workspace/didChangeWatchedFiles"}: new
+2026-05-31T10:57:38.205095Z  INFO handle_notification{method="workspace/didChangeWatchedFiles"}: close time.busy=16.1µs time.idle=14.5µs
+2026-05-31T10:57:38.205105Z  INFO changes: {
+  kind=Created url=file:///home/maksim/Projects/Go/Project/permissions/internal/app/app.go
+}
+2026-05-31T10:57:38.405274Z  INFO pb_proj::upd: new
+2026-05-31T10:57:38.405386Z  INFO pb_proj::upd: close time.busy=91.4µs time.idle=21.0µs
+2026-05-31T10:57:38.405409Z  INFO GC: vers to remove: [Version(145)]
+2026-05-31T10:57:38.405505Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T10:57:38.405512Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=2.44µs time.idle=4.66µs
+2026-05-31T11:05:54.536171Z  INFO handle_notification{method="workspace/didChangeWatchedFiles"}: new
+2026-05-31T11:05:54.536196Z  INFO handle_notification{method="workspace/didChangeWatchedFiles"}: close time.busy=12.6µs time.idle=12.7µs
+2026-05-31T11:05:54.536220Z  INFO changes: {
+  kind=Deleted url=file:///home/maksim/Projects/Go/Project/permissions/tests/migrations
+}
+2026-05-31T11:05:54.736343Z  INFO pb_proj::upd: new
+2026-05-31T11:05:54.736514Z  INFO pb_proj::upd: close time.busy=156µs time.idle=16.4µs
+2026-05-31T11:05:54.736535Z  INFO GC: vers to remove: [Version(146)]
+2026-05-31T11:05:54.736637Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T11:05:54.736644Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=2.81µs time.idle=4.35µs
+2026-05-31T11:06:02.375535Z  INFO handle_notification{method="workspace/didChangeWatchedFiles"}: new
+2026-05-31T11:06:02.375559Z  INFO handle_notification{method="workspace/didChangeWatchedFiles"}: close time.busy=11.2µs time.idle=13.5µs
+2026-05-31T11:06:02.375572Z  INFO changes: {
+  kind=Created url=file:///home/maksim/Projects/Go/Project/permissions/tests/suite/suite.go
+}
+2026-05-31T11:06:02.576088Z  INFO pb_proj::upd: new
+2026-05-31T11:06:02.576251Z  INFO pb_proj::upd: close time.busy=140µs time.idle=24.5µs
+2026-05-31T11:06:02.576275Z  INFO GC: vers to remove: [Version(147)]
+2026-05-31T11:06:02.576378Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T11:06:02.576385Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=2.69µs time.idle=4.09µs
+2026-05-31T11:09:38.486447Z  INFO handle_notification{method="workspace/didChangeWatchedFiles"}: new
+2026-05-31T11:09:38.486480Z  INFO handle_notification{method="workspace/didChangeWatchedFiles"}: close time.busy=16.0µs time.idle=18.2µs
+2026-05-31T11:09:38.486501Z  INFO changes: {
+  kind=Created url=file:///home/maksim/Projects/Go/Project/permissions/tests/helpers.go
+}
+2026-05-31T11:09:38.686629Z  INFO pb_proj::upd: new
+2026-05-31T11:09:38.686811Z  INFO pb_proj::upd: close time.busy=166µs time.idle=16.3µs
+2026-05-31T11:09:38.686830Z  INFO GC: vers to remove: [Version(148)]
+2026-05-31T11:09:38.686942Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T11:09:38.686950Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=2.57µs time.idle=5.03µs
+2026-05-31T11:13:51.970681Z  INFO handle_notification{method="workspace/didChangeWatchedFiles"}: new
+2026-05-31T11:13:51.970708Z  INFO handle_notification{method="workspace/didChangeWatchedFiles"}: close time.busy=12.3µs time.idle=15.6µs
+2026-05-31T11:13:51.970719Z  INFO changes: {
+  kind=Created url=file:///home/maksim/Projects/Go/Project/permissions/tests/permission_test.go
+}
+2026-05-31T11:13:52.170853Z  INFO pb_proj::upd: new
+2026-05-31T11:13:52.171073Z  INFO pb_proj::upd: close time.busy=206µs time.idle=13.1µs
+2026-05-31T11:13:52.171096Z  INFO GC: vers to remove: [Version(149)]
+2026-05-31T11:13:52.171246Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T11:13:52.171253Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=2.59µs time.idle=4.50µs
+2026-05-31T11:24:02.187440Z  INFO handle_request{method="shutdown" id=295}: new
+2026-05-31T11:24:02.187460Z  INFO handle_request{method="shutdown" id=295}: close time.busy=7.64µs time.idle=13.7µs
+2026-05-31T11:24:02.187705Z  INFO the main thread was shut down

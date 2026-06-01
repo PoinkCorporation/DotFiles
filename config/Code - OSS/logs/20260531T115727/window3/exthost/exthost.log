@@ -1,0 +1,40 @@
+2026-05-31 12:15:17.775 [info] Extension host with pid 61579 started
+2026-05-31 12:15:17.840 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-05-31 12:15:17.861 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-05-31 12:15:17.912 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-05-31 12:15:17.916 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-05-31 12:15:17.948 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-05-31 12:15:17.986 [info] Eager extensions activated
+2026-05-31 12:15:17.995 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-05-31 12:15:17.996 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-05-31 12:15:20.967 [info] Extension host terminating: received terminate message from renderer
+2026-05-31 12:15:20.971 [info] Extension host with pid 61579 exiting with code 0
+2026-05-31 12:15:21.909 [info] Extension host with pid 61628 started
+2026-05-31 12:15:21.909 [info] Skipping acquiring lock for /home/maksim/.config/Code - OSS/User/workspaceStorage/0de96400aa76feff1c457d611fcf895e.
+2026-05-31 12:15:22.011 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-05-31 12:15:22.032 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-05-31 12:15:22.044 [info] ExtensionService#_doActivateExtension golang.go, startup: false, activationEvent: 'onLanguage:go'
+2026-05-31 12:15:22.369 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-05-31 12:15:22.449 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-05-31 12:15:22.483 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-05-31 12:15:22.520 [info] Eager extensions activated
+2026-05-31 12:15:22.566 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-05-31 12:15:22.568 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-05-31 12:40:17.287 [error] [golang.go] provider FAILED
+2026-05-31 12:40:17.288 [error] Error: no package data for import "permissions/internal/config"
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-31 12:40:22.290 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-05-31 12:40:37.468 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2026-05-31 12:50:33.489 [error] [golang.go] provider FAILED
+2026-05-31 12:50:33.489 [error] Error: no package data for import "sso/internal/config"
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-31 12:52:30.853 [info] Extension host terminating: received terminate message from renderer
+2026-05-31 12:52:30.863 [info] Extension host with pid 61628 exiting with code 0

@@ -1,0 +1,7 @@
+env: "local"
+storage_path: "postgres://postgres:maxzak2012@localhost:5432/chat"
+permissions_address: "localhost:50052"
+grpc:
+  port: 50051
+  timeout: 5s
+migrations_path: "./migrations"

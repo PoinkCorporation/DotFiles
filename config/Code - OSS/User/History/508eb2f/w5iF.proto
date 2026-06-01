@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package gateway;
+
+message GetUserResponse {
+    string title = 1;
+}
+
+message GetUserRequest {
+    string bode = 1;
+}

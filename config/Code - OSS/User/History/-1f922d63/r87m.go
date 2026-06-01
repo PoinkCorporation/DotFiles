@@ -1,0 +1,32 @@
+package clients
+
+import (
+	"context"
+
+	permv1 "github.com/PoinkCorporation/Permissions-service/gen/go/permissions"
+	"google.golang.org/grpc"
+	"google.golang.org/grpc/credentials/insecure"
+)
+
+type PermissionsClient struct {
+	client permv1.PermissionsClient
+}
+
+func NewPermissionsClient(address string) (*PermissionsClient, error) {
+	cc, err := grpc.NewClient(address, grpc.WithTransportCredentials(insecure.NewCredentials()))
+	if err != nil {
+		return nil, err
+	}
+	return &PermissionsClient{
+		client: permv1.NewPermissionsClient(cc),
+	}, nil
+}
+
+func (client *PermissionsClient) HasPermission(ctx context.Context, userID int64, permission string) (bool, error) {
+	exists, err := client.client.HasPermission(ctx, &permv1.HasPermissionRequest{
+		UserId: userID,
+		Role:   permission,
+	})
+
+	return exists.GetExists(), err
+}

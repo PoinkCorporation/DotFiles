@@ -1,0 +1,217 @@
+2026-05-31T12:15:52.732884Z  INFO TooltitudePb language server started
+2026-05-31T12:15:52.732895Z  INFO executable path = /home/maksim/.vscode-oss/extensions/tooltitudeteam.tooltitude-pb-1.25.3-linux-x64/tooltitude-pb
+2026-05-31T12:15:52.732934Z  INFO server started
+2026-05-31T12:15:52.735584Z  INFO handle_request{method="initialize" id=0}: new
+2026-05-31T12:15:52.735744Z  INFO handle_request{method="initialize" id=0}: close time.busy=152µs time.idle=8.83µs
+2026-05-31T12:15:52.737705Z  INFO handle_notification{method="initialized"}: new
+2026-05-31T12:15:52.737743Z  INFO handle_notification{method="initialized"}: close time.busy=32.3µs time.idle=5.85µs
+2026-05-31T12:15:52.737789Z  INFO call{method="client/registerCapability"}: new
+2026-05-31T12:15:52.740466Z  INFO handle_notification{method="textDocument/didOpen"}: new
+2026-05-31T12:15:52.740487Z  INFO handle_notification{method="textDocument/didOpen"}: close time.busy=14.5µs time.idle=6.70µs
+2026-05-31T12:15:52.741521Z  INFO handle_request{method="textDocument/documentSymbol" id=1}: new
+2026-05-31T12:15:52.741534Z  INFO handle_request{method="textDocument/documentSymbol" id=1}: close time.busy=9.69µs time.idle=3.07µs
+2026-05-31T12:15:52.741656Z  INFO handle_response{id=0}: new
+2026-05-31T12:15:52.741661Z  INFO handle_response{id=0}: close time.busy=2.38µs time.idle=2.91µs
+2026-05-31T12:15:52.741666Z  INFO call{method="client/registerCapability"}: close time.busy=3.87ms time.idle=6.77µs
+2026-05-31T12:15:52.741695Z  INFO call{method="workspace/configuration"}: new
+2026-05-31T12:15:52.742200Z  INFO handle_response{id=1}: new
+2026-05-31T12:15:52.742207Z  INFO handle_response{id=1}: close time.busy=3.36µs time.idle=3.01µs
+2026-05-31T12:15:52.742219Z  INFO call{method="workspace/configuration"}: close time.busy=515µs time.idle=8.49µs
+2026-05-31T12:15:52.742240Z  INFO parse_includes: new
+2026-05-31T12:15:52.742245Z  INFO parse_includes: Includes wasn't set
+2026-05-31T12:15:52.742248Z  INFO parse_includes: Including guessed protobuf std lib location: file:///usr/include/google/protobuf
+2026-05-31T12:15:52.742253Z  INFO parse_includes: close time.busy=8.79µs time.idle=4.44µs
+2026-05-31T12:15:52.742259Z  INFO pb_proj::upd: new
+2026-05-31T12:15:52.744725Z  INFO pb_proj::upd: close time.busy=2.46ms time.idle=3.27µs
+2026-05-31T12:15:52.745699Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T12:15:52.745706Z  INFO send_notification{method="telemetry/event"}: close time.busy=1.80µs time.idle=5.75µs
+2026-05-31T12:15:52.745714Z  INFO GC: vers to remove: [Version(0)]
+2026-05-31T12:15:52.745732Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T12:15:52.745736Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=1.20µs time.idle=2.75µs
+2026-05-31T12:15:52.745794Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T12:15:52.745798Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=1.24µs time.idle=2.62µs
+2026-05-31T12:15:52.941599Z  INFO handle_request{method="textDocument/foldingRange" id=2}: new
+2026-05-31T12:15:52.941623Z  INFO handle_request{method="textDocument/foldingRange" id=2}: close time.busy=13.3µs time.idle=11.8µs
+2026-05-31T12:15:53.040635Z  INFO handle_request{method="textDocument/documentSymbol" id=3}: new
+2026-05-31T12:15:53.040658Z  INFO handle_request{method="textDocument/documentSymbol" id=3}: close time.busy=11.6µs time.idle=11.1µs
+2026-05-31T12:15:57.033233Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T12:15:57.033269Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=22.2µs time.idle=14.6µs
+2026-05-31T12:15:57.191866Z  INFO handle_request{method="textDocument/definition" id=4}: new
+2026-05-31T12:15:57.191899Z  INFO handle_request{method="textDocument/definition" id=4}: close time.busy=18.1µs time.idle=15.4µs
+2026-05-31T12:15:57.191912Z  INFO pb_proj::upd: new
+2026-05-31T12:15:57.192029Z  INFO pb_proj::upd: close time.busy=108µs time.idle=9.98µs
+2026-05-31T12:15:57.192094Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T12:15:57.192105Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.41µs time.idle=8.79µs
+2026-05-31T12:15:57.225595Z  INFO handle_request{method="textDocument/definition" id=5}: new
+2026-05-31T12:15:57.225617Z  INFO handle_request{method="textDocument/definition" id=5}: close time.busy=12.0µs time.idle=10.5µs
+2026-05-31T12:15:57.225672Z  INFO send_notification{method="telemetry/event"}: new
+2026-05-31T12:15:57.225683Z  INFO send_notification{method="telemetry/event"}: close time.busy=2.34µs time.idle=8.54µs
+2026-05-31T12:15:57.237965Z  INFO handle_request{method="textDocument/foldingRange" id=6}: new
+2026-05-31T12:15:57.237983Z  INFO handle_request{method="textDocument/foldingRange" id=6}: close time.busy=9.00µs time.idle=8.86µs
+2026-05-31T12:15:57.384664Z  INFO handle_request{method="textDocument/documentSymbol" id=7}: new
+2026-05-31T12:15:57.384685Z  INFO handle_request{method="textDocument/documentSymbol" id=7}: close time.busy=11.3µs time.idle=11.0µs
+2026-05-31T12:15:57.384945Z  INFO handle_request{method="textDocument/documentSymbol" id=8}: new
+2026-05-31T12:15:57.384959Z  INFO handle_request{method="textDocument/documentSymbol" id=8}: close time.busy=6.49µs time.idle=7.25µs
+2026-05-31T12:15:57.585302Z  INFO GC: vers to remove: [Version(1)]
+2026-05-31T12:15:57.585409Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T12:15:57.585417Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=2.49µs time.idle=6.03µs
+2026-05-31T12:15:59.868097Z  INFO handle_notification{method="textDocument/didChange"}: new
+2026-05-31T12:15:59.868137Z  INFO handle_notification{method="textDocument/didChange"}: close time.busy=24.6µs time.idle=16.4µs
+2026-05-31T12:16:00.068270Z  INFO pb_proj::upd: new
+2026-05-31T12:16:00.068487Z  INFO pb_proj::upd: close time.busy=197µs time.idle=21.1µs
+2026-05-31T12:16:00.068503Z  INFO GC: vers to remove: [Version(2)]
+2026-05-31T12:16:00.068613Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T12:16:00.068620Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=2.55µs time.idle=4.15µs
+2026-05-31T12:16:00.069231Z  INFO handle_request{method="textDocument/foldingRange" id=9}: new
+2026-05-31T12:16:00.069248Z  INFO handle_request{method="textDocument/foldingRange" id=9}: close time.busy=9.68µs time.idle=8.28µs
+2026-05-31T12:16:00.176241Z  INFO handle_notification{method="textDocument/didSave"}: new
+2026-05-31T12:16:00.176264Z  INFO handle_notification{method="textDocument/didSave"}: close time.busy=9.42µs time.idle=14.9µs
+2026-05-31T12:16:00.218846Z  INFO handle_request{method="textDocument/documentSymbol" id=10}: new
+2026-05-31T12:16:00.218869Z  INFO handle_request{method="textDocument/documentSymbol" id=10}: close time.busy=12.2µs time.idle=10.6µs
+2026-05-31T12:16:00.218877Z  INFO handle_request{method="textDocument/documentSymbol" id=11}: new
+2026-05-31T12:16:00.218881Z  INFO handle_request{method="textDocument/documentSymbol" id=11}: close time.busy=2.22µs time.idle=2.31µs
+2026-05-31T12:16:00.468596Z  INFO handle_notification{method="workspace/didChangeWatchedFiles"}: new
+2026-05-31T12:16:00.468626Z  INFO handle_notification{method="workspace/didChangeWatchedFiles"}: close time.busy=13.6µs time.idle=17.4µs
+2026-05-31T12:16:00.468655Z  INFO changes: {
+  kind=Changed url=file:///home/maksim/Projects/Go/Project/permissions/proto/permissions/permissions.proto
+}
+2026-05-31T12:16:00.669032Z  INFO pb_proj::upd: new
+2026-05-31T12:16:00.669140Z  INFO pb_proj::upd: close time.busy=92.1µs time.idle=16.9µs
+2026-05-31T12:16:00.669156Z  INFO GC: vers to remove: [Version(3)]
+2026-05-31T12:16:00.669267Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T12:16:00.669273Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=2.43µs time.idle=3.43µs
+2026-05-31T12:16:15.587601Z  INFO handle_notification{method="workspace/didChangeWatchedFiles"}: new
+2026-05-31T12:16:15.587625Z  INFO handle_notification{method="workspace/didChangeWatchedFiles"}: close time.busy=12.9µs time.idle=12.6µs
+2026-05-31T12:16:15.587634Z  INFO changes: {
+  kind=Deleted url=file:///home/maksim/Projects/Go/Project/permissions/gen/go/permissions
+}
+2026-05-31T12:16:15.787748Z  INFO pb_proj::upd: new
+2026-05-31T12:16:15.787911Z  INFO pb_proj::upd: close time.busy=141µs time.idle=23.4µs
+2026-05-31T12:16:15.787927Z  INFO GC: vers to remove: [Version(4)]
+2026-05-31T12:16:15.788040Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T12:16:15.788047Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=2.37µs time.idle=4.84µs
+2026-05-31T12:16:18.410463Z  INFO handle_notification{method="workspace/didChangeWatchedFiles"}: new
+2026-05-31T12:16:18.410506Z  INFO handle_notification{method="workspace/didChangeWatchedFiles"}: close time.busy=21.3µs time.idle=23.2µs
+2026-05-31T12:16:18.410515Z  INFO changes: {
+  kind=Created url=file:///home/maksim/Projects/Go/Project/permissions/gen/go/permissions
+  kind=Created url=file:///home/maksim/Projects/Go/Project/permissions/gen/go/permissions/permissions_grpc.pb.go
+}
+2026-05-31T12:16:18.610728Z  INFO pb_proj::upd: new
+2026-05-31T12:16:18.610859Z  INFO pb_proj::upd: close time.busy=113µs time.idle=19.2µs
+2026-05-31T12:16:18.610881Z  INFO GC: vers to remove: [Version(5)]
+2026-05-31T12:16:18.610983Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T12:16:18.610992Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=3.68µs time.idle=5.22µs
+2026-05-31T12:16:47.538944Z  INFO handle_notification{method="$/setTrace"}: new
+2026-05-31T12:16:47.538961Z  INFO handle_notification{method="$/setTrace"}: close time.busy=4.31µs time.idle=13.6µs
+2026-05-31T12:17:44.372080Z  INFO handle_notification{method="workspace/didChangeWatchedFiles"}: new
+2026-05-31T12:17:44.372113Z  INFO handle_notification{method="workspace/didChangeWatchedFiles"}: close time.busy=19.5µs time.idle=14.2µs
+2026-05-31T12:17:44.372128Z  INFO changes: {
+  kind=Created url=file:///home/maksim/Projects/Go/Project/permissions/.git/index.lock
+  kind=Created url=file:///home/maksim/Projects/Go/Project/permissions/.git/index
+  kind=Created url=file:///home/maksim/Projects/Go/Project/permissions/.git/refs/heads/main
+  kind=Deleted url=file:///home/maksim/Projects/Go/Project/permissions/.git/AUTO_MERGE
+  kind=Deleted url=file:///home/maksim/Projects/Go/Project/permissions/.git/index.lock
+}
+2026-05-31T12:17:44.572280Z  INFO pb_proj::upd: new
+2026-05-31T12:17:44.572662Z  INFO pb_proj::upd: close time.busy=367µs time.idle=15.7µs
+2026-05-31T12:17:44.572680Z  INFO GC: vers to remove: [Version(6)]
+2026-05-31T12:17:44.572788Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T12:17:44.572795Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=2.49µs time.idle=5.55µs
+2026-05-31T12:18:43.864419Z  INFO handle_notification{method="workspace/didChangeWatchedFiles"}: new
+2026-05-31T12:18:43.864481Z  INFO handle_notification{method="workspace/didChangeWatchedFiles"}: close time.busy=46.3µs time.idle=15.8µs
+2026-05-31T12:18:43.864498Z  INFO changes: {
+  kind=Created url=file:///home/maksim/Projects/Go/Project/permissions/.git/refs/remotes/origin/main.lock
+  kind=Changed url=file:///home/maksim/Projects/Go/Project/permissions/proto/permissions/permissions.proto
+  kind=Created url=file:///home/maksim/Projects/Go/Project/permissions/.git/AUTO_MERGE
+  kind=Created url=file:///home/maksim/Projects/Go/Project/permissions/.git/HEAD
+  kind=Created url=file:///home/maksim/Projects/Go/Project/permissions/.git/MERGE_MSG
+  kind=Created url=file:///home/maksim/Projects/Go/Project/permissions/.git/ORIG_HEAD
+  kind=Created url=file:///home/maksim/Projects/Go/Project/permissions/.git/REBASE_HEAD
+  kind=Created url=file:///home/maksim/Projects/Go/Project/permissions/.git/index
+  kind=Created url=file:///home/maksim/Projects/Go/Project/permissions/.git/rebase-merge
+  kind=Created url=file:///home/maksim/Projects/Go/Project/permissions/.git/rebase-merge/author-script
+  kind=Created url=file:///home/maksim/Projects/Go/Project/permissions/.git/rebase-merge/done
+  kind=Created url=file:///home/maksim/Projects/Go/Project/permissions/.git/rebase-merge/drop_redundant_commits
+  kind=Created url=file:///home/maksim/Projects/Go/Project/permissions/.git/rebase-merge/end
+  kind=Created url=file:///home/maksim/Projects/Go/Project/permissions/.git/rebase-merge/git-rebase-todo
+  kind=Created url=file:///home/maksim/Projects/Go/Project/permissions/.git/rebase-merge/git-rebase-todo.backup
+  kind=Created url=file:///home/maksim/Projects/Go/Project/permissions/.git/rebase-merge/head-name
+  kind=Created url=file:///home/maksim/Projects/Go/Project/permissions/.git/rebase-merge/interactive
+  kind=Created url=file:///home/maksim/Projects/Go/Project/permissions/.git/rebase-merge/message
+  kind=Created url=file:///home/maksim/Projects/Go/Project/permissions/.git/rebase-merge/msgnum
+  kind=Created url=file:///home/maksim/Projects/Go/Project/permissions/.git/rebase-merge/no-reschedule-failed-exec
+  kind=Created url=file:///home/maksim/Projects/Go/Project/permissions/.git/rebase-merge/onto
+  kind=Created url=file:///home/maksim/Projects/Go/Project/permissions/.git/rebase-merge/orig-head
+  kind=Created url=file:///home/maksim/Projects/Go/Project/permissions/.git/rebase-merge/patch
+  kind=Created url=file:///home/maksim/Projects/Go/Project/permissions/.git/rebase-merge/stopped-sha
+  kind=Created url=file:///home/maksim/Projects/Go/Project/permissions/.git/refs/remotes/origin/main
+  kind=Deleted url=file:///home/maksim/Projects/Go/Project/permissions/go.sum
+  kind=Deleted url=file:///home/maksim/Projects/Go/Project/permissions/.git/refs/remotes/origin/main.lock
+}
+2026-05-31T12:18:44.096821Z  INFO pb_proj::upd: new
+2026-05-31T12:18:44.096990Z  INFO pb_proj::upd: close time.busy=154µs time.idle=15.1µs
+2026-05-31T12:18:44.097016Z  INFO GC: vers to remove: [Version(7)]
+2026-05-31T12:18:44.097115Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T12:18:44.097121Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=2.55µs time.idle=3.90µs
+2026-05-31T12:18:44.374839Z  INFO handle_notification{method="workspace/didChangeWatchedFiles"}: new
+2026-05-31T12:18:44.374867Z  INFO handle_notification{method="workspace/didChangeWatchedFiles"}: close time.busy=13.4µs time.idle=15.5µs
+2026-05-31T12:18:44.374941Z  INFO changes: {
+  kind=Created url=file:///home/maksim/Projects/Go/Project/permissions/.git/index
+}
+2026-05-31T12:18:45.394166Z  INFO handle_notification{method="workspace/didChangeWatchedFiles"}: new
+2026-05-31T12:18:45.394190Z  INFO handle_notification{method="workspace/didChangeWatchedFiles"}: close time.busy=12.0µs time.idle=12.8µs
+2026-05-31T12:18:45.394198Z  INFO changes: {
+  kind=Created url=file:///home/maksim/Projects/Go/Project/permissions/.git/index
+}
+2026-05-31T12:19:00.519929Z  INFO handle_notification{method="workspace/didChangeWatchedFiles"}: new
+2026-05-31T12:19:00.519961Z  INFO handle_notification{method="workspace/didChangeWatchedFiles"}: close time.busy=14.3µs time.idle=18.4µs
+2026-05-31T12:19:00.519970Z  INFO changes: {
+  kind=Created url=file:///home/maksim/Projects/Go/Project/permissions/.git/index
+}
+2026-05-31T12:19:18.441925Z  INFO handle_notification{method="workspace/didChangeWatchedFiles"}: new
+2026-05-31T12:19:18.441957Z  INFO handle_notification{method="workspace/didChangeWatchedFiles"}: close time.busy=18.3µs time.idle=14.7µs
+2026-05-31T12:19:18.442037Z  INFO changes: {
+  kind=Created url=file:///home/maksim/Projects/Go/Project/permissions/.git/HEAD
+  kind=Created url=file:///home/maksim/Projects/Go/Project/permissions/.git/index
+  kind=Deleted url=file:///home/maksim/Projects/Go/Project/permissions/.git/MERGE_MSG
+  kind=Deleted url=file:///home/maksim/Projects/Go/Project/permissions/.git/AUTO_MERGE
+}
+2026-05-31T12:19:18.642410Z  INFO pb_proj::upd: new
+2026-05-31T12:19:18.642602Z  INFO pb_proj::upd: close time.busy=168µs time.idle=24.3µs
+2026-05-31T12:19:18.642624Z  INFO GC: vers to remove: [Version(8)]
+2026-05-31T12:19:18.642721Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T12:19:18.642728Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=3.13µs time.idle=3.93µs
+2026-05-31T12:19:42.637961Z  INFO handle_notification{method="workspace/didChangeWatchedFiles"}: new
+2026-05-31T12:19:42.637985Z  INFO handle_notification{method="workspace/didChangeWatchedFiles"}: close time.busy=12.5µs time.idle=12.0µs
+2026-05-31T12:19:42.638081Z  INFO changes: {
+  kind=Created url=file:///home/maksim/Projects/Go/Project/permissions/.git/refs/remotes/origin/main
+}
+2026-05-31T12:20:27.954499Z  INFO handle_notification{method="workspace/didChangeWatchedFiles"}: new
+2026-05-31T12:20:27.954531Z  INFO handle_notification{method="workspace/didChangeWatchedFiles"}: close time.busy=15.0µs time.idle=17.6µs
+2026-05-31T12:20:27.954558Z  INFO changes: {
+  kind=Deleted url=file:///home/maksim/Projects/Go/Project/permissions/.git/rebase-merge
+}
+2026-05-31T12:20:28.154936Z  INFO pb_proj::upd: new
+2026-05-31T12:20:28.155105Z  INFO pb_proj::upd: close time.busy=142µs time.idle=27.0µs
+2026-05-31T12:20:28.155125Z  INFO GC: vers to remove: [Version(9)]
+2026-05-31T12:20:28.155258Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T12:20:28.155264Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=2.54µs time.idle=3.82µs
+2026-05-31T12:20:33.223546Z  INFO handle_notification{method="workspace/didChangeWatchedFiles"}: new
+2026-05-31T12:20:33.223582Z  INFO handle_notification{method="workspace/didChangeWatchedFiles"}: close time.busy=19.4µs time.idle=17.7µs
+2026-05-31T12:20:33.223615Z  INFO changes: {
+  kind=Created url=file:///home/maksim/Projects/Go/Project/permissions/.git/HEAD
+  kind=Created url=file:///home/maksim/Projects/Go/Project/permissions/.git/index
+  kind=Created url=file:///home/maksim/Projects/Go/Project/permissions/go.sum
+}
+2026-05-31T12:20:33.424059Z  INFO pb_proj::upd: new
+2026-05-31T12:20:33.424203Z  INFO pb_proj::upd: close time.busy=118µs time.idle=27.1µs
+2026-05-31T12:20:33.424227Z  INFO GC: vers to remove: [Version(10)]
+2026-05-31T12:20:33.424340Z  INFO send_notification{method="textDocument/publishDiagnostics"}: new
+2026-05-31T12:20:33.424347Z  INFO send_notification{method="textDocument/publishDiagnostics"}: close time.busy=2.62µs time.idle=3.79µs
+2026-05-31T12:20:34.592731Z  INFO handle_notification{method="workspace/didChangeWatchedFiles"}: new
+2026-05-31T12:20:34.592757Z  INFO handle_notification{method="workspace/didChangeWatchedFiles"}: close time.busy=12.9µs time.idle=13.7µs
+2026-05-31T12:20:34.592768Z  INFO changes: {
+  kind=Created url=file:///home/maksim/Projects/Go/Project/permissions/.git/index
+}
+2026-05-31T12:38:40.763292Z  INFO handle_request{method="shutdown" id=12}: new
+2026-05-31T12:38:40.763313Z  INFO handle_request{method="shutdown" id=12}: close time.busy=10.4µs time.idle=12.2µs

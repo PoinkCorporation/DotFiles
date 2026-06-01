@@ -1,0 +1,310 @@
+2026-05-30 16:04:26.440 [info] Extension host with pid 3013 started
+2026-05-30 16:04:26.440 [info] Skipping acquiring lock for /home/maksim/.config/Code - OSS/User/workspaceStorage/fc2edf8c2444c301a0cb644a75ba4eab.
+2026-05-30 16:04:26.676 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-05-30 16:04:26.697 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-05-30 16:04:26.709 [info] ExtensionService#_doActivateExtension golang.go, startup: false, activationEvent: 'onLanguage:go'
+2026-05-30 16:04:27.067 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-05-30 16:04:27.486 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-05-30 16:04:27.525 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-05-30 16:04:27.568 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-05-30 16:04:27.614 [info] Eager extensions activated
+2026-05-30 16:04:27.650 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-05-30 16:04:27.652 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-05-30 16:10:24.221 [info] ExtensionService#_doActivateExtension tooltitudeteam.tooltitude-pb, startup: false, activationEvent: 'onLanguage:protobuf'
+2026-05-30 16:22:22.159 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2026-05-30 16:28:54.845 [error] [golang.go] provider FAILED
+2026-05-30 16:28:54.847 [error] Error: no package data for import "sso/gen/go/sso"
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-30 16:28:59.894 [error] [golang.go] provider FAILED
+2026-05-30 16:28:59.894 [error] Error: no package data for import "sso/gen/go/sso"
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-30 16:29:00.204 [error] [golang.go] provider FAILED
+2026-05-30 16:29:00.204 [error] Error: no package data for import "sso/gen/go/sso"
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-30 16:29:00.975 [error] [golang.go] provider FAILED
+2026-05-30 16:29:00.975 [error] Error: no package data for import "sso/gen/go/sso"
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-30 16:29:01.370 [error] [golang.go] provider FAILED
+2026-05-30 16:29:01.370 [error] Error: no package data for import "sso/gen/go/sso"
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-30 16:29:18.633 [error] [golang.go] provider FAILED
+2026-05-30 16:29:18.633 [error] Error: no package metadata for file file:///home/maksim/Projects/Go/Project/sso/gen/go/sso/sso_grpc.pb.go
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-30 16:29:18.634 [error] [golang.go] provider FAILED
+2026-05-30 16:29:18.634 [error] Error: getting file for InlayHint: no package metadata for file file:///home/maksim/Projects/Go/Project/sso/gen/go/sso/sso_grpc.pb.go
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-30 16:29:18.636 [error] [golang.go] provider FAILED
+2026-05-30 16:29:18.636 [error] Error: no package metadata for file file:///home/maksim/Projects/Go/Project/sso/gen/go/sso/sso_grpc.pb.go
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-30 16:29:19.910 [error] [golang.go] provider FAILED
+2026-05-30 16:29:19.910 [error] Error: no package metadata for file file:///home/maksim/Projects/Go/Project/sso/gen/go/sso/sso_grpc.pb.go
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-30 16:29:21.342 [error] [golang.go] provider FAILED
+2026-05-30 16:29:21.342 [error] Error: no package metadata for file file:///home/maksim/Projects/Go/Project/sso/gen/go/sso/sso_grpc.pb.go
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-30 16:29:21.493 [error] [golang.go] provider FAILED
+2026-05-30 16:29:21.493 [error] Error: no package metadata for file file:///home/maksim/Projects/Go/Project/sso/gen/go/sso/sso_grpc.pb.go
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-30 16:29:24.413 [error] [golang.go] provider FAILED
+2026-05-30 16:29:24.413 [error] Error: no package metadata for file file:///home/maksim/Projects/Go/Project/sso/gen/go/sso/sso_grpc.pb.go
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-30 16:29:24.564 [error] [golang.go] provider FAILED
+2026-05-30 16:29:24.564 [error] Error: no package metadata for file file:///home/maksim/Projects/Go/Project/sso/gen/go/sso/sso_grpc.pb.go
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-30 16:29:24.928 [error] [golang.go] provider FAILED
+2026-05-30 16:29:24.928 [error] Error: no package metadata for file file:///home/maksim/Projects/Go/Project/sso/gen/go/sso/sso_grpc.pb.go
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-30 16:29:25.079 [error] [golang.go] provider FAILED
+2026-05-30 16:29:25.079 [error] Error: no package metadata for file file:///home/maksim/Projects/Go/Project/sso/gen/go/sso/sso_grpc.pb.go
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-30 16:29:25.655 [error] [golang.go] provider FAILED
+2026-05-30 16:29:25.655 [error] Error: no package metadata for file file:///home/maksim/Projects/Go/Project/sso/gen/go/sso/sso_grpc.pb.go
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-30 16:29:25.806 [error] [golang.go] provider FAILED
+2026-05-30 16:29:25.806 [error] Error: no package metadata for file file:///home/maksim/Projects/Go/Project/sso/gen/go/sso/sso_grpc.pb.go
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-30 16:29:36.392 [error] [golang.go] provider FAILED
+2026-05-30 16:29:36.392 [error] Error: no package metadata for file file:///home/maksim/Projects/Go/Project/sso/gen/go/sso/sso.pb.go
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-30 16:29:36.394 [error] [golang.go] provider FAILED
+2026-05-30 16:29:36.394 [error] Error: getting file for InlayHint: no package metadata for file file:///home/maksim/Projects/Go/Project/sso/gen/go/sso/sso.pb.go
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-30 16:29:36.398 [error] [golang.go] provider FAILED
+2026-05-30 16:29:36.398 [error] Error: no package metadata for file file:///home/maksim/Projects/Go/Project/sso/gen/go/sso/sso.pb.go
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-30 16:29:37.701 [error] [golang.go] provider FAILED
+2026-05-30 16:29:37.701 [error] Error: no package metadata for file file:///home/maksim/Projects/Go/Project/sso/gen/go/sso/sso.pb.go
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-30 16:31:13.907 [error] [golang.go] provider FAILED
+2026-05-30 16:31:13.907 [error] Error: no package metadata for file file:///home/maksim/Projects/Go/Project/sso/gen/go/sso/sso_grpc.pb.go
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-30 16:31:13.929 [error] [golang.go] provider FAILED
+2026-05-30 16:31:13.929 [error] Error: getting file for InlayHint: no package metadata for file file:///home/maksim/Projects/Go/Project/sso/gen/go/sso/sso_grpc.pb.go
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-30 16:31:13.981 [error] [golang.go] provider FAILED
+2026-05-30 16:31:13.981 [error] Error: no package metadata for file file:///home/maksim/Projects/Go/Project/sso/gen/go/sso/sso_grpc.pb.go
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-30 16:31:15.183 [error] [golang.go] provider FAILED
+2026-05-30 16:31:15.183 [error] Error: no package metadata for file file:///home/maksim/Projects/Go/Project/sso/gen/go/sso/sso_grpc.pb.go
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-30 16:31:16.394 [error] [golang.go] provider FAILED
+2026-05-30 16:31:16.394 [error] Error: no package metadata for file file:///home/maksim/Projects/Go/Project/sso/gen/go/sso/sso_grpc.pb.go
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-30 16:31:16.693 [error] [golang.go] provider FAILED
+2026-05-30 16:31:16.693 [error] Error: no package metadata for file file:///home/maksim/Projects/Go/Project/sso/gen/go/sso/sso_grpc.pb.go
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-30 16:31:16.844 [error] [golang.go] provider FAILED
+2026-05-30 16:31:16.844 [error] Error: no package metadata for file file:///home/maksim/Projects/Go/Project/sso/gen/go/sso/sso_grpc.pb.go
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-30 16:31:17.647 [error] [golang.go] provider FAILED
+2026-05-30 16:31:17.647 [error] Error: no package metadata for file file:///home/maksim/Projects/Go/Project/sso/gen/go/sso/sso_grpc.pb.go
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-30 16:31:17.797 [error] [golang.go] provider FAILED
+2026-05-30 16:31:17.797 [error] Error: no package metadata for file file:///home/maksim/Projects/Go/Project/sso/gen/go/sso/sso_grpc.pb.go
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-30 16:32:28.499 [error] [golang.go] provider FAILED
+2026-05-30 16:32:28.499 [error] Error: no package metadata for file file:///home/maksim/Projects/Go/Project/sso/gen/go/sso/sso_grpc.pb.go
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-30 16:32:30.642 [error] [golang.go] provider FAILED
+2026-05-30 16:32:30.642 [error] Error: no package metadata for file file:///home/maksim/Projects/Go/Project/sso/gen/go/sso/sso.pb.go
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-30 16:32:30.643 [error] [golang.go] provider FAILED
+2026-05-30 16:32:30.643 [error] Error: getting file for InlayHint: no package metadata for file file:///home/maksim/Projects/Go/Project/sso/gen/go/sso/sso.pb.go
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-30 16:32:30.648 [error] [golang.go] provider FAILED
+2026-05-30 16:32:30.648 [error] Error: no package metadata for file file:///home/maksim/Projects/Go/Project/sso/gen/go/sso/sso.pb.go
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-30 16:32:31.921 [error] [golang.go] provider FAILED
+2026-05-30 16:32:31.921 [error] Error: no package metadata for file file:///home/maksim/Projects/Go/Project/sso/gen/go/sso/sso.pb.go
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-30 16:32:34.080 [error] [golang.go] provider FAILED
+2026-05-30 16:32:34.080 [error] Error: context canceled
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-30 16:34:09.078 [error] [golang.go] provider FAILED
+2026-05-30 16:34:09.078 [error] Error: no package data for import "context"
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-30 16:34:14.009 [error] [golang.go] provider FAILED
+2026-05-30 16:34:14.009 [error] Error: no package data for import "context"
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-30 16:34:14.889 [error] [golang.go] provider FAILED
+2026-05-30 16:34:14.889 [error] Error: no package data for import "google.golang.org/grpc"
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-30 16:34:16.845 [error] [golang.go] provider FAILED
+2026-05-30 16:34:16.845 [error] Error: no package data for import "sso/gen/go/sso"
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-30 16:37:40.330 [error] [golang.go] provider FAILED
+2026-05-30 16:37:40.330 [error] Error: context canceled
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-30 16:39:31.942 [error] [golang.go] provider FAILED
+2026-05-30 16:39:31.942 [error] Error: rune error
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-30 16:49:07.975 [info] Extension host terminating: received terminate message from renderer
+2026-05-30 16:49:08.019 [info] Extension host with pid 3013 exiting with code 0

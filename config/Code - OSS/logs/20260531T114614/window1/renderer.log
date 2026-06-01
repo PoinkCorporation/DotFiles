@@ -1,0 +1,8 @@
+2026-05-31 11:46:15.343 [info] Started local extension host with pid 1587.
+2026-05-31 11:46:16.390 [error] [Extension Host] (node:1587) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-05-31 11:46:16.550 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 11:46:16.552 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 11:46:16.554 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 11:46:17.488 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-05-31 11:46:22.489 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false

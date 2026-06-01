@@ -1,0 +1,84 @@
+syntax = "proto3";
+
+package chat;
+
+option go_package = "chat.v1;chatv1";
+
+import "google/protobuf/empty.proto";
+
+service Chat {
+    // ---------------------------------------------------------------------
+    //                              Chats
+    // ---------------------------------------------------------------------
+
+    rpc CreateChat(CreateChatRequest) returns (Chat);
+
+    rpc DeleteChat(DeleteChatRequest) returns (Empty);
+
+    rpc UpdateChat(UpdateChatRequest) returns (Chat);
+
+    rpc ListUserChats(ListUserChatsRequest) returns (ListUserChatsResponse);
+
+    // ---------------------------------------------------------------------
+    //                           Invite links
+    // ---------------------------------------------------------------------
+
+    rpc CreateInviteLink(CreateInviteLinkRequest) returns (InviteLink);
+
+    rpc JoinChatByInvite(JoinChatByInviteRequest) returns (Chat);
+}
+
+// ---------------------------------------------------------------------
+//                              Chats
+// ---------------------------------------------------------------------
+
+message CreateChatRequest {
+    int64 sender_id = 1;
+    string type = 2; // cloud private, e2e private, group
+    optional string title = 3; // for groups
+    optional int64 invited_user = 4; // for private chats
+}
+
+message DeleteChatRequest {
+    int64 id = 1;
+}
+
+message UpdateChatRequest {
+    int64 id = 1;
+    optional string type = 2; // cloud private, e2e private, group
+    optional string title = 3; // for groups
+}
+
+message ListUserChatsRequest {
+    int64 user_id = 1; // user id
+}
+
+message ListUserChatsResponse {
+    repeated Chat chats = 1;
+}
+
+message Chat {
+    int64 id = 1;
+    string type = 2; // cloud private, e2e private, group
+    optional string title = 3; // for groups
+    int64 created_by = 4; // id of user who has created this chat
+    repeated int64 admin_ids = 5;
+    repeated int64 user_ids = 6;
+}
+
+// ---------------------------------------------------------------------
+//                           Invite links
+// ---------------------------------------------------------------------
+
+message CreateInviteLinkRequest {
+    int64 id = 1;
+}
+
+message InviteLink {
+    int64 id = 1;
+    string url = 2;
+}
+
+message JoinChatByInviteRequest {
+    int64 id = 1;
+}

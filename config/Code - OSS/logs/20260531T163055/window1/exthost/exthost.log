@@ -1,0 +1,51 @@
+2026-05-31 16:30:56.758 [info] Extension host with pid 1415 started
+2026-05-31 16:30:56.758 [info] Skipping acquiring lock for /home/maksim/.config/Code - OSS/User/workspaceStorage/fc2edf8c2444c301a0cb644a75ba4eab.
+2026-05-31 16:30:56.912 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-05-31 16:30:56.933 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-05-31 16:30:56.946 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-05-31 16:30:56.952 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-05-31 16:30:56.967 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2026-05-31 16:30:57.022 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2026-05-31 16:30:57.332 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-05-31 16:30:57.388 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-05-31 16:30:57.407 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-05-31 16:30:57.446 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-05-31 16:30:57.500 [info] Eager extensions activated
+2026-05-31 16:30:57.580 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-05-31 16:30:57.582 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-05-31 16:31:00.433 [info] ExtensionService#_doActivateExtension golang.go, startup: false, activationEvent: 'onLanguage:go'
+2026-05-31 16:31:01.863 [error] TypeError: Cannot read properties of undefined (reading 'label')
+	at offerToInstallLatestGoVersion (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:29730:69)
+2026-05-31 16:36:50.931 [error] [golang.go] provider FAILED
+2026-05-31 16:36:50.931 [error] Error: context canceled
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-31 16:42:17.431 [info] Extension host terminating: received terminate message from renderer
+2026-05-31 16:42:17.471 [info] Extension host with pid 1415 exiting with code 0
+2026-05-31 16:42:18.731 [info] Extension host with pid 23470 started
+2026-05-31 16:42:18.731 [info] Skipping acquiring lock for /home/maksim/.config/Code - OSS/User/workspaceStorage/0de96400aa76feff1c457d611fcf895e.
+2026-05-31 16:42:18.949 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-05-31 16:42:18.968 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-05-31 16:42:18.981 [info] ExtensionService#_doActivateExtension golang.go, startup: false, activationEvent: 'onLanguage:go'
+2026-05-31 16:42:19.044 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-05-31 16:42:19.285 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-05-31 16:42:19.309 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-05-31 16:42:19.356 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-05-31 16:42:19.418 [info] Eager extensions activated
+2026-05-31 16:42:19.466 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-05-31 16:42:19.468 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-05-31 16:42:20.252 [error] TypeError: Cannot read properties of undefined (reading 'label')
+	at offerToInstallLatestGoVersion (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:29730:69)
+	at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-05-31 16:42:53.028 [error] [golang.go] provider FAILED
+2026-05-31 16:42:53.028 [error] Error: context canceled
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-31 16:44:24.080 [info] Extension host terminating: received terminate message from renderer
+2026-05-31 16:44:24.091 [info] Extension host with pid 23470 exiting with code 0

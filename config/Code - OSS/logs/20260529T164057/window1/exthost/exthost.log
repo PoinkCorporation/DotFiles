@@ -1,0 +1,42 @@
+2026-05-29 16:40:59.608 [info] Extension host with pid 1540 started
+2026-05-29 16:40:59.608 [info] Skipping acquiring lock for /home/maksim/.config/Code - OSS/User/workspaceStorage/fc2edf8c2444c301a0cb644a75ba4eab.
+2026-05-29 16:40:59.774 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-05-29 16:40:59.795 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-05-29 16:40:59.851 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-05-29 16:41:00.095 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-05-29 16:41:00.132 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-05-29 16:41:00.177 [info] Eager extensions activated
+2026-05-29 16:41:00.178 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-05-29 16:41:00.227 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-05-29 16:41:00.229 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-05-29 16:44:33.152 [info] ExtensionService#_doActivateExtension golang.go, startup: false, activationEvent: 'onLanguage:go'
+2026-05-29 16:46:42.618 [error] [golang.go] provider FAILED
+2026-05-29 16:46:42.620 [error] Error: getting file for InlayHint: no package metadata for file file:///home/maksim/Projects/Go/Project/sso/internal/domain/models/permissions.go
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-29 16:48:00.346 [error] [golang.go] provider FAILED
+2026-05-29 16:48:00.346 [error] Error: rune error
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-29 17:38:26.507 [error] [golang.go] provider FAILED
+2026-05-29 17:38:26.507 [error] Error: context canceled
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-29 17:40:43.534 [error] [golang.go] provider FAILED
+2026-05-29 17:40:43.534 [error] Error: context canceled
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-29 17:45:24.236 [info] Extension host terminating: received terminate message from renderer
+2026-05-29 17:45:24.277 [info] Extension host with pid 1540 exiting with code 0

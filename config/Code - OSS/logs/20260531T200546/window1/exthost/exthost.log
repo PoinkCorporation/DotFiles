@@ -1,0 +1,192 @@
+2026-05-31 20:05:48.435 [info] Extension host with pid 7893 started
+2026-05-31 20:05:48.435 [info] Skipping acquiring lock for /home/maksim/.config/Code - OSS/User/workspaceStorage/0de96400aa76feff1c457d611fcf895e.
+2026-05-31 20:05:48.563 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-05-31 20:05:48.586 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-05-31 20:05:48.600 [info] ExtensionService#_doActivateExtension golang.go, startup: false, activationEvent: 'onLanguage:go'
+2026-05-31 20:05:48.938 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-05-31 20:05:49.325 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-05-31 20:05:49.329 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-05-31 20:05:49.364 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-05-31 20:05:49.402 [info] Eager extensions activated
+2026-05-31 20:05:49.427 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-05-31 20:05:49.429 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-05-31 20:05:50.315 [error] TypeError: Cannot read properties of undefined (reading 'label')
+	at offerToInstallLatestGoVersion (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:29730:69)
+	at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-05-31 20:16:22.749 [error] [golang.go] provider FAILED
+2026-05-31 20:16:22.749 [error] Error: no package data for import "github.com/PoinkCorporation/Permissions-service/gen/go/permissions"
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-31 20:16:22.982 [error] [golang.go] provider FAILED
+2026-05-31 20:16:22.982 [error] Error: no package data for import "github.com/PoinkCorporation/Permissions-service/gen/go/permissions"
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-31 20:30:28.778 [error] [golang.go] provider FAILED
+2026-05-31 20:30:28.778 [error] Error: 26:7: expected ';', found ':='
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-31 20:34:11.879 [error] [golang.go] provider FAILED
+2026-05-31 20:34:11.879 [error] Error: getting file for InlayHint: context canceled
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-31 20:34:11.922 [error] [golang.go] provider FAILED
+2026-05-31 20:34:11.922 [error] Error: getting file for InlayHint: context canceled
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-31 20:34:11.959 [error] [golang.go] provider FAILED
+2026-05-31 20:34:11.959 [error] Error: getting file for InlayHint: context canceled
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-31 20:34:12.008 [error] [golang.go] provider FAILED
+2026-05-31 20:34:12.008 [error] Error: getting file for InlayHint: context canceled
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-31 20:34:12.041 [error] [golang.go] provider FAILED
+2026-05-31 20:34:12.041 [error] Error: getting file for InlayHint: context canceled
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-31 20:34:12.082 [error] [golang.go] provider FAILED
+2026-05-31 20:34:12.083 [error] Error: getting file for InlayHint: context canceled
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-31 20:34:12.124 [error] [golang.go] provider FAILED
+2026-05-31 20:34:12.124 [error] Error: getting file for InlayHint: context canceled
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-31 20:34:12.167 [error] [golang.go] provider FAILED
+2026-05-31 20:34:12.167 [error] Error: getting file for InlayHint: context canceled
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-31 20:34:12.204 [error] [golang.go] provider FAILED
+2026-05-31 20:34:12.204 [error] Error: getting file for InlayHint: context canceled
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-31 20:34:12.247 [error] [golang.go] provider FAILED
+2026-05-31 20:34:12.247 [error] Error: getting file for InlayHint: context canceled
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-31 20:34:12.369 [error] [golang.go] provider FAILED
+2026-05-31 20:34:12.369 [error] Error: getting file for InlayHint: context canceled
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-31 20:36:38.903 [error] [golang.go] provider FAILED
+2026-05-31 20:36:38.903 [error] Error: 31:2: expected operand, found '}' (and 10 more errors)
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-31 20:37:09.573 [error] [golang.go] provider FAILED
+2026-05-31 20:37:09.573 [error] Error: 29:2: expected operand, found '}' (and 10 more errors)
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-31 20:42:14.591 [error] [golang.go] provider FAILED
+2026-05-31 20:42:14.591 [error] Error: rune error
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-31 20:42:37.902 [info] ExtensionService#_doActivateExtension tooltitudeteam.tooltitude-pb, startup: false, activationEvent: 'onLanguage:protobuf'
+2026-05-31 20:43:09.151 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2026-05-31 20:47:09.440 [error] [golang.go] provider FAILED
+2026-05-31 20:47:09.440 [error] Error: no package data for import "google.golang.org/grpc"
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-31 20:47:19.133 [error] [golang.go] provider FAILED
+2026-05-31 20:47:19.133 [error] Error: no package data for import "github.com/PoinkCorporation/Chat-service/gen/go"
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-31 20:47:19.334 [error] [golang.go] provider FAILED
+2026-05-31 20:47:19.334 [error] Error: no package data for import "github.com/PoinkCorporation/Chat-service/gen/go"
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-31 20:47:20.127 [error] [golang.go] provider FAILED
+2026-05-31 20:47:20.127 [error] Error: no package data for import "github.com/PoinkCorporation/Chat-service/gen/go"
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-31 20:47:27.156 [error] [golang.go] provider FAILED
+2026-05-31 20:47:27.156 [error] Error: no package data for import "github.com/PoinkCorporation/Chat-service/internal/domain/models"
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-31 20:47:31.317 [error] [golang.go] provider FAILED
+2026-05-31 20:47:31.317 [error] Error: no package data for import "github.com/PoinkCorporation/Chat-service/gen/go"
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-31 20:49:19.360 [error] [golang.go] provider FAILED
+2026-05-31 20:49:19.360 [error] Error: rune error
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)
+2026-05-31 20:49:32.882 [error] [golang.go] provider FAILED
+2026-05-31 20:49:32.883 [error] Error: 69:71: missing ',' in argument list (and 10 more errors)
+	at handleResponse (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8978:40)
+	at handleMessage (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8788:11)
+	at processMessageQueue (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8803:13)
+	at Immediate.<anonymous> (/home/maksim/.vscode-oss/extensions/golang.go-0.52.2-universal/dist/goMain.js:8779:11)
+	at process.processImmediate (node:internal/timers:484:21)

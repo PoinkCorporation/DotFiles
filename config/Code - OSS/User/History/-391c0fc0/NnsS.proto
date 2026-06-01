@@ -1,0 +1,37 @@
+syntax = "proto3";
+
+package perm;
+
+option go_package = "sso/gen/go/permissions;permv1";
+
+import "google/protobuf/empty.proto";
+
+service Permissions {
+  rpc HasPermission(HasPermissionRequest) returns (HasPermissionResponse);
+
+  rpc AssignRole(AssignRoleRequest) returns (google.protobuf.Empty);
+
+  rpc UserRoles(UserRolesRequest) returns (UserRolesResponse);
+}
+
+message HasPermissionRequest {
+  int64 user_id = 1;
+  string role = 2;
+}
+
+message HasPermissionResponse {
+  bool exists = 1;
+}
+
+message AssignRoleRequest {
+  int64 user_id = 1;
+  string role = 2;
+}
+
+message UserRolesRequest {
+  int64 user_id = 1;
+}
+
+message UserRolesResponse {
+  repeated string roles = 1;
+}

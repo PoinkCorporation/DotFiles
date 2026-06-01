@@ -1,0 +1,25 @@
+[Info  - 8:17:32 PM] 2026/05/31 20:17:32 Created View (#1)
+	directory=/home/maksim/Projects/Go/Project/sso
+	view_type="GoMod"
+	root_dir="file:///home/maksim/Projects/Go/Project/sso"
+	go_version="go version go1.26.3-X:nodwarf5 linux/amd64"
+	build_flags=[]
+	env={GOOS:linux GOARCH:amd64 GOCACHE:/home/maksim/.cache/go-build GOMODCACHE:/home/maksim/go/pkg/mod GOPATH:/home/maksim/go GOPRIVATE:github.com/PoinkCorporation/* GOFLAGS: GO111MODULE: GOTOOLCHAIN:auto GOROOT:/usr/lib/go GoVersion:26 GoVersionOutput:go version go1.26.3-X:nodwarf5 linux/amd64
+ ExplicitGOWORK: EffectiveGOPACKAGESDRIVER:}
+	env_overlay=[]
+
+[Info  - 8:17:32 PM] 2026/05/31 20:17:32 go/packages.Load #1
+	view_id="1"
+	snapshot=0
+	directory=/home/maksim/Projects/Go/Project/sso
+	query=[/home/maksim/Projects/Go/Project/sso/... builtin]
+	packages=19
+	duration=126.175327ms
+
+[Info  - 8:18:02 PM] 2026/05/31 20:18:02 background imports cache refresh starting
+
+[Info  - 8:18:02 PM] 2026/05/31 20:18:02 background refresh finished after 93.761352ms
+
+[Error - 8:24:42 PM] Request textDocument/hover failed.
+  Message: context canceled
+  Code: 0 

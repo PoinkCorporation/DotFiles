@@ -1,0 +1,97 @@
+2026-05-31 16:30:56.306 [info] Started local extension host with pid 1415.
+2026-05-31 16:30:57.389 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:30:57.391 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:30:57.399 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:30:57.439 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-05-31 16:30:59.246 [info] [perf] Render performance baseline is 20ms
+2026-05-31 16:31:00.515 [error] [Extension Host] (node:1415) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-05-31 16:31:01.864 [error] An unknown error occurred. Please consult the log for more details.
+2026-05-31 16:31:02.440 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-05-31 16:31:50.417 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:31:50.418 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:31:50.419 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:32:33.998 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:32:34.000 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:32:34.001 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:33:18.442 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:33:18.444 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:33:18.445 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:33:35.659 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:33:35.660 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:33:35.661 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:34:56.593 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:34:56.594 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:34:56.595 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:34:59.313 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:34:59.314 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:34:59.316 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:35:01.787 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:35:01.789 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:35:01.790 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:35:28.508 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:35:28.510 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:35:28.511 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:36:29.374 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:36:29.375 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:36:29.377 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:36:32.806 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:36:32.808 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:36:32.809 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:36:38.941 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:36:38.943 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:36:38.944 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:37:20.258 [error] An unknown error occurred. Please consult the log for more details.
+2026-05-31 16:38:33.912 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:38:33.913 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:38:33.914 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:40:21.916 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:40:21.917 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:40:21.918 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:40:46.462 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:40:46.464 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:40:46.465 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:40:47.242 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:40:47.243 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:40:47.245 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:41:10.600 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:41:10.601 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:41:10.602 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:41:52.432 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:41:52.433 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:41:52.434 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:41:56.514 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:41:56.515 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:41:56.516 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:42:07.309 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:42:07.310 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:42:07.312 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:42:10.621 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:42:10.622 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:42:10.623 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:42:12.905 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:42:12.907 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:42:12.908 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:42:14.071 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:42:14.072 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:42:14.074 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:42:14.634 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:42:14.636 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:42:14.637 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:42:15.067 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:42:15.068 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:42:15.069 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:42:17.384 [warning] [backup tracker] suspended, ignoring dirty change event file:///home/maksim/Projects/Go/Project/sso/Makefile 
+2026-05-31 16:42:18.303 [info] Started local extension host with pid 23470.
+2026-05-31 16:42:19.047 [error] [Extension Host] (node:23470) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-05-31 16:42:19.081 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-05-31 16:42:19.211 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:42:19.214 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:42:19.219 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:42:20.253 [error] An unknown error occurred. Please consult the log for more details.
+2026-05-31 16:42:21.053 [info] [perf] Render performance baseline is 18ms
+2026-05-31 16:42:24.082 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-05-31 16:44:21.115 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:44:21.117 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user
+2026-05-31 16:44:21.118 [error] [DefaultAccount] request: error Offline: Offline https://api.github.com/copilot_internal/user

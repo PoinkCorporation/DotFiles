@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package chat;
+
+option go_package = "chat.v1;chatv1";
+
+service Chat {
+}

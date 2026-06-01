@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package gateway;
+
+import "api/notes/messages.proto";
+
+service UserService {
+    
+}

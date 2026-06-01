@@ -1,0 +1,7 @@
+2026-05-31 11:46:16.550 [error] #1: https://api.github.com/copilot_internal/user - error GET Offline
+2026-05-31 11:46:16.552 [error] #2: https://api.github.com/copilot_internal/user - error GET Offline
+2026-05-31 11:46:16.554 [error] #3: https://api.github.com/copilot_internal/user - error GET Offline
+2026-05-31 11:46:20.442 [error] #4: https://open-vsx.org/vscode/gallery/vscode/github/copilot-chat/latest - error GET Offline
+2026-05-31 11:46:20.442 [error] #5: https://open-vsx.org/vscode/gallery/vscode/cotion-theme-v2/cotion-theme/latest - error GET Offline
+2026-05-31 11:46:20.442 [error] #6: https://open-vsx.org/vscode/gallery/vscode/golang/go/latest - error GET Offline
+2026-05-31 11:46:20.443 [error] #7: https://open-vsx.org/vscode/gallery/vscode/tooltitudeteam/tooltitude-pb/latest - error GET Offline

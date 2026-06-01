@@ -1,0 +1,2667 @@
+[Info  - 12:03:42 PM] 2026/05/31 12:03:42 Created View (#1)
+	directory=/home/maksim/Projects/Go/Project/permissions
+	view_type="GoMod"
+	root_dir="file:///home/maksim/Projects/Go/Project/permissions"
+	go_version="go version go1.26.3-X:nodwarf5 linux/amd64"
+	build_flags=[]
+	env={GOOS:linux GOARCH:amd64 GOCACHE:/home/maksim/.cache/go-build GOMODCACHE:/home/maksim/go/pkg/mod GOPATH:/home/maksim/go GOPRIVATE:github.com/Testkivypython/* GOFLAGS: GO111MODULE: GOTOOLCHAIN:auto GOROOT:/usr/lib/go GoVersion:26 GoVersionOutput:go version go1.26.3-X:nodwarf5 linux/amd64
+ ExplicitGOWORK: EffectiveGOPACKAGESDRIVER:}
+	env_overlay=[]
+
+[Info  - 12:03:42 PM] 2026/05/31 12:03:42 go/packages.Load #1
+	view_id="1"
+	snapshot=0
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[/home/maksim/Projects/Go/Project/permissions/... builtin]
+	packages=9
+	duration=72.389856ms
+
+[Info  - 12:04:12 PM] 2026/05/31 12:04:12 background imports cache refresh starting
+
+[Info  - 12:04:12 PM] 2026/05/31 12:04:12 background refresh finished after 100.53293ms
+
+[Info  - 12:04:26 PM] 2026/05/31 12:04:26 go/packages.Load #2
+	view_id="1"
+	snapshot=27
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=88.05066ms
+
+[Info  - 12:04:26 PM] 2026/05/31 12:04:26 go/packages.Load #3
+	view_id="1"
+	snapshot=27
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=63.388362ms
+
+[Error - 12:04:29 PM] 2026/05/31 12:04:29 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go:32:9: expected ';', found ':='
+	file="/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go"
+
+[Error - 12:04:29 PM] Request textDocument/formatting failed.
+  Message: 32:9: expected ';', found ':='
+  Code: 0 
+[Info  - 12:04:42 PM] 2026/05/31 12:04:42 background imports cache refresh starting
+
+[Info  - 12:04:42 PM] 2026/05/31 12:04:42 background refresh finished after 3.392529ms
+
+[Error - 12:05:02 PM] Request textDocument/hover failed.
+  Message: no package data for import "google.golang.org/grpc/codes"
+  Code: 0 
+[Info  - 12:05:18 PM] 2026/05/31 12:05:18 go/packages.Load #4
+	view_id="1"
+	snapshot=44
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[/home/maksim/Projects/Go/Project/permissions/... builtin]
+	packages=9
+	duration=76.182743ms
+
+[Info  - 12:05:21 PM] 2026/05/31 12:05:21 background imports cache refresh starting
+
+[Info  - 12:05:21 PM] 2026/05/31 12:05:21 background refresh finished after 3.579225ms
+
+[Error - 12:05:28 PM] Request textDocument/hover failed.
+  Message: no package data for import "sso/internal/storage"
+  Code: 0 
+[Error - 12:05:29 PM] Request textDocument/hover failed.
+  Message: no package data for import "sso/internal/storage"
+  Code: 0 
+[Info  - 12:05:29 PM] 2026/05/31 12:05:29 go/packages.Load #5
+	view_id="1"
+	snapshot=47
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/storage/postgresql/permissions.go]
+	packages=1
+	duration=60.013249ms
+
+[Info  - 12:05:29 PM] 2026/05/31 12:05:29 go/packages.Load #6
+	view_id="1"
+	snapshot=47
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/storage/postgresql/permissions.go]
+	packages=1
+	duration=55.92899ms
+
+[Info  - 12:05:29 PM] 2026/05/31 12:05:29 go/packages.Load #7
+	view_id="1"
+	snapshot=48
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/storage/postgresql/permissions.go]
+	packages=1
+	duration=56.094109ms
+
+[Info  - 12:05:29 PM] 2026/05/31 12:05:29 go/packages.Load #8
+	view_id="1"
+	snapshot=48
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/storage/postgresql/permissions.go]
+	packages=1
+	duration=53.031152ms
+
+[Info  - 12:05:29 PM] 2026/05/31 12:05:29 go/packages.Load #9
+	view_id="1"
+	snapshot=49
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/storage/postgresql/permissions.go]
+	packages=1
+	duration=69.214274ms
+
+[Info  - 12:05:29 PM] 2026/05/31 12:05:29 go/packages.Load #10
+	view_id="1"
+	snapshot=49
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/storage/postgresql/permissions.go]
+	packages=1
+	duration=68.023233ms
+
+[Info  - 12:05:30 PM] 2026/05/31 12:05:30 go/packages.Load #11
+	view_id="1"
+	snapshot=50
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/storage/postgresql/permissions.go]
+	packages=1
+	duration=56.415109ms
+
+[Info  - 12:05:30 PM] 2026/05/31 12:05:30 go/packages.Load #12
+	view_id="1"
+	snapshot=50
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/storage/postgresql/permissions.go]
+	packages=1
+	duration=60.101267ms
+
+[Info  - 12:05:30 PM] 2026/05/31 12:05:30 go/packages.Load #13
+	view_id="1"
+	snapshot=51
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/storage/postgresql/permissions.go]
+	packages=1
+	duration=59.319536ms
+
+[Info  - 12:05:30 PM] 2026/05/31 12:05:30 go/packages.Load #14
+	view_id="1"
+	snapshot=51
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/storage/postgresql/permissions.go]
+	packages=1
+	duration=58.549172ms
+
+[Info  - 12:05:30 PM] 2026/05/31 12:05:30 go/packages.Load #15
+	view_id="1"
+	snapshot=52
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/storage/postgresql/permissions.go]
+	packages=1
+	duration=55.315347ms
+
+[Info  - 12:05:30 PM] 2026/05/31 12:05:30 go/packages.Load #17
+	view_id="1"
+	snapshot=53
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/storage/postgresql/permissions.go]
+	packages=1
+	duration=68.406478ms
+
+[Info  - 12:05:30 PM] 2026/05/31 12:05:30 go/packages.Load #16
+	view_id="1"
+	snapshot=53
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/storage/postgresql/permissions.go]
+	packages=1
+	duration=125.540978ms
+
+[Info  - 12:05:30 PM] 2026/05/31 12:05:30 go/packages.Load #18
+	view_id="1"
+	snapshot=54
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/storage/postgresql/permissions.go]
+	packages=1
+	duration=55.28593ms
+
+[Info  - 12:05:30 PM] 2026/05/31 12:05:30 go/packages.Load #19
+	view_id="1"
+	snapshot=55
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/storage/postgresql/permissions.go]
+	packages=1
+	duration=54.480141ms
+
+[Info  - 12:05:30 PM] 2026/05/31 12:05:30 go/packages.Load #20
+	view_id="1"
+	snapshot=55
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/storage/postgresql/permissions.go]
+	packages=1
+	duration=55.285301ms
+
+[Info  - 12:05:31 PM] 2026/05/31 12:05:31 go/packages.Load #21
+	view_id="1"
+	snapshot=56
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/storage/postgresql/permissions.go]
+	packages=1
+	duration=58.201062ms
+
+[Info  - 12:05:31 PM] 2026/05/31 12:05:31 go/packages.Load #22
+	view_id="1"
+	snapshot=56
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/storage/postgresql/permissions.go]
+	packages=1
+	duration=54.285576ms
+
+[Info  - 12:05:31 PM] 2026/05/31 12:05:31 go/packages.Load #23
+	view_id="1"
+	snapshot=57
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/storage/postgresql/permissions.go]
+	packages=1
+	duration=54.394743ms
+
+[Info  - 12:05:31 PM] 2026/05/31 12:05:31 go/packages.Load #24
+	view_id="1"
+	snapshot=57
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/storage/postgresql/permissions.go]
+	packages=1
+	duration=54.831118ms
+
+[Info  - 12:05:31 PM] 2026/05/31 12:05:31 go/packages.Load #25
+	view_id="1"
+	snapshot=58
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/storage/postgresql/permissions.go]
+	packages=1
+	duration=56.720592ms
+
+[Info  - 12:05:31 PM] 2026/05/31 12:05:31 go/packages.Load #26
+	view_id="1"
+	snapshot=58
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/storage/postgresql/permissions.go]
+	packages=1
+	duration=55.121261ms
+
+[Info  - 12:05:31 PM] 2026/05/31 12:05:31 go/packages.Load #27
+	view_id="1"
+	snapshot=59
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/storage/postgresql/permissions.go]
+	packages=1
+	duration=86.399533ms
+
+[Info  - 12:05:31 PM] 2026/05/31 12:05:31 go/packages.Load #28
+	view_id="1"
+	snapshot=59
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/storage/postgresql/permissions.go]
+	packages=1
+	duration=58.227863ms
+
+[Info  - 12:05:32 PM] 2026/05/31 12:05:32 go/packages.Load #29
+	view_id="1"
+	snapshot=60
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/storage/postgresql/permissions.go]
+	packages=1
+	duration=57.157688ms
+
+[Info  - 12:05:32 PM] 2026/05/31 12:05:32 go/packages.Load #30
+	view_id="1"
+	snapshot=60
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/storage/postgresql/permissions.go]
+	packages=1
+	duration=57.401207ms
+
+[Error - 12:05:38 PM] 2026/05/31 12:05:38 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/storage/postgresql/permissions.go:12:13: expected type, found ')'
+	file="/home/maksim/Projects/Go/Project/permissions/internal/storage/postgresql/permissions.go"
+
+[Info  - 12:05:55 PM] 2026/05/31 12:05:55 background imports cache refresh starting
+
+[Info  - 12:05:55 PM] 2026/05/31 12:05:55 background refresh finished after 4.929439ms
+
+[Info  - 12:06:25 PM] 2026/05/31 12:06:25 background imports cache refresh starting
+
+[Info  - 12:06:25 PM] 2026/05/31 12:06:25 background refresh finished after 5.037686ms
+
+[Info  - 12:07:55 PM] 2026/05/31 12:07:55 background imports cache refresh starting
+
+[Info  - 12:07:55 PM] 2026/05/31 12:07:55 background refresh finished after 4.831809ms
+
+[Error - 12:09:44 PM] 2026/05/31 12:09:44 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:23:14: expected type, found ')' (and 4 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Error - 12:09:45 PM] 2026/05/31 12:09:45 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:23:25: expected 'IDENT', found newline (and 3 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Error - 12:09:49 PM] 2026/05/31 12:09:49 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:23:34: expected '(', found newline (and 2 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Error - 12:09:50 PM] 2026/05/31 12:09:50 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:23:32: expected '(', found newline (and 2 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Error - 12:09:51 PM] 2026/05/31 12:09:51 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:23:39: expected '(', found newline (and 2 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Error - 12:09:59 PM] 2026/05/31 12:09:59 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:23:62: missing parameter type
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Error - 12:10:00 PM] 2026/05/31 12:10:00 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:23:65: missing parameter type
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Error - 12:10:03 PM] 2026/05/31 12:10:03 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:23:68: missing parameter type
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Info  - 12:10:06 PM] 2026/05/31 12:10:06 background imports cache refresh starting
+
+[Info  - 12:10:06 PM] 2026/05/31 12:10:06 background refresh finished after 5.171373ms
+
+[Error - 12:10:07 PM] 2026/05/31 12:10:07 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:23:76: missing parameter type
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Error - 12:10:08 PM] 2026/05/31 12:10:08 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:23:77: missing parameter type
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Error - 12:10:08 PM] 2026/05/31 12:10:08 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:23:78: missing parameter type
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Error - 12:10:09 PM] 2026/05/31 12:10:09 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:23:80: missing parameter type
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Error - 12:10:09 PM] 2026/05/31 12:10:09 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:23:81: missing parameter type
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Error - 12:10:10 PM] 2026/05/31 12:10:10 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:23:84: missing parameter type
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Info  - 12:10:41 PM] 2026/05/31 12:10:41 background imports cache refresh starting
+
+[Info  - 12:10:41 PM] 2026/05/31 12:10:41 background refresh finished after 5.098129ms
+
+[Error - 12:11:13 PM] 2026/05/31 12:11:13 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:27:4: missing ',' before newline in argument list
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Error - 12:11:14 PM] 2026/05/31 12:11:14 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:27:5: missing ',' before newline in argument list
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Error - 12:11:15 PM] 2026/05/31 12:11:15 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:27:7: missing ',' before newline in argument list
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Error - 12:11:16 PM] 2026/05/31 12:11:16 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:27:11: missing ',' before newline in argument list
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Error - 12:11:20 PM] 2026/05/31 12:11:20 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:27:18: missing ',' before newline in argument list
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Error - 12:11:20 PM] 2026/05/31 12:11:20 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:27:16: missing ',' before newline in argument list (and 7 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Error - 12:11:22 PM] 2026/05/31 12:11:22 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:27:17: missing ',' before newline in argument list (and 7 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Error - 12:11:23 PM] 2026/05/31 12:11:23 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:27:18: missing ',' before newline in argument list
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Info  - 12:11:29 PM] 2026/05/31 12:11:29 background imports cache refresh starting
+
+[Info  - 12:11:29 PM] 2026/05/31 12:11:29 background refresh finished after 5.375233ms
+
+[Error - 12:11:31 PM] 2026/05/31 12:11:31 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:27:17: missing ',' in argument list
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Error - 12:11:32 PM] 2026/05/31 12:11:32 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:27:19: missing ',' in argument list
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Error - 12:11:47 PM] 2026/05/31 12:11:47 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:28:5: missing ',' before newline in argument list
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Error - 12:11:48 PM] 2026/05/31 12:11:48 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:28:4: missing ',' before newline in argument list
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Error - 12:11:48 PM] 2026/05/31 12:11:48 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:28:7: missing ',' before newline in argument list
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Error - 12:11:50 PM] 2026/05/31 12:11:50 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:28:10: missing ',' before newline in argument list
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Error - 12:11:58 PM] 2026/05/31 12:11:58 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:28:32: missing ',' before newline in argument list
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Error - 12:12:00 PM] 2026/05/31 12:12:00 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:29:7: missing ',' before newline in argument list
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Error - 12:12:02 PM] 2026/05/31 12:12:02 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:29:11: missing ',' before newline in argument list
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Error - 12:12:13 PM] 2026/05/31 12:12:13 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:29:18: missing ',' before newline in argument list
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Error - 12:12:14 PM] 2026/05/31 12:12:14 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:29:18: missing ',' before newline in argument list
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Info  - 12:12:16 PM] 2026/05/31 12:12:16 background imports cache refresh starting
+
+[Info  - 12:12:16 PM] 2026/05/31 12:12:16 background refresh finished after 5.020124ms
+
+[Error - 12:12:19 PM] 2026/05/31 12:12:19 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:29:18: missing ',' before newline in argument list
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Error - 12:12:19 PM] 2026/05/31 12:12:19 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:29:18: missing ',' before newline in argument list
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Error - 12:12:29 PM] 2026/05/31 12:12:29 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:28:40: missing ',' before newline in argument list
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Error - 12:12:30 PM] 2026/05/31 12:12:30 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:28:40: missing ',' before newline in argument list
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Info  - 12:12:51 PM] 2026/05/31 12:12:51 background imports cache refresh starting
+
+[Info  - 12:12:51 PM] 2026/05/31 12:12:51 background refresh finished after 4.888149ms
+
+[Info  - 12:13:40 PM] 2026/05/31 12:13:40 background imports cache refresh starting
+
+[Info  - 12:13:40 PM] 2026/05/31 12:13:40 background refresh finished after 5.436382ms
+
+[Info  - 12:14:16 PM] 2026/05/31 12:14:16 background imports cache refresh starting
+
+[Info  - 12:14:16 PM] 2026/05/31 12:14:16 background refresh finished after 4.963141ms
+
+[Info  - 12:15:13 PM] 2026/05/31 12:15:13 background imports cache refresh starting
+
+[Info  - 12:15:13 PM] 2026/05/31 12:15:13 background refresh finished after 5.83108ms
+
+[Info  - 12:15:47 PM] 2026/05/31 12:15:47 go/packages.Load #32
+	view_id="1"
+	snapshot=510
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go]
+	packages=1
+	duration=68.49885ms
+
+[Info  - 12:15:47 PM] 2026/05/31 12:15:47 go/packages.Load #33
+	view_id="1"
+	snapshot=510
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go]
+	packages=1
+	duration=61.809823ms
+
+[Info  - 12:16:16 PM] 2026/05/31 12:16:16 background imports cache refresh starting
+
+[Info  - 12:16:16 PM] 2026/05/31 12:16:16 background refresh finished after 4.828021ms
+
+[Info  - 12:17:50 PM] 2026/05/31 12:17:50 go/packages.Load #34
+	view_id="1"
+	snapshot=566
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go]
+	packages=1
+	duration=10.556282ms
+
+[Info  - 12:17:50 PM] 2026/05/31 12:17:50 go/packages.Load #35
+	view_id="1"
+	snapshot=568
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go]
+	packages=1
+	duration=9.365408ms
+
+[Info  - 12:17:56 PM] 2026/05/31 12:17:56 go/packages.Load #37
+	view_id="1"
+	snapshot=577
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go]
+	packages=1
+	duration=36.47264ms
+
+[Info  - 12:17:56 PM] 2026/05/31 12:17:56 go/packages.Load #38
+	view_id="1"
+	snapshot=577
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go]
+	packages=1
+	duration=35.094537ms
+
+[Error - 12:18:14 PM] Request textDocument/hover failed.
+  Message: context canceled
+  Code: 0 
+[Info  - 12:18:23 PM] 2026/05/31 12:18:23 background imports cache refresh starting
+
+[Info  - 12:18:23 PM] 2026/05/31 12:18:23 background refresh finished after 4.833951ms
+
+[Error - 12:19:29 PM] 2026/05/31 12:19:29 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:30:1: expected operand, found '}' (and 3 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Error - 12:19:29 PM] Request textDocument/formatting failed.
+  Message: 30:1: expected operand, found '}'
+  Code: 0 
+[Info  - 12:19:59 PM] 2026/05/31 12:19:59 go/packages.Load #39
+	view_id="1"
+	snapshot=599
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go]
+	packages=1
+	duration=38.84724ms
+
+[Info  - 12:19:59 PM] 2026/05/31 12:19:59 go/packages.Load #40
+	view_id="1"
+	snapshot=599
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go]
+	packages=1
+	duration=40.042338ms
+
+[Error - 12:20:11 PM] 2026/05/31 12:20:11 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:19:41: expected type, found ')' (and 4 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Info  - 12:20:12 PM] 2026/05/31 12:20:12 background imports cache refresh starting
+
+[Info  - 12:20:12 PM] 2026/05/31 12:20:12 background refresh finished after 4.883832ms
+
+[Error - 12:20:14 PM] 2026/05/31 12:20:14 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:35:1: expected operand, found '}' (and 3 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Error - 12:20:14 PM] Request textDocument/formatting failed.
+  Message: 35:1: expected operand, found '}'
+  Code: 0 
+[Error - 12:20:25 PM] 2026/05/31 12:20:25 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:35:1: expected operand, found '}' (and 3 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Error - 12:20:25 PM] Request textDocument/formatting failed.
+  Message: 35:1: expected operand, found '}'
+  Code: 0 
+[Error - 12:20:26 PM] 2026/05/31 12:20:26 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:35:1: expected operand, found '}' (and 3 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Error - 12:20:26 PM] Request textDocument/formatting failed.
+  Message: 35:1: expected operand, found '}'
+  Code: 0 
+[Error - 12:20:30 PM] 2026/05/31 12:20:30 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:20:45: expected operand, found '}' (and 9 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Error - 12:20:34 PM] 2026/05/31 12:20:34 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:35:1: expected operand, found '}' (and 3 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Error - 12:20:34 PM] Request textDocument/formatting failed.
+  Message: 35:1: expected operand, found '}'
+  Code: 0 
+[Info  - 12:20:42 PM] 2026/05/31 12:20:42 background imports cache refresh starting
+
+[Info  - 12:20:42 PM] 2026/05/31 12:20:42 background refresh finished after 5.025024ms
+
+[Error - 12:20:44 PM] 2026/05/31 12:20:44 signature help failed: call operand is not a func or type: *ast.SelectorExpr (&{perm permChecker})
+	position=33:33
+
+[Error - 12:20:59 PM] 2026/05/31 12:20:59 signature help failed: call operand is not a func or type: *ast.SelectorExpr (&{perm permChecker})
+	position=33:38
+
+[Error - 12:21:02 PM] 2026/05/31 12:21:02 signature help failed: call operand is not a func or type: *ast.SelectorExpr (&{perm permChecker})
+	position=33:46
+
+[Info  - 12:21:13 PM] 2026/05/31 12:21:13 background imports cache refresh starting
+
+[Info  - 12:21:13 PM] 2026/05/31 12:21:13 background refresh finished after 5.540062ms
+
+[Info  - 12:21:50 PM] 2026/05/31 12:21:50 background imports cache refresh starting
+
+[Info  - 12:21:50 PM] 2026/05/31 12:21:50 background refresh finished after 5.379003ms
+
+[Error - 12:22:12 PM] 2026/05/31 12:22:12 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:34:39: expected ')', found ',' (and 3 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Error - 12:22:12 PM] Request textDocument/formatting failed.
+  Message: 34:39: expected ')', found ',' (and 1 more errors)
+  Code: 0 
+[Error - 12:22:14 PM] 2026/05/31 12:22:14 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:34:39: expected ')', found ',' (and 3 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Error - 12:22:14 PM] Request textDocument/formatting failed.
+  Message: 34:39: expected ')', found ',' (and 1 more errors)
+  Code: 0 
+[Info  - 12:22:20 PM] 2026/05/31 12:22:20 background imports cache refresh starting
+
+[Info  - 12:22:20 PM] 2026/05/31 12:22:20 background refresh finished after 5.246155ms
+
+[Info  - 12:22:52 PM] 2026/05/31 12:22:52 background imports cache refresh starting
+
+[Info  - 12:22:52 PM] 2026/05/31 12:22:52 background refresh finished after 4.942343ms
+
+[Error - 12:23:43 PM] 2026/05/31 12:23:43 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:35:6: expected operand, found ')' (and 8 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Info  - 12:24:13 PM] 2026/05/31 12:24:13 background imports cache refresh starting
+
+[Info  - 12:24:13 PM] 2026/05/31 12:24:13 background refresh finished after 4.7727ms
+
+[Info  - 12:24:29 PM] 2026/05/31 12:24:29 go/packages.Load #41
+	view_id="1"
+	snapshot=846
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go]
+	packages=1
+	duration=40.549456ms
+
+[Info  - 12:24:30 PM] 2026/05/31 12:24:30 go/packages.Load #42
+	view_id="1"
+	snapshot=846
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go]
+	packages=1
+	duration=38.121206ms
+
+[Info  - 12:24:48 PM] 2026/05/31 12:24:48 background imports cache refresh starting
+
+[Info  - 12:24:48 PM] 2026/05/31 12:24:48 background refresh finished after 5.00458ms
+
+[Info  - 12:25:03 PM] 2026/05/31 12:25:03 go/packages.Load #44
+	view_id="1"
+	snapshot=872
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go]
+	packages=1
+	duration=39.752227ms
+
+[Info  - 12:25:03 PM] 2026/05/31 12:25:03 go/packages.Load #45
+	view_id="1"
+	snapshot=872
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go]
+	packages=1
+	duration=39.606339ms
+
+[Info  - 12:25:27 PM] 2026/05/31 12:25:27 background imports cache refresh starting
+
+[Info  - 12:25:27 PM] 2026/05/31 12:25:27 background refresh finished after 5.495278ms
+
+[Info  - 12:26:01 PM] 2026/05/31 12:26:01 background imports cache refresh starting
+
+[Info  - 12:26:01 PM] 2026/05/31 12:26:01 background refresh finished after 5.066266ms
+
+[Error - 12:26:50 PM] 2026/05/31 12:26:50 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:46:13: expected type, found ')' (and 4 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Error - 12:26:52 PM] 2026/05/31 12:26:52 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:46:13: expected type, found ')' (and 4 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Error - 12:26:53 PM] 2026/05/31 12:26:53 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:46:25: expected 'IDENT', found newline (and 3 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Error - 12:26:55 PM] 2026/05/31 12:26:55 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:46:30: expected '(', found newline (and 2 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Info  - 12:26:56 PM] 2026/05/31 12:26:56 background imports cache refresh starting
+
+[Info  - 12:26:56 PM] 2026/05/31 12:26:56 background refresh finished after 4.950643ms
+
+[Error - 12:26:57 PM] 2026/05/31 12:26:57 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:46:35: expected '(', found newline (and 2 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Error - 12:26:57 PM] 2026/05/31 12:26:57 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:46:35: expected '(', found newline (and 2 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Info  - 12:27:58 PM] 2026/05/31 12:27:58 background imports cache refresh starting
+
+[Info  - 12:27:58 PM] 2026/05/31 12:27:58 background refresh finished after 4.90007ms
+
+[Info  - 12:28:58 PM] 2026/05/31 12:28:58 background imports cache refresh starting
+
+[Info  - 12:28:58 PM] 2026/05/31 12:28:58 background refresh finished after 4.93493ms
+
+[Error - 12:29:48 PM] 2026/05/31 12:29:48 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:56:4: expected type, found newline
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Info  - 12:30:13 PM] 2026/05/31 12:30:13 background imports cache refresh starting
+
+[Info  - 12:30:13 PM] 2026/05/31 12:30:13 background refresh finished after 4.894339ms
+
+[Error - 12:30:40 PM] 2026/05/31 12:30:40 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:60:10: expected operand, found ',' (and 5 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Error - 12:30:43 PM] 2026/05/31 12:30:43 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:60:10: expected operand, found ',' (and 5 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Info  - 12:30:44 PM] 2026/05/31 12:30:44 background imports cache refresh starting
+
+[Info  - 12:30:44 PM] 2026/05/31 12:30:44 background refresh finished after 5.528836ms
+
+[Error - 12:30:47 PM] 2026/05/31 12:30:47 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:60:10: expected operand, found ',' (and 5 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Info  - 12:31:14 PM] 2026/05/31 12:31:14 background imports cache refresh starting
+
+[Info  - 12:31:14 PM] 2026/05/31 12:31:14 background refresh finished after 4.814445ms
+
+[Error - 12:31:23 PM] 2026/05/31 12:31:23 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:66:13: expected type, found ')' (and 4 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Error - 12:31:24 PM] 2026/05/31 12:31:24 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:66:25: expected '(', found 'EOF' (and 3 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Error - 12:31:26 PM] 2026/05/31 12:31:26 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:66:30: expected '(', found newline (and 2 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Error - 12:31:26 PM] 2026/05/31 12:31:26 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:66:32: expected '(', found newline (and 2 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Error - 12:31:27 PM] 2026/05/31 12:31:27 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go:66:36: expected '(', found newline (and 2 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go"
+
+[Info  - 12:31:50 PM] 2026/05/31 12:31:50 background imports cache refresh starting
+
+[Info  - 12:31:50 PM] 2026/05/31 12:31:50 background refresh finished after 4.98139ms
+
+[Info  - 12:32:22 PM] 2026/05/31 12:32:22 background imports cache refresh starting
+
+[Info  - 12:32:22 PM] 2026/05/31 12:32:22 background refresh finished after 4.970342ms
+
+[Info  - 12:32:59 PM] 2026/05/31 12:32:59 background imports cache refresh starting
+
+[Info  - 12:32:59 PM] 2026/05/31 12:32:59 background refresh finished after 4.866832ms
+
+[Info  - 12:33:31 PM] 2026/05/31 12:33:31 background imports cache refresh starting
+
+[Info  - 12:33:31 PM] 2026/05/31 12:33:31 background refresh finished after 5.117087ms
+
+[Info  - 12:34:07 PM] 2026/05/31 12:34:07 background imports cache refresh starting
+
+[Info  - 12:34:07 PM] 2026/05/31 12:34:07 background refresh finished after 4.960706ms
+
+[Info  - 12:49:54 PM] 2026/05/31 12:49:54 go/packages.Load #46
+	view_id="1"
+	snapshot=1427
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=54.6836ms
+
+[Info  - 12:49:54 PM] 2026/05/31 12:49:54 go/packages.Load #47
+	view_id="1"
+	snapshot=1427
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=56.225089ms
+
+[Error - 12:50:09 PM] Request textDocument/hover failed.
+  Message: no package data for import "sso/internal/config"
+  Code: 0 
+[Info  - 12:50:15 PM] 2026/05/31 12:50:15 go/packages.Load #48
+	view_id="1"
+	snapshot=1429
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=55.959318ms
+
+[Info  - 12:50:15 PM] 2026/05/31 12:50:15 go/packages.Load #49
+	view_id="1"
+	snapshot=1429
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=52.040465ms
+
+[Info  - 12:50:15 PM] 2026/05/31 12:50:15 go/packages.Load #50
+	view_id="1"
+	snapshot=1430
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=65.387829ms
+
+[Info  - 12:50:15 PM] 2026/05/31 12:50:15 go/packages.Load #51
+	view_id="1"
+	snapshot=1430
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=67.668351ms
+
+[Info  - 12:50:17 PM] 2026/05/31 12:50:17 go/packages.Load #52
+	view_id="1"
+	snapshot=1431
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=55.232837ms
+
+[Info  - 12:50:17 PM] 2026/05/31 12:50:17 go/packages.Load #53
+	view_id="1"
+	snapshot=1431
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=52.495236ms
+
+[Info  - 12:50:18 PM] 2026/05/31 12:50:18 go/packages.Load #54
+	view_id="1"
+	snapshot=1432
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=67.702611ms
+
+[Info  - 12:50:18 PM] 2026/05/31 12:50:18 go/packages.Load #55
+	view_id="1"
+	snapshot=1432
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=67.670815ms
+
+[Info  - 12:50:18 PM] 2026/05/31 12:50:18 go/packages.Load #56
+	view_id="1"
+	snapshot=1433
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=54.928915ms
+
+[Info  - 12:50:18 PM] 2026/05/31 12:50:18 go/packages.Load #57
+	view_id="1"
+	snapshot=1433
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=52.854794ms
+
+[Info  - 12:50:19 PM] 2026/05/31 12:50:19 go/packages.Load #58
+	view_id="1"
+	snapshot=1434
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=69.518887ms
+
+[Info  - 12:50:19 PM] 2026/05/31 12:50:19 go/packages.Load #59
+	view_id="1"
+	snapshot=1434
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=63.89489ms
+
+[Info  - 12:50:21 PM] 2026/05/31 12:50:21 go/packages.Load #60
+	view_id="1"
+	snapshot=1435
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=55.211483ms
+
+[Info  - 12:50:21 PM] 2026/05/31 12:50:21 go/packages.Load #61
+	view_id="1"
+	snapshot=1435
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=55.662832ms
+
+[Info  - 12:50:21 PM] 2026/05/31 12:50:21 go/packages.Load #62
+	view_id="1"
+	snapshot=1436
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=56.744483ms
+
+[Info  - 12:50:21 PM] 2026/05/31 12:50:21 go/packages.Load #63
+	view_id="1"
+	snapshot=1436
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=56.739023ms
+
+[Info  - 12:50:21 PM] 2026/05/31 12:50:21 go/packages.Load #64
+	view_id="1"
+	snapshot=1437
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=53.057358ms
+
+[Info  - 12:50:21 PM] 2026/05/31 12:50:21 go/packages.Load #65
+	view_id="1"
+	snapshot=1437
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=51.905723ms
+
+[Info  - 12:50:22 PM] 2026/05/31 12:50:22 go/packages.Load #66
+	view_id="1"
+	snapshot=1438
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=53.080757ms
+
+[Info  - 12:50:22 PM] 2026/05/31 12:50:22 go/packages.Load #67
+	view_id="1"
+	snapshot=1438
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=50.893927ms
+
+[Info  - 12:50:22 PM] 2026/05/31 12:50:22 go/packages.Load #68
+	view_id="1"
+	snapshot=1439
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=50.885307ms
+
+[Info  - 12:50:22 PM] 2026/05/31 12:50:22 go/packages.Load #69
+	view_id="1"
+	snapshot=1439
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=52.631659ms
+
+[Info  - 12:50:22 PM] 2026/05/31 12:50:22 go/packages.Load #70
+	view_id="1"
+	snapshot=1440
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=50.675447ms
+
+[Info  - 12:50:22 PM] 2026/05/31 12:50:22 go/packages.Load #71
+	view_id="1"
+	snapshot=1440
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=51.267253ms
+
+[Info  - 12:50:22 PM] 2026/05/31 12:50:22 go/packages.Load #72
+	view_id="1"
+	snapshot=1441
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=50.346236ms
+
+[Info  - 12:50:22 PM] 2026/05/31 12:50:22 go/packages.Load #73
+	view_id="1"
+	snapshot=1442
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=51.598372ms
+
+[Info  - 12:50:22 PM] 2026/05/31 12:50:22 go/packages.Load #74
+	view_id="1"
+	snapshot=1442
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=52.239465ms
+
+[Info  - 12:50:22 PM] 2026/05/31 12:50:22 go/packages.Load #75
+	view_id="1"
+	snapshot=1443
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=56.346921ms
+
+[Info  - 12:50:22 PM] 2026/05/31 12:50:22 go/packages.Load #76
+	view_id="1"
+	snapshot=1443
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=51.070231ms
+
+[Info  - 12:50:23 PM] 2026/05/31 12:50:23 go/packages.Load #77
+	view_id="1"
+	snapshot=1444
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=51.08992ms
+
+[Info  - 12:50:23 PM] 2026/05/31 12:50:23 go/packages.Load #78
+	view_id="1"
+	snapshot=1444
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=53.350484ms
+
+[Info  - 12:50:23 PM] 2026/05/31 12:50:23 go/packages.Load #79
+	view_id="1"
+	snapshot=1445
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=57.267228ms
+
+[Info  - 12:50:23 PM] 2026/05/31 12:50:23 go/packages.Load #80
+	view_id="1"
+	snapshot=1445
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=55.078137ms
+
+[Info  - 12:50:39 PM] 2026/05/31 12:50:39 background imports cache refresh starting
+
+[Info  - 12:50:39 PM] 2026/05/31 12:50:39 background refresh finished after 5.039923ms
+
+[Info  - 12:51:59 PM] 2026/05/31 12:51:59 go/packages.Load #81
+	view_id="1"
+	snapshot=1448
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=55.859313ms
+
+[Info  - 12:51:59 PM] 2026/05/31 12:51:59 go/packages.Load #82
+	view_id="1"
+	snapshot=1448
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=51.357326ms
+
+[Error - 12:52:13 PM] Request textDocument/hover failed.
+  Message: no package data for import "chat/internal/config"
+  Code: 0 
+[Info  - 12:52:15 PM] 2026/05/31 12:52:15 go/packages.Load #83
+	view_id="1"
+	snapshot=1450
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=53.930257ms
+
+[Info  - 12:52:15 PM] 2026/05/31 12:52:15 go/packages.Load #84
+	view_id="1"
+	snapshot=1450
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=54.078124ms
+
+[Info  - 12:52:15 PM] 2026/05/31 12:52:15 go/packages.Load #85
+	view_id="1"
+	snapshot=1451
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=53.738894ms
+
+[Info  - 12:52:15 PM] 2026/05/31 12:52:15 go/packages.Load #86
+	view_id="1"
+	snapshot=1451
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=50.631052ms
+
+[Info  - 12:52:15 PM] 2026/05/31 12:52:15 go/packages.Load #87
+	view_id="1"
+	snapshot=1452
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=57.306066ms
+
+[Info  - 12:52:15 PM] 2026/05/31 12:52:15 go/packages.Load #88
+	view_id="1"
+	snapshot=1452
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=53.384436ms
+
+[Info  - 12:52:15 PM] 2026/05/31 12:52:15 go/packages.Load #89
+	view_id="1"
+	snapshot=1453
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=67.91104ms
+
+[Info  - 12:52:15 PM] 2026/05/31 12:52:15 go/packages.Load #90
+	view_id="1"
+	snapshot=1453
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=64.683847ms
+
+[Info  - 12:52:17 PM] 2026/05/31 12:52:17 go/packages.Load #91
+	view_id="1"
+	snapshot=1454
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=54.749555ms
+
+[Info  - 12:52:17 PM] 2026/05/31 12:52:17 go/packages.Load #92
+	view_id="1"
+	snapshot=1454
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=56.867156ms
+
+[Info  - 12:52:17 PM] 2026/05/31 12:52:17 go/packages.Load #93
+	view_id="1"
+	snapshot=1455
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=54.577161ms
+
+[Info  - 12:52:17 PM] 2026/05/31 12:52:17 go/packages.Load #94
+	view_id="1"
+	snapshot=1455
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=51.837905ms
+
+[Info  - 12:52:17 PM] 2026/05/31 12:52:17 go/packages.Load #95
+	view_id="1"
+	snapshot=1456
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=52.176044ms
+
+[Info  - 12:52:17 PM] 2026/05/31 12:52:17 go/packages.Load #96
+	view_id="1"
+	snapshot=1456
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=53.440912ms
+
+[Info  - 12:52:17 PM] 2026/05/31 12:52:17 go/packages.Load #97
+	view_id="1"
+	snapshot=1457
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=50.780699ms
+
+[Info  - 12:52:17 PM] 2026/05/31 12:52:17 go/packages.Load #98
+	view_id="1"
+	snapshot=1457
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=49.783639ms
+
+[Info  - 12:52:17 PM] 2026/05/31 12:52:17 go/packages.Load #99
+	view_id="1"
+	snapshot=1458
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=50.654631ms
+
+[Info  - 12:52:17 PM] 2026/05/31 12:52:17 go/packages.Load #100
+	view_id="1"
+	snapshot=1458
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=50.361046ms
+
+[Info  - 12:52:18 PM] 2026/05/31 12:52:18 go/packages.Load #101
+	view_id="1"
+	snapshot=1459
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=52.007271ms
+
+[Info  - 12:52:18 PM] 2026/05/31 12:52:18 go/packages.Load #102
+	view_id="1"
+	snapshot=1459
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=53.006881ms
+
+[Info  - 12:52:18 PM] 2026/05/31 12:52:18 go/packages.Load #103
+	view_id="1"
+	snapshot=1460
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=53.049947ms
+
+[Info  - 12:52:18 PM] 2026/05/31 12:52:18 go/packages.Load #104
+	view_id="1"
+	snapshot=1461
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=51.141618ms
+
+[Info  - 12:52:18 PM] 2026/05/31 12:52:18 go/packages.Load #105
+	view_id="1"
+	snapshot=1461
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=51.103571ms
+
+[Info  - 12:52:18 PM] 2026/05/31 12:52:18 go/packages.Load #106
+	view_id="1"
+	snapshot=1462
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=53.659053ms
+
+[Info  - 12:52:18 PM] 2026/05/31 12:52:18 go/packages.Load #107
+	view_id="1"
+	snapshot=1462
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=52.923549ms
+
+[Info  - 12:52:18 PM] 2026/05/31 12:52:18 go/packages.Load #108
+	view_id="1"
+	snapshot=1463
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=52.546493ms
+
+[Info  - 12:52:18 PM] 2026/05/31 12:52:18 go/packages.Load #109
+	view_id="1"
+	snapshot=1463
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=51.886052ms
+
+[Info  - 12:52:18 PM] 2026/05/31 12:52:18 go/packages.Load #110
+	view_id="1"
+	snapshot=1464
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=56.655876ms
+
+[Info  - 12:52:18 PM] 2026/05/31 12:52:18 go/packages.Load #111
+	view_id="1"
+	snapshot=1464
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/migrator/main.go]
+	packages=1
+	duration=55.358022ms
+
+[Info  - 12:52:43 PM] 2026/05/31 12:52:43 background imports cache refresh starting
+
+[Info  - 12:52:43 PM] 2026/05/31 12:52:43 background refresh finished after 4.882195ms
+
+[Error - 1:05:52 PM] 2026/05/31 13:05:52 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go:12:2: expected '}', found '.' (and 1 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go"
+
+[Info  - 1:05:54 PM] 2026/05/31 13:05:54 go/packages.Load #113
+	view_id="1"
+	snapshot=1498
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go]
+	packages=1
+	duration=73.861644ms
+
+[Info  - 1:05:54 PM] 2026/05/31 13:05:54 go/packages.Load #114
+	view_id="1"
+	snapshot=1498
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go]
+	packages=1
+	duration=69.786112ms
+
+[Info  - 1:06:06 PM] 2026/05/31 13:06:06 background imports cache refresh starting
+
+[Info  - 1:06:06 PM] 2026/05/31 13:06:06 background refresh finished after 5.422234ms
+
+[Info  - 1:06:16 PM] 2026/05/31 13:06:16 go/packages.Load #116
+	view_id="1"
+	snapshot=1524
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go]
+	packages=1
+	duration=71.139533ms
+
+[Info  - 1:06:16 PM] 2026/05/31 13:06:16 go/packages.Load #117
+	view_id="1"
+	snapshot=1524
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go]
+	packages=1
+	duration=69.041327ms
+
+[Error - 1:06:19 PM] 2026/05/31 13:06:19 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go:21:45: missing parameter type
+	file="/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go"
+
+[Error - 1:06:23 PM] 2026/05/31 13:06:23 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go:22:50: expected operand, found ':' (and 7 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go"
+
+[Error - 1:06:41 PM] 2026/05/31 13:06:41 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go:22:63: expected operand, found '}' (and 7 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go"
+
+[Error - 1:06:41 PM] 2026/05/31 13:06:41 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go:22:63: expected operand, found '}' (and 7 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go"
+
+[Info  - 1:06:43 PM] 2026/05/31 13:06:43 background imports cache refresh starting
+
+[Info  - 1:06:43 PM] 2026/05/31 13:06:43 background refresh finished after 5.095871ms
+
+[Error - 1:06:47 PM] 2026/05/31 13:06:47 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go:22:2: expected statement, found '.' (and 2 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go"
+
+[Info  - 1:07:16 PM] 2026/05/31 13:07:16 background imports cache refresh starting
+
+[Info  - 1:07:16 PM] 2026/05/31 13:07:16 background refresh finished after 5.425559ms
+
+[Error - 1:07:19 PM] 2026/05/31 13:07:19 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go:26:9: expected '(', found newline (and 2 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go"
+
+[Error - 1:07:19 PM] 2026/05/31 13:07:19 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go:26:12: expected '(', found newline (and 2 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go"
+
+[Error - 1:07:30 PM] 2026/05/31 13:07:30 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go:26:20: expected 'IDENT', found newline (and 3 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go"
+
+[Error - 1:07:33 PM] 2026/05/31 13:07:33 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go:26:24: expected '(', found newline (and 2 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go"
+
+[Error - 1:07:33 PM] 2026/05/31 13:07:33 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go:26:34: expected '(', found newline (and 2 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go"
+
+[Info  - 1:07:46 PM] 2026/05/31 13:07:46 background imports cache refresh starting
+
+[Info  - 1:07:46 PM] 2026/05/31 13:07:46 background refresh finished after 5.531937ms
+
+[Error - 1:08:19 PM] 2026/05/31 13:08:19 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go:26:59: missing parameter type
+	file="/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go"
+
+[Info  - 1:08:20 PM] 2026/05/31 13:08:20 background imports cache refresh starting
+
+[Info  - 1:08:20 PM] 2026/05/31 13:08:20 background refresh finished after 5.233314ms
+
+[Error - 1:08:20 PM] 2026/05/31 13:08:20 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go:26:57: missing parameter type
+	file="/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go"
+
+[Error - 1:08:21 PM] 2026/05/31 13:08:21 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go:26:60: missing parameter type
+	file="/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go"
+
+[Error - 1:08:22 PM] 2026/05/31 13:08:22 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go:26:59: missing parameter type
+	file="/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go"
+
+[Error - 1:08:22 PM] 2026/05/31 13:08:22 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go:26:60: missing parameter type
+	file="/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go"
+
+[Info  - 1:08:53 PM] 2026/05/31 13:08:53 background imports cache refresh starting
+
+[Info  - 1:08:53 PM] 2026/05/31 13:08:53 background refresh finished after 4.945032ms
+
+[Info  - 1:09:30 PM] 2026/05/31 13:09:30 background imports cache refresh starting
+
+[Info  - 1:09:30 PM] 2026/05/31 13:09:30 background refresh finished after 4.958782ms
+
+[Error - 1:09:43 PM] 2026/05/31 13:09:43 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go:30:10: expected type, found ')' (and 4 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go"
+
+[Error - 1:09:45 PM] 2026/05/31 13:09:45 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go:30:20: expected 'IDENT', found newline (and 3 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go"
+
+[Error - 1:09:50 PM] 2026/05/31 13:09:50 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go:30:25: expected '(', found newline (and 2 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go"
+
+[Error - 1:09:51 PM] 2026/05/31 13:09:51 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go:30:30: expected '(', found newline (and 2 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go"
+
+[Error - 1:09:57 PM] 2026/05/31 13:09:57 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go:30:55: missing parameter type
+	file="/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go"
+
+[Error - 1:09:57 PM] 2026/05/31 13:09:57 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go:30:56: missing parameter type
+	file="/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go"
+
+[Info  - 1:10:03 PM] 2026/05/31 13:10:03 background imports cache refresh starting
+
+[Info  - 1:10:03 PM] 2026/05/31 13:10:03 background refresh finished after 5.052775ms
+
+[Info  - 1:10:35 PM] 2026/05/31 13:10:35 background imports cache refresh starting
+
+[Info  - 1:10:35 PM] 2026/05/31 13:10:35 background refresh finished after 5.262409ms
+
+[Error - 1:25:22 PM] 2026/05/31 13:25:22 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go:34:10: expected type, found ')' (and 4 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go"
+
+[Error - 1:25:24 PM] 2026/05/31 13:25:24 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go:34:20: expected 'IDENT', found newline (and 3 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go"
+
+[Error - 1:25:28 PM] 2026/05/31 13:25:28 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go:34:22: expected '(', found newline (and 2 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go"
+
+[Error - 1:25:28 PM] 2026/05/31 13:25:28 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go:34:24: expected '(', found newline (and 2 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go"
+
+[Error - 1:25:28 PM] 2026/05/31 13:25:28 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go:34:31: expected '(', found newline (and 2 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go"
+
+[Info  - 1:25:31 PM] 2026/05/31 13:25:31 background imports cache refresh starting
+
+[Info  - 1:25:31 PM] 2026/05/31 13:25:31 background refresh finished after 6.392273ms
+
+[Error - 1:25:37 PM] 2026/05/31 13:25:37 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go:34:55: missing parameter type
+	file="/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go"
+
+[Error - 1:25:37 PM] 2026/05/31 13:25:37 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go:34:57: missing parameter type
+	file="/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go"
+
+[Error - 1:25:39 PM] 2026/05/31 13:25:39 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go:34:57: missing parameter type
+	file="/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go"
+
+[Info  - 1:26:01 PM] 2026/05/31 13:26:01 background imports cache refresh starting
+
+[Info  - 1:26:01 PM] 2026/05/31 13:26:01 background refresh finished after 5.616219ms
+
+[Info  - 1:26:32 PM] 2026/05/31 13:26:32 background imports cache refresh starting
+
+[Info  - 1:26:32 PM] 2026/05/31 13:26:32 background refresh finished after 5.134325ms
+
+[Info  - 1:27:03 PM] 2026/05/31 13:27:03 background imports cache refresh starting
+
+[Info  - 1:27:03 PM] 2026/05/31 13:27:03 background refresh finished after 5.059753ms
+
+[Error - 1:27:26 PM] 2026/05/31 13:27:26 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go:34:93: missing ',' in parameter list
+	file="/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go"
+
+[Error - 1:27:26 PM] 2026/05/31 13:27:26 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go:34:93: missing ',' in parameter list
+	file="/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go"
+
+[Info  - 1:27:29 PM] 2026/05/31 13:27:29 go/packages.Load #119
+	view_id="1"
+	snapshot=1925
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go]
+	packages=1
+	duration=69.756013ms
+
+[Info  - 1:27:29 PM] 2026/05/31 13:27:29 go/packages.Load #120
+	view_id="1"
+	snapshot=1925
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go]
+	packages=1
+	duration=64.915472ms
+
+[Error - 1:27:31 PM] 2026/05/31 13:27:31 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go:35:100: missing ',' in parameter list
+	file="/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go"
+
+[Info  - 1:27:42 PM] 2026/05/31 13:27:42 background imports cache refresh starting
+
+[Info  - 1:27:42 PM] 2026/05/31 13:27:42 background refresh finished after 5.85212ms
+
+[Info  - 1:29:30 PM] 2026/05/31 13:29:30 go/packages.Load #121
+	view_id="1"
+	snapshot=1937
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go]
+	packages=1
+	duration=73.871122ms
+
+[Info  - 1:29:30 PM] 2026/05/31 13:29:30 go/packages.Load #122
+	view_id="1"
+	snapshot=1937
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go]
+	packages=1
+	duration=68.837158ms
+
+[Info  - 1:29:35 PM] 2026/05/31 13:29:35 go/packages.Load #123
+	view_id="1"
+	snapshot=1942
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go]
+	packages=1
+	duration=69.671503ms
+
+[Info  - 1:29:35 PM] 2026/05/31 13:29:35 go/packages.Load #124
+	view_id="1"
+	snapshot=1942
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go]
+	packages=1
+	duration=66.608847ms
+
+[Info  - 1:29:40 PM] 2026/05/31 13:29:40 go/packages.Load #126
+	view_id="1"
+	snapshot=1948
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go]
+	packages=1
+	duration=70.894418ms
+
+[Info  - 1:29:40 PM] 2026/05/31 13:29:40 go/packages.Load #127
+	view_id="1"
+	snapshot=1948
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go]
+	packages=1
+	duration=67.055483ms
+
+[Info  - 1:29:44 PM] 2026/05/31 13:29:44 go/packages.Load #129
+	view_id="1"
+	snapshot=1954
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go]
+	packages=1
+	duration=69.554666ms
+
+[Info  - 1:29:44 PM] 2026/05/31 13:29:44 go/packages.Load #130
+	view_id="1"
+	snapshot=1954
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go]
+	packages=1
+	duration=68.280578ms
+
+[Info  - 1:29:57 PM] 2026/05/31 13:29:57 background imports cache refresh starting
+
+[Info  - 1:29:57 PM] 2026/05/31 13:29:57 background refresh finished after 5.183792ms
+
+[Info  - 1:30:55 PM] 2026/05/31 13:30:55 background imports cache refresh starting
+
+[Info  - 1:30:55 PM] 2026/05/31 13:30:55 background refresh finished after 5.194558ms
+
+[Info  - 1:33:12 PM] 2026/05/31 13:33:12 background imports cache refresh starting
+
+[Info  - 1:33:12 PM] 2026/05/31 13:33:12 background refresh finished after 5.221222ms
+
+[Error - 1:33:14 PM] 2026/05/31 13:33:14 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go:81:2: expected 1 expression
+	file="/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go"
+
+[Info  - 1:34:00 PM] 2026/05/31 13:34:00 background imports cache refresh starting
+
+[Info  - 1:34:00 PM] 2026/05/31 13:34:00 background refresh finished after 5.057331ms
+
+[Info  - 1:35:08 PM] 2026/05/31 13:35:08 go/packages.Load #131
+	view_id="1"
+	snapshot=2007
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/services/permissions/permissions.go]
+	packages=1
+	duration=39.900307ms
+
+[Info  - 1:35:20 PM] 2026/05/31 13:35:20 go/packages.Load #132
+	view_id="1"
+	snapshot=2009
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go]
+	packages=1
+	duration=77.735997ms
+
+[Info  - 1:35:20 PM] 2026/05/31 13:35:20 go/packages.Load #133
+	view_id="1"
+	snapshot=2009
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go]
+	packages=1
+	duration=76.612861ms
+
+[Info  - 1:57:23 PM] 2026/05/31 13:57:23 go/packages.Load #134
+	view_id="1"
+	snapshot=2022
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/permissions/main.go]
+	packages=1
+	duration=9.389844ms
+
+[Info  - 1:57:23 PM] 2026/05/31 13:57:23 go/packages.Load #135
+	view_id="1"
+	snapshot=2024
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/permissions/main.go]
+	packages=1
+	duration=10.023799ms
+
+[Info  - 1:57:30 PM] 2026/05/31 13:57:30 go/packages.Load #136
+	view_id="1"
+	snapshot=2025
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/app/grpc/app.go]
+	packages=1
+	duration=9.488032ms
+
+[Info  - 1:57:30 PM] 2026/05/31 13:57:30 go/packages.Load #137
+	view_id="1"
+	snapshot=2027
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/app/grpc/app.go]
+	packages=1
+	duration=9.459173ms
+
+[Info  - 1:57:32 PM] 2026/05/31 13:57:32 go/packages.Load #138
+	view_id="1"
+	snapshot=2029
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/app/grpc/app.go]
+	packages=1
+	duration=9.597879ms
+
+[Info  - 1:57:33 PM] 2026/05/31 13:57:33 go/packages.Load #139
+	view_id="1"
+	snapshot=2030
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/app/grpc/app.go]
+	packages=1
+	duration=10.424543ms
+
+[Info  - 1:57:33 PM] 2026/05/31 13:57:33 go/packages.Load #140
+	view_id="1"
+	snapshot=2030
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/app/grpc/app.go]
+	packages=1
+	duration=10.451381ms
+
+[Info  - 1:57:33 PM] 2026/05/31 13:57:33 go/packages.Load #141
+	view_id="1"
+	snapshot=2031
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/app/grpc/app.go]
+	packages=1
+	duration=9.860914ms
+
+[Info  - 1:57:33 PM] 2026/05/31 13:57:33 go/packages.Load #142
+	view_id="1"
+	snapshot=2031
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/app/grpc/app.go]
+	packages=1
+	duration=9.838075ms
+
+[Info  - 1:57:37 PM] 2026/05/31 13:57:37 go/packages.Load #143
+	view_id="1"
+	snapshot=2031
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/app/app.go]
+	packages=1
+	duration=9.787106ms
+
+[Info  - 1:57:37 PM] 2026/05/31 13:57:37 go/packages.Load #144
+	view_id="1"
+	snapshot=2033
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/app/app.go]
+	packages=1
+	duration=9.334036ms
+
+[Info  - 1:58:09 PM] 2026/05/31 13:58:09 background imports cache refresh starting
+
+[Info  - 1:58:09 PM] 2026/05/31 13:58:09 background refresh finished after 5.038394ms
+
+[Info  - 1:58:24 PM] 2026/05/31 13:58:24 go/packages.Load #146
+	view_id="1"
+	snapshot=2052
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/app/grpc/app.go]
+	packages=1
+	duration=45.121034ms
+
+[Info  - 1:58:24 PM] 2026/05/31 13:58:24 go/packages.Load #147
+	view_id="1"
+	snapshot=2052
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/app/grpc/app.go]
+	packages=1
+	duration=38.607141ms
+
+[Info  - 1:58:27 PM] 2026/05/31 13:58:27 go/packages.Load #148
+	view_id="1"
+	snapshot=2058
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/app/grpc/app.go]
+	packages=1
+	duration=73.005513ms
+
+[Info  - 1:58:27 PM] 2026/05/31 13:58:27 go/packages.Load #149
+	view_id="1"
+	snapshot=2058
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/app/grpc/app.go]
+	packages=1
+	duration=71.002535ms
+
+[Info  - 1:58:52 PM] 2026/05/31 13:58:52 background imports cache refresh starting
+
+[Info  - 1:58:52 PM] 2026/05/31 13:58:52 background refresh finished after 5.483047ms
+
+[Info  - 1:58:52 PM] 2026/05/31 13:58:52 go/packages.Load #150
+	view_id="1"
+	snapshot=2066
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/app/grpc/app.go]
+	packages=1
+	duration=72.493102ms
+
+[Info  - 1:58:52 PM] 2026/05/31 13:58:52 go/packages.Load #151
+	view_id="1"
+	snapshot=2066
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/app/grpc/app.go]
+	packages=1
+	duration=66.670191ms
+
+[Error - 1:58:54 PM] Request textDocument/hover failed.
+  Message: no package data for import "github.com/grpc-ecosystem/go-grpc-middleware/v2/interceptors/recovery"
+  Code: 0 
+[Error - 1:58:55 PM] Request textDocument/definition failed.
+  Message: failed to resolve import "github.com/grpc-ecosystem/go-grpc-middleware/v2/interceptors/recovery"
+  Code: 0 
+[Error - 1:58:55 PM] Request textDocument/definition failed.
+  Message: failed to resolve import "github.com/grpc-ecosystem/go-grpc-middleware/v2/interceptors/logging"
+  Code: 0 
+[Error - 1:58:55 PM] Request textDocument/definition failed.
+  Message: failed to resolve import "github.com/grpc-ecosystem/go-grpc-middleware/v2/interceptors/logging"
+  Code: 0 
+[Error - 1:58:55 PM] Request textDocument/definition failed.
+  Message: failed to resolve import "github.com/grpc-ecosystem/go-grpc-middleware/v2/interceptors/logging"
+  Code: 0 
+[Error - 1:58:55 PM] Request textDocument/definition failed.
+  Message: failed to resolve import "github.com/grpc-ecosystem/go-grpc-middleware/v2/interceptors/recovery"
+  Code: 0 
+[Error - 1:58:55 PM] Request textDocument/definition failed.
+  Message: failed to resolve import "github.com/grpc-ecosystem/go-grpc-middleware/v2/interceptors/recovery"
+  Code: 0 
+[Info  - 1:58:56 PM] 2026/05/31 13:58:56 go/packages.Load #152
+	view_id="1"
+	snapshot=2068
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/app/grpc/app.go]
+	packages=1
+	duration=74.748161ms
+
+[Info  - 1:58:56 PM] 2026/05/31 13:58:56 go/packages.Load #153
+	view_id="1"
+	snapshot=2068
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/app/grpc/app.go]
+	packages=1
+	duration=71.798191ms
+
+[Error - 1:59:03 PM] Request textDocument/hover failed.
+  Message: no package data for import "github.com/grpc-ecosystem/go-grpc-middleware/v2/interceptors/logging"
+  Code: 0 
+[Error - 1:59:05 PM] Request textDocument/hover failed.
+  Message: no package data for import "github.com/grpc-ecosystem/go-grpc-middleware/v2/interceptors/logging"
+  Code: 0 
+[Error - 1:59:06 PM] Request textDocument/hover failed.
+  Message: no package data for import "github.com/grpc-ecosystem/go-grpc-middleware/v2/interceptors/logging"
+  Code: 0 
+[Error - 1:59:06 PM] Request workspace/executeCommand failed.
+  Message: no package data for import "github.com/grpc-ecosystem/go-grpc-middleware/v2/interceptors/logging"
+  Code: 0 
+[Info  - 1:59:16 PM] 2026/05/31 13:59:16 go/packages.Load #154
+	view_id="1"
+	snapshot=2077
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[/home/maksim/Projects/Go/Project/permissions/... builtin]
+	packages=13
+	duration=89.744002ms
+
+[Info  - 1:59:23 PM] 2026/05/31 13:59:23 background imports cache refresh starting
+
+[Info  - 1:59:23 PM] 2026/05/31 13:59:23 background refresh finished after 4.97557ms
+
+[Info  - 1:59:28 PM] 2026/05/31 13:59:28 go/packages.Load #156
+	view_id="1"
+	snapshot=2080
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[/home/maksim/Projects/Go/Project/permissions/... builtin]
+	packages=13
+	duration=76.618479ms
+
+[Info  - 2:00:20 PM] 2026/05/31 14:00:20 background imports cache refresh starting
+
+[Info  - 2:00:20 PM] 2026/05/31 14:00:20 background refresh finished after 7.903318ms
+
+[Info  - 2:00:31 PM] 2026/05/31 14:00:31 go/packages.Load #157
+	view_id="1"
+	snapshot=2095
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go]
+	packages=1
+	duration=69.309816ms
+
+[Info  - 2:00:31 PM] 2026/05/31 14:00:31 go/packages.Load #158
+	view_id="1"
+	snapshot=2095
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go]
+	packages=1
+	duration=68.665207ms
+
+[Info  - 2:00:32 PM] 2026/05/31 14:00:32 go/packages.Load #160
+	view_id="1"
+	snapshot=2096
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go]
+	packages=1
+	duration=73.070224ms
+
+[Info  - 2:00:32 PM] 2026/05/31 14:00:32 go/packages.Load #159
+	view_id="1"
+	snapshot=2096
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go]
+	packages=1
+	duration=74.244502ms
+
+[Info  - 2:00:32 PM] 2026/05/31 14:00:32 go/packages.Load #162
+	view_id="1"
+	snapshot=2097
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go]
+	packages=1
+	duration=70.473105ms
+
+[Info  - 2:00:32 PM] 2026/05/31 14:00:32 go/packages.Load #161
+	view_id="1"
+	snapshot=2097
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go]
+	packages=1
+	duration=72.075614ms
+
+[Info  - 2:00:32 PM] 2026/05/31 14:00:32 go/packages.Load #163
+	view_id="1"
+	snapshot=2098
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go]
+	packages=1
+	duration=70.283078ms
+
+[Info  - 2:00:32 PM] 2026/05/31 14:00:32 go/packages.Load #164
+	view_id="1"
+	snapshot=2098
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/grpc/permissions/server.go]
+	packages=1
+	duration=73.645484ms
+
+[Info  - 2:00:37 PM] 2026/05/31 14:00:37 go/packages.Load #166
+	view_id="1"
+	snapshot=2107
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/app/grpc/app.go]
+	packages=1
+	duration=74.503052ms
+
+[Info  - 2:00:37 PM] 2026/05/31 14:00:37 go/packages.Load #167
+	view_id="1"
+	snapshot=2107
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/app/grpc/app.go]
+	packages=1
+	duration=73.996652ms
+
+[Info  - 2:00:58 PM] 2026/05/31 14:00:58 go/packages.Load #168
+	view_id="1"
+	snapshot=2129
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/app/grpc/app.go]
+	packages=1
+	duration=68.091672ms
+
+[Info  - 2:00:58 PM] 2026/05/31 14:00:58 go/packages.Load #169
+	view_id="1"
+	snapshot=2129
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/app/grpc/app.go]
+	packages=1
+	duration=67.64123ms
+
+[Info  - 2:01:03 PM] 2026/05/31 14:01:03 background imports cache refresh starting
+
+[Info  - 2:01:03 PM] 2026/05/31 14:01:03 background refresh finished after 5.253872ms
+
+[Info  - 2:01:03 PM] 2026/05/31 14:01:03 go/packages.Load #171
+	view_id="1"
+	snapshot=2135
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/app/grpc/app.go]
+	packages=1
+	duration=69.962181ms
+
+[Info  - 2:01:03 PM] 2026/05/31 14:01:03 go/packages.Load #172
+	view_id="1"
+	snapshot=2135
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/app/grpc/app.go]
+	packages=1
+	duration=71.027792ms
+
+[Info  - 2:01:09 PM] 2026/05/31 14:01:09 go/packages.Load #173
+	view_id="1"
+	snapshot=2141
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/app/grpc/app.go]
+	packages=1
+	duration=70.896598ms
+
+[Info  - 2:01:10 PM] 2026/05/31 14:01:10 go/packages.Load #174
+	view_id="1"
+	snapshot=2141
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/app/grpc/app.go]
+	packages=1
+	duration=71.788603ms
+
+[Error - 2:01:15 PM] 2026/05/31 14:01:15 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/app/grpc/app.go:51:2: expected statement, found '.'
+	file="/home/maksim/Projects/Go/Project/permissions/internal/app/grpc/app.go"
+
+[Error - 2:01:18 PM] 2026/05/31 14:01:18 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/app/grpc/app.go:51:2: expected statement, found '.'
+	file="/home/maksim/Projects/Go/Project/permissions/internal/app/grpc/app.go"
+
+[Info  - 2:01:33 PM] 2026/05/31 14:01:33 background imports cache refresh starting
+
+[Info  - 2:01:33 PM] 2026/05/31 14:01:33 background refresh finished after 5.264723ms
+
+[Info  - 2:02:06 PM] 2026/05/31 14:02:06 background imports cache refresh starting
+
+[Info  - 2:02:06 PM] 2026/05/31 14:02:06 background refresh finished after 5.094038ms
+
+[Info  - 2:02:23 PM] 2026/05/31 14:02:23 go/packages.Load #176
+	view_id="1"
+	snapshot=2183
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/app/grpc/app.go]
+	packages=1
+	duration=68.069507ms
+
+[Info  - 2:02:23 PM] 2026/05/31 14:02:23 go/packages.Load #177
+	view_id="1"
+	snapshot=2183
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/app/grpc/app.go]
+	packages=1
+	duration=71.512386ms
+
+[Info  - 2:02:27 PM] 2026/05/31 14:02:27 go/packages.Load #179
+	view_id="1"
+	snapshot=2188
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/app/grpc/app.go]
+	packages=1
+	duration=69.19329ms
+
+[Info  - 2:02:27 PM] 2026/05/31 14:02:27 go/packages.Load #180
+	view_id="1"
+	snapshot=2188
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/app/grpc/app.go]
+	packages=1
+	duration=67.990152ms
+
+[Info  - 2:02:49 PM] 2026/05/31 14:02:49 background imports cache refresh starting
+
+[Info  - 2:02:49 PM] 2026/05/31 14:02:49 background refresh finished after 5.185049ms
+
+[Info  - 2:02:59 PM] 2026/05/31 14:02:59 go/packages.Load #181
+	view_id="1"
+	snapshot=2199
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/app/app.go]
+	packages=1
+	duration=40.263018ms
+
+[Info  - 2:02:59 PM] 2026/05/31 14:02:59 go/packages.Load #182
+	view_id="1"
+	snapshot=2199
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/app/app.go]
+	packages=1
+	duration=38.290342ms
+
+[Info  - 2:03:03 PM] 2026/05/31 14:03:03 go/packages.Load #184
+	view_id="1"
+	snapshot=2205
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/app/app.go]
+	packages=1
+	duration=81.499121ms
+
+[Info  - 2:03:03 PM] 2026/05/31 14:03:03 go/packages.Load #185
+	view_id="1"
+	snapshot=2205
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/app/app.go]
+	packages=1
+	duration=85.631499ms
+
+[Info  - 2:03:09 PM] 2026/05/31 14:03:09 go/packages.Load #187
+	view_id="1"
+	snapshot=2210
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/app/app.go]
+	packages=1
+	duration=77.026523ms
+
+[Info  - 2:03:09 PM] 2026/05/31 14:03:09 go/packages.Load #188
+	view_id="1"
+	snapshot=2210
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/app/app.go]
+	packages=1
+	duration=72.661639ms
+
+[Error - 2:03:14 PM] 2026/05/31 14:03:14 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/internal/app/app.go:24:17: expected operand, found '.' (and 1 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/internal/app/app.go"
+
+[Info  - 2:03:27 PM] 2026/05/31 14:03:27 background imports cache refresh starting
+
+[Info  - 2:03:27 PM] 2026/05/31 14:03:27 background refresh finished after 5.309009ms
+
+[Info  - 2:03:31 PM] 2026/05/31 14:03:31 go/packages.Load #189
+	view_id="1"
+	snapshot=2221
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/app/app.go]
+	packages=1
+	duration=74.088849ms
+
+[Info  - 2:03:31 PM] 2026/05/31 14:03:31 go/packages.Load #190
+	view_id="1"
+	snapshot=2221
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/app/app.go]
+	packages=1
+	duration=76.897302ms
+
+[Info  - 2:03:53 PM] 2026/05/31 14:03:53 go/packages.Load #192
+	view_id="1"
+	snapshot=2251
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/app/app.go]
+	packages=1
+	duration=75.856604ms
+
+[Info  - 2:03:53 PM] 2026/05/31 14:03:53 go/packages.Load #193
+	view_id="1"
+	snapshot=2251
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/app/app.go]
+	packages=1
+	duration=76.170069ms
+
+[Info  - 2:04:00 PM] 2026/05/31 14:04:00 background imports cache refresh starting
+
+[Info  - 2:04:00 PM] 2026/05/31 14:04:00 background refresh finished after 5.081894ms
+
+[Info  - 2:04:04 PM] 2026/05/31 14:04:04 go/packages.Load #194
+	view_id="1"
+	snapshot=2254
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/permissions/main.go]
+	packages=1
+	duration=10.311986ms
+
+[Info  - 2:04:04 PM] 2026/05/31 14:04:04 go/packages.Load #195
+	view_id="1"
+	snapshot=2255
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/permissions/main.go]
+	packages=1
+	duration=9.722697ms
+
+[Info  - 2:04:04 PM] 2026/05/31 14:04:04 go/packages.Load #196
+	view_id="1"
+	snapshot=2255
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/permissions/main.go]
+	packages=1
+	duration=9.701156ms
+
+[Info  - 2:04:04 PM] 2026/05/31 14:04:04 go/packages.Load #197
+	view_id="1"
+	snapshot=2256
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/permissions/main.go]
+	packages=1
+	duration=9.45527ms
+
+[Info  - 2:04:04 PM] 2026/05/31 14:04:04 go/packages.Load #198
+	view_id="1"
+	snapshot=2256
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/permissions/main.go]
+	packages=1
+	duration=9.43491ms
+
+[Info  - 2:04:04 PM] 2026/05/31 14:04:04 go/packages.Load #199
+	view_id="1"
+	snapshot=2257
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/permissions/main.go]
+	packages=1
+	duration=34.716085ms
+
+[Info  - 2:04:04 PM] 2026/05/31 14:04:04 go/packages.Load #200
+	view_id="1"
+	snapshot=2257
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/permissions/main.go]
+	packages=1
+	duration=34.808503ms
+
+[Info  - 2:04:30 PM] 2026/05/31 14:04:30 go/packages.Load #202
+	view_id="1"
+	snapshot=2269
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/permissions/main.go]
+	packages=1
+	duration=46.027494ms
+
+[Info  - 2:04:30 PM] 2026/05/31 14:04:30 go/packages.Load #203
+	view_id="1"
+	snapshot=2269
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/permissions/main.go]
+	packages=1
+	duration=45.419554ms
+
+[Info  - 2:04:33 PM] 2026/05/31 14:04:33 go/packages.Load #205
+	view_id="1"
+	snapshot=2273
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/permissions/main.go]
+	packages=1
+	duration=42.910267ms
+
+[Info  - 2:04:34 PM] 2026/05/31 14:04:34 go/packages.Load #206
+	view_id="1"
+	snapshot=2273
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/permissions/main.go]
+	packages=1
+	duration=41.417312ms
+
+[Error - 2:04:34 PM] 2026/05/31 14:04:34 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/cmd/permissions/main.go:30:41: expected operand, found '.' (and 11 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/cmd/permissions/main.go"
+
+[Info  - 2:04:35 PM] 2026/05/31 14:04:35 background imports cache refresh starting
+
+[Info  - 2:04:35 PM] 2026/05/31 14:04:35 background refresh finished after 5.198774ms
+
+[Info  - 2:04:35 PM] 2026/05/31 14:04:35 go/packages.Load #207
+	view_id="1"
+	snapshot=2276
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/permissions/main.go]
+	packages=1
+	duration=44.532221ms
+
+[Info  - 2:04:35 PM] 2026/05/31 14:04:35 go/packages.Load #208
+	view_id="1"
+	snapshot=2276
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/permissions/main.go]
+	packages=1
+	duration=41.951974ms
+
+[Info  - 2:04:38 PM] 2026/05/31 14:04:38 go/packages.Load #209
+	view_id="1"
+	snapshot=2280
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/permissions/main.go]
+	packages=1
+	duration=42.659022ms
+
+[Info  - 2:04:38 PM] 2026/05/31 14:04:38 go/packages.Load #210
+	view_id="1"
+	snapshot=2280
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/permissions/main.go]
+	packages=1
+	duration=43.231633ms
+
+[Info  - 2:04:39 PM] 2026/05/31 14:04:39 go/packages.Load #212
+	view_id="1"
+	snapshot=2282
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/permissions/main.go]
+	packages=1
+	duration=84.629117ms
+
+[Info  - 2:04:39 PM] 2026/05/31 14:04:39 go/packages.Load #213
+	view_id="1"
+	snapshot=2282
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/cmd/permissions/main.go]
+	packages=1
+	duration=79.401494ms
+
+[Info  - 2:04:56 PM] 2026/05/31 14:04:56 go/packages.Load #214
+	view_id="1"
+	snapshot=2290
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/app/app.go]
+	packages=1
+	duration=77.753862ms
+
+[Info  - 2:04:56 PM] 2026/05/31 14:04:56 go/packages.Load #215
+	view_id="1"
+	snapshot=2290
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/internal/app/app.go]
+	packages=1
+	duration=75.704675ms
+
+[Info  - 2:04:58 PM] 2026/05/31 14:04:58 go/packages.Load #216
+	view_id="1"
+	snapshot=2292
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[permissions/cmd/permissions]
+	packages=1
+	duration=72.060196ms
+
+[Info  - 2:05:06 PM] 2026/05/31 14:05:06 background imports cache refresh starting
+
+[Info  - 2:05:06 PM] 2026/05/31 14:05:06 background refresh finished after 5.278353ms
+
+[Info  - 2:05:37 PM] 2026/05/31 14:05:37 background imports cache refresh starting
+
+[Info  - 2:05:37 PM] 2026/05/31 14:05:37 background refresh finished after 5.120658ms
+
+[Info  - 2:06:02 PM] 2026/05/31 14:06:02 go/packages.Load #217
+	view_id="1"
+	snapshot=2295
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/tests/suite/suite.go]
+	packages=1
+	duration=9.596297ms
+
+[Info  - 2:06:02 PM] 2026/05/31 14:06:02 go/packages.Load #218
+	view_id="1"
+	snapshot=2297
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/tests/suite/suite.go]
+	packages=1
+	duration=11.068693ms
+
+[Info  - 2:06:22 PM] 2026/05/31 14:06:22 go/packages.Load #220
+	view_id="1"
+	snapshot=2306
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/tests/suite/suite.go]
+	packages=1
+	duration=46.113999ms
+
+[Info  - 2:06:22 PM] 2026/05/31 14:06:22 go/packages.Load #221
+	view_id="1"
+	snapshot=2306
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/tests/suite/suite.go]
+	packages=1
+	duration=47.288341ms
+
+[Info  - 2:06:27 PM] 2026/05/31 14:06:27 go/packages.Load #222
+	view_id="1"
+	snapshot=2312
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/tests/suite/suite.go]
+	packages=1
+	duration=43.391404ms
+
+[Info  - 2:06:27 PM] 2026/05/31 14:06:27 go/packages.Load #223
+	view_id="1"
+	snapshot=2312
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/tests/suite/suite.go]
+	packages=1
+	duration=40.978333ms
+
+[Info  - 2:06:32 PM] 2026/05/31 14:06:32 go/packages.Load #224
+	view_id="1"
+	snapshot=2323
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/tests/suite/suite.go]
+	packages=1
+	duration=77.35934ms
+
+[Info  - 2:06:32 PM] 2026/05/31 14:06:32 go/packages.Load #225
+	view_id="1"
+	snapshot=2323
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/tests/suite/suite.go]
+	packages=1
+	duration=71.375864ms
+
+[Info  - 2:06:39 PM] 2026/05/31 14:06:39 go/packages.Load #227
+	view_id="1"
+	snapshot=2337
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/tests/suite/suite.go]
+	packages=1
+	duration=73.678291ms
+
+[Info  - 2:06:39 PM] 2026/05/31 14:06:39 go/packages.Load #228
+	view_id="1"
+	snapshot=2337
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/tests/suite/suite.go]
+	packages=1
+	duration=66.702971ms
+
+[Info  - 2:06:51 PM] 2026/05/31 14:06:51 background imports cache refresh starting
+
+[Info  - 2:06:51 PM] 2026/05/31 14:06:51 background refresh finished after 5.690831ms
+
+[Info  - 2:06:51 PM] 2026/05/31 14:06:51 go/packages.Load #230
+	view_id="1"
+	snapshot=2350
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/tests/suite/suite.go]
+	packages=1
+	duration=72.903479ms
+
+[Info  - 2:06:51 PM] 2026/05/31 14:06:51 go/packages.Load #231
+	view_id="1"
+	snapshot=2350
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/tests/suite/suite.go]
+	packages=1
+	duration=79.049343ms
+
+[Info  - 2:06:55 PM] 2026/05/31 14:06:55 go/packages.Load #232
+	view_id="1"
+	snapshot=2355
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/tests/suite/suite.go]
+	packages=1
+	duration=72.054504ms
+
+[Info  - 2:06:55 PM] 2026/05/31 14:06:55 go/packages.Load #233
+	view_id="1"
+	snapshot=2355
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/tests/suite/suite.go]
+	packages=1
+	duration=73.259695ms
+
+[Info  - 2:07:01 PM] 2026/05/31 14:07:01 go/packages.Load #235
+	view_id="1"
+	snapshot=2360
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/tests/suite/suite.go]
+	packages=1
+	duration=71.331468ms
+
+[Info  - 2:07:01 PM] 2026/05/31 14:07:01 go/packages.Load #236
+	view_id="1"
+	snapshot=2360
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/tests/suite/suite.go]
+	packages=1
+	duration=68.973645ms
+
+[Info  - 2:07:06 PM] 2026/05/31 14:07:06 go/packages.Load #238
+	view_id="1"
+	snapshot=2366
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/tests/suite/suite.go]
+	packages=1
+	duration=73.182022ms
+
+[Info  - 2:07:06 PM] 2026/05/31 14:07:06 go/packages.Load #239
+	view_id="1"
+	snapshot=2366
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/tests/suite/suite.go]
+	packages=1
+	duration=74.391113ms
+
+[Error - 2:07:17 PM] 2026/05/31 14:07:17 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/tests/suite/suite.go:45:16: expected operand, found '.' (and 1 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/tests/suite/suite.go"
+
+[Info  - 2:07:23 PM] 2026/05/31 14:07:23 background imports cache refresh starting
+
+[Info  - 2:07:23 PM] 2026/05/31 14:07:23 background refresh finished after 5.102811ms
+
+[Info  - 2:07:54 PM] 2026/05/31 14:07:54 background imports cache refresh starting
+
+[Info  - 2:07:54 PM] 2026/05/31 14:07:54 background refresh finished after 5.2063ms
+
+[Info  - 2:09:38 PM] 2026/05/31 14:09:38 go/packages.Load #240
+	view_id="1"
+	snapshot=2424
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/tests/helpers.go]
+	packages=1
+	duration=9.615968ms
+
+[Info  - 2:09:38 PM] 2026/05/31 14:09:38 go/packages.Load #241
+	view_id="1"
+	snapshot=2426
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/tests/helpers.go]
+	packages=1
+	duration=10.759781ms
+
+[Error - 2:09:45 PM] 2026/05/31 14:09:45 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/tests/helpers.go:2:1: expected declaration, found 'package' (and 1 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/tests/helpers.go"
+
+[Error - 2:09:45 PM] 2026/05/31 14:09:45 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/tests/helpers.go:2:1: expected declaration, found 'package' (and 1 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/tests/helpers.go"
+
+[Error - 2:09:46 PM] 2026/05/31 14:09:46 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/tests/helpers.go:2:1: expected declaration, found 'package' (and 1 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/tests/helpers.go"
+
+[Error - 2:09:46 PM] 2026/05/31 14:09:46 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/tests/helpers.go:2:1: expected declaration, found 'package' (and 1 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/tests/helpers.go"
+
+[Error - 2:09:47 PM] 2026/05/31 14:09:47 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/permissions/tests/helpers.go:2:1: expected declaration, found 'package' (and 1 more errors)
+	file="/home/maksim/Projects/Go/Project/permissions/tests/helpers.go"
+
+[Info  - 2:09:48 PM] 2026/05/31 14:09:48 go/packages.Load #242
+	view_id="1"
+	snapshot=2429
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/tests/helpers.go]
+	packages=1
+	duration=13.841436ms
+
+[Info  - 2:10:01 PM] 2026/05/31 14:10:01 go/packages.Load #243
+	view_id="1"
+	snapshot=2431
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[/home/maksim/Projects/Go/Project/permissions/... builtin]
+	packages=15
+	duration=77.01496ms
+
+[Info  - 2:10:09 PM] 2026/05/31 14:10:09 go/packages.Load #244
+	view_id="1"
+	snapshot=2435
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[/home/maksim/Projects/Go/Project/permissions/... builtin]
+	packages=15
+	duration=76.529069ms
+
+[Info  - 2:10:21 PM] 2026/05/31 14:10:21 background imports cache refresh starting
+
+[Info  - 2:10:21 PM] 2026/05/31 14:10:21 background refresh finished after 8.795251ms
+
+[Info  - 2:13:51 PM] 2026/05/31 14:13:51 go/packages.Load #245
+	view_id="1"
+	snapshot=2435
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/tests/permission_test.go]
+	packages=1
+	duration=50.763215ms
+
+[Info  - 2:13:51 PM] 2026/05/31 14:13:51 go/packages.Load #246
+	view_id="1"
+	snapshot=2437
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/tests/permission_test.go]
+	packages=1
+	duration=58.417728ms
+
+[Info  - 2:13:51 PM] 2026/05/31 14:13:51 go/packages.Load #247
+	view_id="1"
+	snapshot=2437
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/tests/permission_test.go]
+	packages=1
+	duration=55.768446ms
+
+[Info  - 2:13:53 PM] 2026/05/31 14:13:53 go/packages.Load #248
+	view_id="1"
+	snapshot=2438
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[permissions/tests]
+	packages=3
+	duration=51.295489ms
+
+[Info  - 2:14:15 PM] 2026/05/31 14:14:15 go/packages.Load #250
+	view_id="1"
+	snapshot=2441
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/tests/permission_test.go]
+	packages=1
+	duration=37.426783ms
+
+[Info  - 2:14:15 PM] 2026/05/31 14:14:15 go/packages.Load #249
+	view_id="1"
+	snapshot=2441
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/tests/permission_test.go]
+	packages=1
+	duration=38.496868ms
+
+[Error - 2:14:16 PM] 2026/05/31 14:14:16 go/packages.Load #251: err: exit status 1: stderr: go: updates to go.mod needed; to update it:
+	go mod tidy
+
+	view_id="1"
+	snapshot=2444
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[permissions/tests]
+	packages=0
+	duration=17.37616ms
+
+[Error - 2:14:16 PM] 2026/05/31 14:14:16 reloading workspace: packages.Load error: err: exit status 1: stderr: go: updates to go.mod needed; to update it:
+	go mod tidy
+
+	view_id="1"
+	snapshot=2444
+	directory=/home/maksim/Projects/Go/Project/permissions
+
+[Error - 2:14:28 PM] Request textDocument/hover failed.
+  Message: no package data for import "permissions/gen/go/permissions"
+  Code: 0 
+[Info  - 2:14:29 PM] 2026/05/31 14:14:29 go/packages.Load #253
+	view_id="1"
+	snapshot=2445
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/tests/permission_test.go]
+	packages=1
+	duration=33.190602ms
+
+[Info  - 2:14:29 PM] 2026/05/31 14:14:29 go/packages.Load #252
+	view_id="1"
+	snapshot=2445
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/tests/permission_test.go]
+	packages=1
+	duration=34.445304ms
+
+[Error - 2:14:29 PM] 2026/05/31 14:14:29 go/packages.Load #254: err: exit status 1: stderr: go: updates to go.mod needed; to update it:
+	go mod tidy
+
+	view_id="1"
+	snapshot=2445
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[permissions/tests]
+	packages=0
+	duration=15.576176ms
+
+[Error - 2:14:29 PM] 2026/05/31 14:14:29 reloading workspace: packages.Load error: err: exit status 1: stderr: go: updates to go.mod needed; to update it:
+	go mod tidy
+
+	view_id="1"
+	snapshot=2445
+	directory=/home/maksim/Projects/Go/Project/permissions
+
+[Info  - 2:14:29 PM] 2026/05/31 14:14:29 go/packages.Load #255
+	view_id="1"
+	snapshot=2446
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/tests/permission_test.go]
+	packages=1
+	duration=30.941323ms
+
+[Info  - 2:14:29 PM] 2026/05/31 14:14:29 go/packages.Load #256
+	view_id="1"
+	snapshot=2446
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/tests/permission_test.go]
+	packages=1
+	duration=38.220323ms
+
+[Info  - 2:14:29 PM] 2026/05/31 14:14:29 go/packages.Load #257
+	view_id="1"
+	snapshot=2447
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/tests/permission_test.go]
+	packages=1
+	duration=32.690569ms
+
+[Info  - 2:14:29 PM] 2026/05/31 14:14:29 go/packages.Load #258
+	view_id="1"
+	snapshot=2447
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/tests/permission_test.go]
+	packages=1
+	duration=36.133801ms
+
+[Info  - 2:14:29 PM] 2026/05/31 14:14:29 go/packages.Load #260
+	view_id="1"
+	snapshot=2448
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/tests/permission_test.go]
+	packages=1
+	duration=32.895406ms
+
+[Info  - 2:14:29 PM] 2026/05/31 14:14:29 go/packages.Load #259
+	view_id="1"
+	snapshot=2448
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/tests/permission_test.go]
+	packages=1
+	duration=34.975947ms
+
+[Info  - 2:14:29 PM] 2026/05/31 14:14:29 go/packages.Load #261
+	view_id="1"
+	snapshot=2449
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/tests/permission_test.go]
+	packages=1
+	duration=35.891675ms
+
+[Info  - 2:14:29 PM] 2026/05/31 14:14:29 go/packages.Load #262
+	view_id="1"
+	snapshot=2449
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/tests/permission_test.go]
+	packages=1
+	duration=35.646688ms
+
+[Info  - 2:14:30 PM] 2026/05/31 14:14:30 go/packages.Load #263
+	view_id="1"
+	snapshot=2449
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[file=/home/maksim/Projects/Go/Project/permissions/tests/helpers.go]
+	packages=1
+	duration=60.846771ms
+
+[Info  - 2:14:45 PM] 2026/05/31 14:14:45 go/packages.Load #264
+	view_id="1"
+	snapshot=2453
+	directory=/home/maksim/Projects/Go/Project/permissions
+	query=[/home/maksim/Projects/Go/Project/permissions/... builtin]
+	packages=17
+	duration=117.80604ms
+
+[Info  - 2:14:45 PM] 2026/05/31 14:14:45 background imports cache refresh starting
+
+[Info  - 2:14:45 PM] 2026/05/31 14:14:45 background refresh finished after 7.98111ms
+
+[Info  - 2:18:59 PM] 2026/05/31 14:18:59 background imports cache refresh starting
+
+[Info  - 2:18:59 PM] 2026/05/31 14:18:59 background refresh finished after 7.887716ms
+
+[Info  - 2:21:37 PM] 2026/05/31 14:21:37 background imports cache refresh starting
+
+[Info  - 2:21:37 PM] 2026/05/31 14:21:37 background refresh finished after 5.522783ms
+
+[Info  - 2:22:09 PM] 2026/05/31 14:22:09 background imports cache refresh starting
+
+[Info  - 2:22:09 PM] 2026/05/31 14:22:09 background refresh finished after 5.294132ms
+
+[Info  - 2:23:30 PM] 2026/05/31 14:23:30 background imports cache refresh starting
+
+[Info  - 2:23:30 PM] 2026/05/31 14:23:30 background refresh finished after 5.333177ms
+

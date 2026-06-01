@@ -1,0 +1,285 @@
+[Info  - 4:44:33 PM] 2026/05/29 16:44:33 Created View (#1)
+	directory=/home/maksim/Projects/Go/Project/sso
+	view_type="GoMod"
+	root_dir="file:///home/maksim/Projects/Go/Project/sso"
+	go_version="go version go1.26.3-X:nodwarf5 linux/amd64"
+	build_flags=[]
+	env={GOOS:linux GOARCH:amd64 GOCACHE:/home/maksim/.cache/go-build GOMODCACHE:/home/maksim/go/pkg/mod GOPATH:/home/maksim/go GOPRIVATE:github.com/Testkivypython/* GOFLAGS: GO111MODULE: GOTOOLCHAIN:auto GOROOT:/usr/lib/go GoVersion:26 GoVersionOutput:go version go1.26.3-X:nodwarf5 linux/amd64
+ ExplicitGOWORK: EffectiveGOPACKAGESDRIVER:}
+	env_overlay=[]
+
+[Info  - 4:44:33 PM] 2026/05/29 16:44:33 go/packages.Load #1
+	view_id="1"
+	snapshot=0
+	directory=/home/maksim/Projects/Go/Project/sso
+	query=[/home/maksim/Projects/Go/Project/sso/... builtin]
+	packages=18
+	duration=369.0307ms
+
+[Error - 4:44:52 PM] 2026/05/29 16:44:52 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/sso/internal/storage/postgresql/permissions.go:1:44: missing ',' in argument list
+	file="/home/maksim/Projects/Go/Project/sso/internal/storage/postgresql/permissions.go"
+
+[Info  - 4:44:55 PM] 2026/05/29 16:44:55 go/packages.Load #2
+	view_id="1"
+	snapshot=13
+	directory=/home/maksim/Projects/Go/Project/sso
+	query=[file=/home/maksim/Projects/Go/Project/sso/internal/storage/postgresql/permissions.go]
+	packages=1
+	duration=70.873859ms
+
+[Info  - 4:44:55 PM] 2026/05/29 16:44:55 go/packages.Load #3
+	view_id="1"
+	snapshot=13
+	directory=/home/maksim/Projects/Go/Project/sso
+	query=[file=/home/maksim/Projects/Go/Project/sso/internal/storage/postgresql/permissions.go]
+	packages=1
+	duration=57.331093ms
+
+[Info  - 4:44:56 PM] 2026/05/29 16:44:56 go/packages.Load #4
+	view_id="1"
+	snapshot=13
+	directory=/home/maksim/Projects/Go/Project/sso
+	query=[sso/cmd/sso sso/internal/app]
+	packages=2
+	duration=82.38982ms
+
+[Error - 4:45:00 PM] 2026/05/29 16:45:00 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/sso/internal/storage/postgresql/permissions.go:3:1: expected declaration, found UserRoles
+	file="/home/maksim/Projects/Go/Project/sso/internal/storage/postgresql/permissions.go"
+
+[Info  - 4:45:03 PM] 2026/05/29 16:45:03 background imports cache refresh starting
+
+[Info  - 4:45:03 PM] 2026/05/29 16:45:03 background refresh finished after 162.474388ms
+
+[Info  - 4:45:34 PM] 2026/05/29 16:45:34 background imports cache refresh starting
+
+[Info  - 4:45:34 PM] 2026/05/29 16:45:34 background refresh finished after 3.296978ms
+
+[Info  - 4:46:38 PM] 2026/05/29 16:46:38 background imports cache refresh starting
+
+[Info  - 4:46:38 PM] 2026/05/29 16:46:38 background refresh finished after 3.428583ms
+
+[Info  - 4:46:42 PM] 2026/05/29 16:46:42 go/packages.Load #5
+	view_id="1"
+	snapshot=58
+	directory=/home/maksim/Projects/Go/Project/sso
+	query=[file=/home/maksim/Projects/Go/Project/sso/internal/domain/models/permissions.go]
+	packages=1
+	duration=9.709161ms
+
+[Error - 4:46:42 PM] Request textDocument/inlayHint failed.
+  Message: getting file for InlayHint: no package metadata for file file:///home/maksim/Projects/Go/Project/sso/internal/domain/models/permissions.go
+  Code: 0 
+[Info  - 4:46:47 PM] 2026/05/29 16:46:47 go/packages.Load #6
+	view_id="1"
+	snapshot=62
+	directory=/home/maksim/Projects/Go/Project/sso
+	query=[file=/home/maksim/Projects/Go/Project/sso/internal/domain/models/permission.go]
+	packages=1
+	duration=41.796625ms
+
+[Info  - 4:46:47 PM] 2026/05/29 16:46:47 go/packages.Load #7
+	view_id="1"
+	snapshot=62
+	directory=/home/maksim/Projects/Go/Project/sso
+	query=[file=/home/maksim/Projects/Go/Project/sso/internal/domain/models/permission.go]
+	packages=1
+	duration=42.453847ms
+
+[Info  - 4:46:47 PM] 2026/05/29 16:46:47 go/packages.Load #8
+	view_id="1"
+	snapshot=63
+	directory=/home/maksim/Projects/Go/Project/sso
+	query=[file=/home/maksim/Projects/Go/Project/sso/internal/domain/models/permission.go]
+	packages=1
+	duration=9.571662ms
+
+[Info  - 4:46:48 PM] 2026/05/29 16:46:48 go/packages.Load #9
+	view_id="1"
+	snapshot=63
+	directory=/home/maksim/Projects/Go/Project/sso
+	query=[sso/cmd/sso sso/internal/app sso/internal/app/grpc sso/internal/grpc/auth sso/internal/lib/jwt sso/internal/services/auth sso/internal/storage/postgresql]
+	packages=7
+	duration=69.88307ms
+
+[Info  - 4:46:58 PM] 2026/05/29 16:46:58 go/packages.Load #11
+	view_id="1"
+	snapshot=64
+	directory=/home/maksim/Projects/Go/Project/sso
+	query=[file=/home/maksim/Projects/Go/Project/sso/internal/domain/models/permission.go]
+	packages=1
+	duration=9.050095ms
+
+[Info  - 4:46:58 PM] 2026/05/29 16:46:58 go/packages.Load #10
+	view_id="1"
+	snapshot=64
+	directory=/home/maksim/Projects/Go/Project/sso
+	query=[file=/home/maksim/Projects/Go/Project/sso/internal/domain/models/permission.go]
+	packages=1
+	duration=42.958338ms
+
+[Info  - 4:47:00 PM] 2026/05/29 16:47:00 go/packages.Load #12
+	view_id="1"
+	snapshot=64
+	directory=/home/maksim/Projects/Go/Project/sso
+	query=[sso/cmd/sso sso/internal/app sso/internal/app/grpc sso/internal/grpc/auth sso/internal/lib/jwt sso/internal/services/auth sso/internal/storage/postgresql]
+	packages=7
+	duration=70.914971ms
+
+[Info  - 4:47:27 PM] 2026/05/29 16:47:27 go/packages.Load #14
+	view_id="1"
+	snapshot=77
+	directory=/home/maksim/Projects/Go/Project/sso
+	query=[file=/home/maksim/Projects/Go/Project/sso/internal/storage/postgresql/permissions.go]
+	packages=1
+	duration=66.11605ms
+
+[Info  - 4:47:27 PM] 2026/05/29 16:47:27 go/packages.Load #15
+	view_id="1"
+	snapshot=77
+	directory=/home/maksim/Projects/Go/Project/sso
+	query=[file=/home/maksim/Projects/Go/Project/sso/internal/storage/postgresql/permissions.go]
+	packages=1
+	duration=56.543311ms
+
+[Info  - 4:47:28 PM] 2026/05/29 16:47:28 go/packages.Load #16
+	view_id="1"
+	snapshot=77
+	directory=/home/maksim/Projects/Go/Project/sso
+	query=[sso/cmd/sso sso/internal/app]
+	packages=2
+	duration=73.540431ms
+
+[Info  - 4:47:34 PM] 2026/05/29 16:47:34 background imports cache refresh starting
+
+[Info  - 4:47:34 PM] 2026/05/29 16:47:34 background refresh finished after 3.151509ms
+
+[Error - 4:47:37 PM] 2026/05/29 16:47:37 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/sso/internal/storage/postgresql/permissions.go:7:31: expected operand, found ',' (and 37 more errors)
+	file="/home/maksim/Projects/Go/Project/sso/internal/storage/postgresql/permissions.go"
+
+[Info  - 4:47:49 PM] 2026/05/29 16:47:49 go/packages.Load #19
+	view_id="1"
+	snapshot=97
+	directory=/home/maksim/Projects/Go/Project/sso
+	query=[file=/home/maksim/Projects/Go/Project/sso/internal/storage/postgresql/permissions.go]
+	packages=1
+	duration=53.27452ms
+
+[Info  - 4:47:49 PM] 2026/05/29 16:47:49 go/packages.Load #18
+	view_id="1"
+	snapshot=97
+	directory=/home/maksim/Projects/Go/Project/sso
+	query=[file=/home/maksim/Projects/Go/Project/sso/internal/storage/postgresql/permissions.go]
+	packages=1
+	duration=88.788426ms
+
+[Info  - 4:47:51 PM] 2026/05/29 16:47:51 go/packages.Load #20
+	view_id="1"
+	snapshot=97
+	directory=/home/maksim/Projects/Go/Project/sso
+	query=[sso/cmd/sso sso/internal/app]
+	packages=2
+	duration=73.703463ms
+
+[Error - 4:48:00 PM] Request textDocument/hover failed.
+  Message: rune error
+  Code: 0 
+[Info  - 4:48:05 PM] 2026/05/29 16:48:05 background imports cache refresh starting
+
+[Info  - 4:48:05 PM] 2026/05/29 16:48:05 background refresh finished after 3.343237ms
+
+[Error - 4:48:10 PM] 2026/05/29 16:48:10 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/sso/internal/storage/postgresql/permissions.go:15:10: missing ',' before newline in argument list
+	file="/home/maksim/Projects/Go/Project/sso/internal/storage/postgresql/permissions.go"
+
+[Info  - 4:48:51 PM] 2026/05/29 16:48:51 background imports cache refresh starting
+
+[Info  - 4:48:51 PM] 2026/05/29 16:48:51 background refresh finished after 3.650523ms
+
+[Error - 5:38:26 PM] Request textDocument/hover failed.
+  Message: context canceled
+  Code: 0 
+[Error - 5:39:55 PM] 2026/05/29 17:39:55 imports fixes: allImportsFixes: /home/maksim/Projects/Go/Project/sso/internal/storage/postgresql/permissions.go:49:13: missing ',' before newline in argument list
+	file="/home/maksim/Projects/Go/Project/sso/internal/storage/postgresql/permissions.go"
+
+[Error - 5:40:43 PM] Request textDocument/hover failed.
+  Message: context canceled
+  Code: 0 
+[Info  - 5:41:01 PM] 2026/05/29 17:41:01 go/packages.Load #23
+	view_id="1"
+	snapshot=138
+	directory=/home/maksim/Projects/Go/Project/sso
+	query=[file=/home/maksim/Projects/Go/Project/sso/internal/storage/postgresql/permissions.go]
+	packages=1
+	duration=63.197418ms
+
+[Info  - 5:41:01 PM] 2026/05/29 17:41:01 go/packages.Load #22
+	view_id="1"
+	snapshot=138
+	directory=/home/maksim/Projects/Go/Project/sso
+	query=[file=/home/maksim/Projects/Go/Project/sso/internal/storage/postgresql/permissions.go]
+	packages=1
+	duration=91.78105ms
+
+[Info  - 5:41:02 PM] 2026/05/29 17:41:02 go/packages.Load #24
+	view_id="1"
+	snapshot=138
+	directory=/home/maksim/Projects/Go/Project/sso
+	query=[sso/cmd/sso sso/internal/app]
+	packages=2
+	duration=72.546414ms
+
+[Info  - 5:41:06 PM] 2026/05/29 17:41:06 go/packages.Load #26
+	view_id="1"
+	snapshot=144
+	directory=/home/maksim/Projects/Go/Project/sso
+	query=[file=/home/maksim/Projects/Go/Project/sso/internal/storage/postgresql/permissions.go]
+	packages=1
+	duration=60.129529ms
+
+[Info  - 5:41:06 PM] 2026/05/29 17:41:06 go/packages.Load #27
+	view_id="1"
+	snapshot=144
+	directory=/home/maksim/Projects/Go/Project/sso
+	query=[file=/home/maksim/Projects/Go/Project/sso/internal/storage/postgresql/permissions.go]
+	packages=1
+	duration=55.730845ms
+
+[Info  - 5:41:07 PM] 2026/05/29 17:41:07 go/packages.Load #28
+	view_id="1"
+	snapshot=144
+	directory=/home/maksim/Projects/Go/Project/sso
+	query=[sso/cmd/sso sso/internal/app]
+	packages=2
+	duration=71.026813ms
+
+[Info  - 5:41:12 PM] 2026/05/29 17:41:12 go/packages.Load #30
+	view_id="1"
+	snapshot=150
+	directory=/home/maksim/Projects/Go/Project/sso
+	query=[file=/home/maksim/Projects/Go/Project/sso/internal/storage/postgresql/permissions.go]
+	packages=1
+	duration=55.71566ms
+
+[Info  - 5:41:12 PM] 2026/05/29 17:41:12 go/packages.Load #31
+	view_id="1"
+	snapshot=150
+	directory=/home/maksim/Projects/Go/Project/sso
+	query=[file=/home/maksim/Projects/Go/Project/sso/internal/storage/postgresql/permissions.go]
+	packages=1
+	duration=56.35676ms
+
+[Info  - 5:41:13 PM] 2026/05/29 17:41:13 go/packages.Load #32
+	view_id="1"
+	snapshot=150
+	directory=/home/maksim/Projects/Go/Project/sso
+	query=[sso/cmd/sso sso/internal/app]
+	packages=2
+	duration=70.39911ms
+
+[Info  - 5:41:18 PM] 2026/05/29 17:41:18 background imports cache refresh starting
+
+[Info  - 5:41:18 PM] 2026/05/29 17:41:18 background refresh finished after 3.323393ms
+
+[Info  - 5:43:34 PM] 2026/05/29 17:43:34 background imports cache refresh starting
+
+[Info  - 5:43:34 PM] 2026/05/29 17:43:34 background refresh finished after 3.776089ms
+

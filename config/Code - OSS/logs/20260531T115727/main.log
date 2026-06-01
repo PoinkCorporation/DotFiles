@@ -1,0 +1,16 @@
+2026-05-31 11:57:27.357 [info] StorageMainService: creating application shared storage
+2026-05-31 11:57:27.357 [info] [shared storage] Creating shared storage database at '/home/maksim/.vscode-oss-shared/sharedStorage/state.vscdb' (wasCreated: false)
+2026-05-31 11:57:27.357 [info] [shared storage] Initializing fallback application storage (path: /home/maksim/.config/Code - OSS/User/globalStorage/state.vscdb)
+2026-05-31 11:57:27.373 [info] [shared storage] Fallback application storage initialized with 84 items
+2026-05-31 11:57:27.374 [info] update#setState disabled
+2026-05-31 11:57:27.374 [info] update#ctor - updates are disabled as there is no update URL
+2026-05-31 12:00:09.892 [info] Extension host with pid 1418 exited with code: 0, signal: unknown.
+2026-05-31 12:06:41.536 [info] Extension host with pid 54562 exited with code: 0, signal: unknown.
+2026-05-31 12:15:20.972 [info] Extension host with pid 61579 exited with code: 0, signal: unknown.
+2026-05-31 12:52:29.684 [info] Extension host with pid 59141 exited with code: 0, signal: unknown.
+2026-05-31 12:52:30.863 [info] Extension host with pid 61628 exited with code: 0, signal: unknown.
+2026-05-31 13:05:21.395 [info] Extension host with pid 102668 exited with code: 0, signal: unknown.
+2026-05-31 14:24:02.190 [info] Extension host with pid 11662 exited with code: 0, signal: unknown.
+2026-05-31 15:09:42.183 [info] Extension host with pid 146809 exited with code: 0, signal: unknown.
+2026-05-31 15:38:40.765 [info] Extension host with pid 146855 exited with code: 0, signal: unknown.
+2026-05-31 15:48:20.410 [info] Extension host with pid 102711 exited with code: 0, signal: unknown.

@@ -1,0 +1,7 @@
+2026-05-30 16:04:24.791 [info] StorageMainService: creating application shared storage
+2026-05-30 16:04:24.862 [info] [shared storage] Creating shared storage database at '/home/maksim/.vscode-oss-shared/sharedStorage/state.vscdb' (wasCreated: false)
+2026-05-30 16:04:24.862 [info] [shared storage] Initializing fallback application storage (path: /home/maksim/.config/Code - OSS/User/globalStorage/state.vscdb)
+2026-05-30 16:04:24.878 [info] [shared storage] Fallback application storage initialized with 84 items
+2026-05-30 16:04:24.879 [info] update#setState disabled
+2026-05-30 16:04:24.879 [info] update#ctor - updates are disabled as there is no update URL
+2026-05-30 16:49:08.019 [info] Extension host with pid 3013 exited with code: 0, signal: unknown.

@@ -1,0 +1,239 @@
+[Info  - 12:06:50 PM] 2026/05/31 12:06:50 Created View (#1)
+	directory=/home/maksim/Projects/Go/Project/sso
+	view_type="GoMod"
+	root_dir="file:///home/maksim/Projects/Go/Project/sso"
+	go_version="go version go1.26.3-X:nodwarf5 linux/amd64"
+	build_flags=[]
+	env={GOOS:linux GOARCH:amd64 GOCACHE:/home/maksim/.cache/go-build GOMODCACHE:/home/maksim/go/pkg/mod GOPATH:/home/maksim/go GOPRIVATE:github.com/Testkivypython/* GOFLAGS: GO111MODULE: GOTOOLCHAIN:auto GOROOT:/usr/lib/go GoVersion:26 GoVersionOutput:go version go1.26.3-X:nodwarf5 linux/amd64
+ ExplicitGOWORK: EffectiveGOPACKAGESDRIVER:}
+	env_overlay=[]
+
+[Info  - 12:06:50 PM] 2026/05/31 12:06:50 go/packages.Load #1
+	view_id="1"
+	snapshot=0
+	directory=/home/maksim/Projects/Go/Project/sso
+	query=[/home/maksim/Projects/Go/Project/sso/... builtin]
+	packages=18
+	duration=118.247421ms
+
+[Info  - 12:07:20 PM] 2026/05/31 12:07:20 background imports cache refresh starting
+
+[Info  - 12:07:20 PM] 2026/05/31 12:07:20 background refresh finished after 50.568453ms
+
+[Error - 12:33:59 PM] Request textDocument/hover failed.
+  Message: context canceled
+  Code: 0 
+[Info  - 12:35:02 PM] 2026/05/31 12:35:02 go/packages.Load #2
+	view_id="1"
+	snapshot=40
+	directory=/home/maksim/Projects/Go/Project/sso
+	query=[sso/cmd/migrator]
+	packages=1
+	duration=53.341278ms
+
+[Error - 12:40:06 PM] Request textDocument/hover failed.
+  Message: no package data for import "permissions/internal/config"
+  Code: 0 
+[Error - 12:40:06 PM] Request textDocument/hover failed.
+  Message: no package data for import "permissions/internal/config"
+  Code: 0 
+[Error - 12:40:06 PM] Request textDocument/hover failed.
+  Message: no package data for import "permissions/internal/config"
+  Code: 0 
+[Error - 12:40:07 PM] Request textDocument/hover failed.
+  Message: no package data for import "permissions/internal/config"
+  Code: 0 
+[Info  - 12:40:09 PM] 2026/05/31 12:40:09 go/packages.Load #3
+	view_id="1"
+	snapshot=43
+	directory=/home/maksim/Projects/Go/Project/sso
+	query=[file=/home/maksim/Projects/Go/Project/sso/cmd/migrator/main.go]
+	packages=1
+	duration=71.879781ms
+
+[Info  - 12:40:09 PM] 2026/05/31 12:40:09 go/packages.Load #4
+	view_id="1"
+	snapshot=43
+	directory=/home/maksim/Projects/Go/Project/sso
+	query=[file=/home/maksim/Projects/Go/Project/sso/cmd/migrator/main.go]
+	packages=1
+	duration=65.852753ms
+
+[Info  - 12:40:10 PM] 2026/05/31 12:40:10 go/packages.Load #5
+	view_id="1"
+	snapshot=44
+	directory=/home/maksim/Projects/Go/Project/sso
+	query=[file=/home/maksim/Projects/Go/Project/sso/cmd/migrator/main.go]
+	packages=1
+	duration=67.735292ms
+
+[Info  - 12:40:10 PM] 2026/05/31 12:40:10 go/packages.Load #6
+	view_id="1"
+	snapshot=44
+	directory=/home/maksim/Projects/Go/Project/sso
+	query=[file=/home/maksim/Projects/Go/Project/sso/cmd/migrator/main.go]
+	packages=1
+	duration=55.462372ms
+
+[Info  - 12:40:10 PM] 2026/05/31 12:40:10 go/packages.Load #7
+	view_id="1"
+	snapshot=45
+	directory=/home/maksim/Projects/Go/Project/sso
+	query=[file=/home/maksim/Projects/Go/Project/sso/cmd/migrator/main.go]
+	packages=1
+	duration=53.541292ms
+
+[Info  - 12:40:10 PM] 2026/05/31 12:40:10 go/packages.Load #8
+	view_id="1"
+	snapshot=45
+	directory=/home/maksim/Projects/Go/Project/sso
+	query=[file=/home/maksim/Projects/Go/Project/sso/cmd/migrator/main.go]
+	packages=1
+	duration=53.905701ms
+
+[Info  - 12:40:11 PM] 2026/05/31 12:40:11 go/packages.Load #9
+	view_id="1"
+	snapshot=46
+	directory=/home/maksim/Projects/Go/Project/sso
+	query=[file=/home/maksim/Projects/Go/Project/sso/cmd/migrator/main.go]
+	packages=1
+	duration=56.688411ms
+
+[Info  - 12:40:11 PM] 2026/05/31 12:40:11 go/packages.Load #10
+	view_id="1"
+	snapshot=46
+	directory=/home/maksim/Projects/Go/Project/sso
+	query=[file=/home/maksim/Projects/Go/Project/sso/cmd/migrator/main.go]
+	packages=1
+	duration=54.446627ms
+
+[Info  - 12:40:36 PM] 2026/05/31 12:40:36 background imports cache refresh starting
+
+[Info  - 12:40:36 PM] 2026/05/31 12:40:36 background refresh finished after 5.620147ms
+
+[Info  - 12:52:08 PM] 2026/05/31 12:52:08 go/packages.Load #11
+	view_id="1"
+	snapshot=53
+	directory=/home/maksim/Projects/Go/Project/sso
+	query=[file=/home/maksim/Projects/Go/Project/sso/cmd/migrator/main.go]
+	packages=1
+	duration=58.330539ms
+
+[Info  - 12:52:08 PM] 2026/05/31 12:52:08 go/packages.Load #12
+	view_id="1"
+	snapshot=53
+	directory=/home/maksim/Projects/Go/Project/sso
+	query=[file=/home/maksim/Projects/Go/Project/sso/cmd/migrator/main.go]
+	packages=1
+	duration=55.577895ms
+
+[Error - 12:52:24 PM] Request textDocument/hover failed.
+  Message: no package data for import "chat/internal/config"
+  Code: 0 
+[Error - 12:52:24 PM] Request textDocument/hover failed.
+  Message: no package data for import "chat/internal/config"
+  Code: 0 
+[Info  - 12:52:25 PM] 2026/05/31 12:52:25 go/packages.Load #13
+	view_id="1"
+	snapshot=55
+	directory=/home/maksim/Projects/Go/Project/sso
+	query=[file=/home/maksim/Projects/Go/Project/sso/cmd/migrator/main.go]
+	packages=1
+	duration=66.765199ms
+
+[Info  - 12:52:25 PM] 2026/05/31 12:52:25 go/packages.Load #14
+	view_id="1"
+	snapshot=55
+	directory=/home/maksim/Projects/Go/Project/sso
+	query=[file=/home/maksim/Projects/Go/Project/sso/cmd/migrator/main.go]
+	packages=1
+	duration=52.226605ms
+
+[Info  - 12:52:25 PM] 2026/05/31 12:52:25 go/packages.Load #15
+	view_id="1"
+	snapshot=56
+	directory=/home/maksim/Projects/Go/Project/sso
+	query=[file=/home/maksim/Projects/Go/Project/sso/cmd/migrator/main.go]
+	packages=1
+	duration=56.224579ms
+
+[Info  - 12:52:25 PM] 2026/05/31 12:52:25 go/packages.Load #16
+	view_id="1"
+	snapshot=56
+	directory=/home/maksim/Projects/Go/Project/sso
+	query=[file=/home/maksim/Projects/Go/Project/sso/cmd/migrator/main.go]
+	packages=1
+	duration=53.728161ms
+
+[Info  - 12:52:26 PM] 2026/05/31 12:52:26 go/packages.Load #17
+	view_id="1"
+	snapshot=57
+	directory=/home/maksim/Projects/Go/Project/sso
+	query=[file=/home/maksim/Projects/Go/Project/sso/cmd/migrator/main.go]
+	packages=1
+	duration=53.249344ms
+
+[Info  - 12:52:26 PM] 2026/05/31 12:52:26 go/packages.Load #18
+	view_id="1"
+	snapshot=57
+	directory=/home/maksim/Projects/Go/Project/sso
+	query=[file=/home/maksim/Projects/Go/Project/sso/cmd/migrator/main.go]
+	packages=1
+	duration=55.823276ms
+
+[Info  - 12:52:26 PM] 2026/05/31 12:52:26 go/packages.Load #19
+	view_id="1"
+	snapshot=58
+	directory=/home/maksim/Projects/Go/Project/sso
+	query=[file=/home/maksim/Projects/Go/Project/sso/cmd/migrator/main.go]
+	packages=1
+	duration=69.187735ms
+
+[Info  - 12:52:26 PM] 2026/05/31 12:52:26 go/packages.Load #20
+	view_id="1"
+	snapshot=58
+	directory=/home/maksim/Projects/Go/Project/sso
+	query=[file=/home/maksim/Projects/Go/Project/sso/cmd/migrator/main.go]
+	packages=1
+	duration=65.699265ms
+
+[Info  - 12:52:26 PM] 2026/05/31 12:52:26 go/packages.Load #21
+	view_id="1"
+	snapshot=59
+	directory=/home/maksim/Projects/Go/Project/sso
+	query=[file=/home/maksim/Projects/Go/Project/sso/cmd/migrator/main.go]
+	packages=1
+	duration=53.961282ms
+
+[Info  - 12:52:26 PM] 2026/05/31 12:52:26 go/packages.Load #22
+	view_id="1"
+	snapshot=59
+	directory=/home/maksim/Projects/Go/Project/sso
+	query=[file=/home/maksim/Projects/Go/Project/sso/cmd/migrator/main.go]
+	packages=1
+	duration=52.007645ms
+
+[Info  - 12:52:26 PM] 2026/05/31 12:52:26 go/packages.Load #23
+	view_id="1"
+	snapshot=60
+	directory=/home/maksim/Projects/Go/Project/sso
+	query=[file=/home/maksim/Projects/Go/Project/sso/cmd/migrator/main.go]
+	packages=1
+	duration=53.235656ms
+
+[Info  - 12:52:26 PM] 2026/05/31 12:52:26 go/packages.Load #24
+	view_id="1"
+	snapshot=60
+	directory=/home/maksim/Projects/Go/Project/sso
+	query=[file=/home/maksim/Projects/Go/Project/sso/cmd/migrator/main.go]
+	packages=1
+	duration=51.165401ms
+
+[Info  - 12:52:26 PM] 2026/05/31 12:52:26 go/packages.Load #25
+	view_id="1"
+	snapshot=61
+	directory=/home/maksim/Projects/Go/Project/sso
+	query=[file=/home/maksim/Projects/Go/Project/sso/cmd/migrator/main.go]
+	packages=1
+	duration=54.579947ms
+
