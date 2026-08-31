@@ -1,5 +1,0 @@
-2026-05-30 16:04:27.332 [info] Try to start language server - activation (enabled: true)
-2026-05-30 16:04:27.400 [info] Running language server gopls(v0.21.1/go1.26.3-X:nodwarf5)
-2026-05-30 16:34:27.337 [info] Fetching latest go developer survey
-2026-05-30 16:34:27.992 [info] Using fetched Go developer survey: v0.1.0
-2026-05-30 16:34:27.992 [info] Survey active from Tue Sep 09 2025 to Wed Oct 01 2025

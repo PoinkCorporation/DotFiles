@@ -1,6 +1,0 @@
-env: "local"
-storage_path: "postgresql://postgres:maxzak2012@localhost:5432/permissions"
-grpc:
-  port: 50052
-  timeout: 5s
-migrations_path: "./migrations"

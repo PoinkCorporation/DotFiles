@@ -1,7 +1,0 @@
-2026-05-31 20:05:54.622 [info] Getting Manifest... tooltitudeteam.tooltitude-pb
-2026-05-31 20:05:55.168 [info] Installing extension: tooltitudeteam.tooltitude-pb {"productVersion":{"version":"1.121.0","date":"2026-05-19T23:32:58Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/maksim/.vscode-oss/extensions/extensions.json","path":"/home/maksim/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false}
-2026-05-31 20:05:57.183 [info] Extension signature verification result for tooltitudeteam.tooltitude-pb: Success. Executed: true. Duration: 565ms.
-2026-05-31 20:05:57.221 [info] Extracted extension to file:///home/maksim/.vscode-oss/extensions/tooltitudeteam.tooltitude-pb-1.25.4-linux-x64: tooltitudeteam.tooltitude-pb
-2026-05-31 20:05:57.253 [info] Renamed to /home/maksim/.vscode-oss/extensions/tooltitudeteam.tooltitude-pb-1.25.4-linux-x64
-2026-05-31 20:05:57.259 [info] Marked extension as removed tooltitudeteam.tooltitude-pb-1.25.3-linux-x64
-2026-05-31 20:05:57.262 [info] Extension installed successfully: tooltitudeteam.tooltitude-pb vscode-userdata:/home/maksim/.vscode-oss/extensions/extensions.json
